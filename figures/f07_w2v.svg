@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 540" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrE" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker></defs>
+<rect x="0" y="0" width="1040" height="540" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">فضاء التضمينات: الهندسة تحمل المعنى</text>
+<line x1="100" y1="285" x2="760" y2="285" stroke="#CBD5E1" stroke-width="1.2" opacity="1"/>
+<line x1="430" y1="90" x2="430" y2="480" stroke="#CBD5E1" stroke-width="1.2" opacity="1"/>
+<text x="240" y="85" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">جهة المذكّر</text>
+<text x="600" y="85" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">جهة مؤنّثة</text>
+<line x1="235.25000000000003" y1="367.0" x2="525.0" y2="367.0" stroke="#059669" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#agrE)" opacity="1"/>
+<line x1="235.25000000000003" y1="203.0" x2="525.0" y2="203.0" stroke="#059669" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#agrE)" opacity="1"/>
+<line x1="220.99999999999997" y1="112.79999999999998" x2="529.75" y2="112.79999999999998" stroke="#059669" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#agrE)" opacity="1"/>
+<line x1="316.0" y1="457.20000000000005" x2="529.75" y2="453.1" stroke="#059669" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#agrE)" opacity="1"/>
+<rect x="250" y="92" width="196" height="58" rx="10" ry="10" fill="#FFF1F2" stroke="#E11D48" stroke-width="1.4" stroke-dasharray="5 3" opacity="1"/>
+<text x="348" y="114" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="11.4" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">ملك − رجل + امرأة</text>
+<text x="348" y="136" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.4" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">= ؟ ← الأقرب: ملكة</text>
+<path d="M 452 112 C 500 112, 525.0 150, 525.0 179.0" fill="none" stroke="#E11D48" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#agrE)" opacity="1"/>
+<text x="790" y="150" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">عملية القياس (analogy) تعني فحص</text>
+<text x="790" y="174" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">الأقرب إلى نتيجة الفرق بين متجهات:</text>
+<text x="790" y="198" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">نفس فكرة الجبر الخطي لكنه على المعاني!</text>
+<circle cx="235.25000000000003" cy="203.0" r="21" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="235.25000000000003" y="204.0" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">ملك</text>
+<circle cx="235.25000000000003" cy="367.0" r="21" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
+<text x="235.25000000000003" y="368.0" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">رجل</text>
+<circle cx="525.0" cy="367.0" r="21" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
+<text x="525.0" y="368.0" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">امرأة</text>
+<circle cx="525.0" cy="203.0" r="21" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="525.0" y="204.0" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">ملكة</text>
+<circle cx="316.0" cy="457.20000000000005" r="21" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
+<text x="316.0" y="458.20000000000005" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">ولد</text>
+<circle cx="529.75" cy="453.1" r="21" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
+<text x="529.75" y="454.1" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">بنت</text>
+<circle cx="220.99999999999997" cy="112.79999999999998" r="21" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
+<text x="220.99999999999997" y="113.79999999999998" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">أب</text>
+<circle cx="529.75" cy="112.79999999999998" r="21" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.8"/>
+<text x="529.75" y="113.79999999999998" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">أم</text>
+<text x="520.0" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">حدود التضمين الثابت: «عين» تعني المريض عند الطبيب ولعبة عند الصائغ — الحل السياقي في الفصول 7–9</text>
+<text x="1028" y="528" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 5 — تضمينات الكلمات (Word2Vec · GloVe)</text>
+</svg>

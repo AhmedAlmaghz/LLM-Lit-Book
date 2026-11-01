@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 540" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker></defs>
+<rect x="0" y="0" width="1040" height="540" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">LoRA: زيادة صغيرة فوق أوزان جامدة</text>
+<rect x="110" y="120" width="430" height="84" rx="14" ry="14" fill="#F8FAFC" stroke="#4F46E5" stroke-width="1.5" opacity="1"/>
+<text x="132" y="154" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أوزان النموذج W (مجمّدة)</text>
+<text x="132" y="182" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">W: d×k — مليارات؛ مثبّتة لا تدرّب</text>
+<rect x="110" y="224" width="430" height="104" rx="14" ry="14" fill="#ECFDF5" stroke="#34D399" stroke-width="1.4" opacity="1"/>
+<text x="132" y="254" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="start" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">تحديث LoRA: ΔW = B·A (رتبة r صغيرة)</text>
+<rect x="150" y="276" width="118" height="40" rx="8" ry="8" fill="white" stroke="#059669" stroke-width="1.4" opacity="1"/>
+<text x="209" y="296" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">A: r×k</text>
+<line x1="268" y1="296" x2="306" y2="296" stroke="#059669" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="310" y="276" width="118" height="40" rx="8" ry="8" fill="white" stroke="#059669" stroke-width="1.4" opacity="1"/>
+<text x="369" y="296" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">B: d×r</text>
+<rect x="440" y="282" width="84.60000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="482.3" y="294.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">r = 8..64</text>
+<rect x="110" y="346" width="430" height="64" rx="14" ry="14" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.4" opacity="1"/>
+<text x="132" y="370" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">بعد التدريب: W ← W + ΔW (إذابة في القاعدة)</text>
+<text x="132" y="393" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">بلا زيادة في زمن الاستدلال عند الدمج</text>
+<rect x="600" y="120" width="412" height="288" rx="14" ry="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="806.0" y="150" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">ماذا توفرو LoRA؟</text>
+<text x="628" y="186" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="650" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">أوزان قابلة للتدريب</text>
+<text x="862" y="186" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#E11D48" opacity="1" dominant-baseline="middle">100%</text>
+<text x="982" y="186" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#059669" opacity="1" dominant-baseline="middle">0.1–1%</text>
+<line x1="624" y1="198" x2="988" y2="198" stroke="#CBD5E1" stroke-width="0.9" opacity="0.7"/>
+<text x="628" y="228" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="650" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">ذاكرة التدريب (GPU)</text>
+<text x="862" y="228" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#E11D48" opacity="1" dominant-baseline="middle">48–80GB</text>
+<text x="982" y="228" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#059669" opacity="1" dominant-baseline="middle">12–24GB</text>
+<line x1="624" y1="240" x2="988" y2="240" stroke="#CBD5E1" stroke-width="0.9" opacity="0.7"/>
+<text x="628" y="270" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="650" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">زمن التدريب</text>
+<text x="862" y="270" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">أيام/أسابيع</text>
+<text x="982" y="270" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">ساعات</text>
+<line x1="624" y1="282" x2="988" y2="282" stroke="#CBD5E1" stroke-width="0.9" opacity="0.7"/>
+<text x="628" y="312" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="650" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">جودة المهمة</text>
+<text x="862" y="312" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">مرجع</text>
+<text x="982" y="312" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="end" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">قريبة جدًا</text>
+<line x1="624" y1="324" x2="988" y2="324" stroke="#CBD5E1" stroke-width="0.9" opacity="0.7"/>
+<text x="628" y="342" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">استخدام QLoRA؟ الأوزان الأساسية INT4</text>
+<rect x="28" y="416" width="984" height="88" rx="14" ry="14" fill="#ECFEFF" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<rect x="58" y="440" width="47.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#0891B2" stroke-width="1.1" opacity="1"/>
+<text x="81.8" y="452.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">peft</text>
+<text x="138" y="450" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">PEFT API — سطران للتدريب:</text>
+<text x="138" y="478" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dominant-baseline="middle">get_peft_model(model, LoraConfig(r=16, target_modules=[&quot;q_proj&quot;,&quot;v_proj&quot;]))</text>
+<rect x="780" y="440" width="158.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#D97706" stroke-width="1.1" opacity="1"/>
+<text x="859.3" y="452.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dominant-baseline="middle">QLoRA: 4-bit + LoRA</text>
+<rect x="928" y="440" width="55.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="955.5" y="452.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">merge</text>
+<text x="520.0" y="522" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.6" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">الخطأ الشائع: فتح كل الطبقات على بيانات صغيرة (overfit) — بقّص الهدف إلى 30% من الطبقات أولًا</text>
+<text x="1028" y="528" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 16 — SFT وLoRA/QLoRA (التخصيص)</text>
+</svg>

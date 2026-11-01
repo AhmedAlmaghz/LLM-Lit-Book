@@ -1,0 +1,803 @@
+{
+ "dedication": [
+  {
+   "t": "p",
+   "text": "إلى **كل من سأل “كيف يعمل؟”**، ولم يكتفِ بـ“ماذا يفعل”."
+  },
+  {
+   "t": "p",
+   "text": "إلى **كل من فتح دفتر Jupyter** في منتصف الليل، وظل يبحث عن الخطأ في `.view()` و`transpose`."
+  },
+  {
+   "t": "p",
+   "text": "إلى **كل من قرأ ورقة بحثية**، ولم يفهم كل كلمة، لكنه لم يتوقف."
+  },
+  {
+   "t": "p",
+   "text": "إلى **كل من درّب نموذجًا**، ورأى الخسارة تنخفض، فشعر أن العالم تغير."
+  },
+  {
+   "t": "p",
+   "text": "إلى **كل من فشل**، ثم عاد، ثم نجح."
+  },
+  {
+   "t": "p",
+   "text": "إلى **العربية**، التي ظُلمت في الترميز، والتقييم، والبيانات. عسى أن يكون هذا الكتاب خطوة صغيرة في رد الاعتبار."
+  },
+  {
+   "t": "p",
+   "text": "إلى **كل معلم** علّم بلا مقابل، وكل مهندس شارك كودًا بلا شروط، وكل باحث نشر ورقة بلا حجب."
+  },
+  {
+   "t": "p",
+   "text": "إلى **من سيأتي بعدنا**، ويكمل الطريق."
+  },
+  {
+   "t": "p",
+   "text": "**هذا الكتاب لكم.**"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h1",
+   "text": "نص إعلاني تسويقي للكتاب"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "🔥 “المحوّلات والنماذج اللغوية الكبيرة: من النظرية إلى بناء أنظمة ذكية”"
+  },
+  {
+   "t": "h3",
+   "text": "الكتاب الذي سيجعلك تفهم LLM، وليس فقط تستخدمها."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "p",
+   "text": "**هل سئمت من:**"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "📚 قراءة أوراق بحثية لا تفهم نصفها؟",
+    "🎥 مشاهدة فيديوهات تشرح “ماذا”، دون “لماذا”؟",
+    "💻 أكواد جاهزة لا تعرف كيف تعمل؟",
+    "🇬🇧 كتب إنجليزية لا تتحدث عن لغتك؟"
+   ]
+  },
+  {
+   "t": "p",
+   "text": "**هذا الكتاب هو الحل.**"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "📖 ماذا يوجد داخل الكتاب؟"
+  },
+  {
+   "t": "p",
+   "text": "**48 فصلًا**، **10 أجزاء**، **9 ملاحق**، و**أكثر من 200 كود قابل للتشغيل**."
+  },
+  {
+   "t": "ul",
+   "items": [
+    "🧠 **من الصفر**: من الخلية العصبية إلى بناء MiniGPT بنفسك.",
+    "⚡ **التقنيات الحديثة**: FlashAttention-3، MoE، MLA، Mamba، DPO، GRPO، RAG، الوكلاء، VLM.",
+    "🇸🇦 **العربية أولًا**: ترميز عربي، مشاعر عربية، RAG عربي، ترجمة عربية.",
+    "🛠️ **عملي 100%**: كل مفهوم → كود → اختبار → نشر.",
+    "⚠️ **الأخطاء الشائعة**: قوائم سوداء، تحذيرات، فخاخ.",
+    "📊 **التقييم**: كيف تقيس الجودة، الهلوسة، الأمان.",
+    "🚀 **النشر**: vLLM، FastAPI، مراقبة، Canary.",
+    "🎯 **المقابلات**: خريطة أسئلة شاملة، مع إجابات نموذجية."
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "💡 لماذا هذا الكتاب مختلف؟"
+  },
+  {
+   "t": "table",
+   "header": [
+    "الكتب الأخرى",
+    "هذا الكتاب"
+   ],
+   "rows": [
+    [
+     "نظرية بلا كود",
+     "**نظرية + كود + اختبار**"
+    ],
+    [
+     "أكواد بلا شرح",
+     "**شرح “لماذا” قبل “كيف”**"
+    ],
+    [
+     "أمثلة إنجليزية",
+     "**أمثلة عربية حقيقية**"
+    ],
+    [
+     "تقنيات 2020",
+     "**تقنيات 2026**"
+    ],
+    [
+     "لا يذكر الحدود",
+     "**يذكر متى تفشل التقنية**"
+    ],
+    [
+     "جاف",
+     "**حكايات، أمثلة، قصص**"
+    ]
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "🎯 لمن هذا الكتاب؟"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "✅ **طلاب** الهندسة وعلوم الحاسوب.",
+    "✅ **مهندسو** البرمجيات الذين يريدون التحول إلى AI.",
+    "✅ **باحثو** NLP الذين يريدون تطبيقًا عمليًا.",
+    "✅ **مهندسو** ML الذين يريدون بناء LLM.",
+    "✅ **كل من** يحضر مقابلة في LLM.",
+    "✅ **كل من** يريد أن يفهم، وليس فقط أن يستخدم."
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "📦 ماذا ستحصل عليه؟"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "📘 الكتاب الكامل (48 فصلًا، 10 أجزاء).",
+    "💻 أكواد قابلة للتشغيل (GitHub).",
+    "📋 قوالب جاهزة (Model Card، Decision Log، Runbook).",
+    "🗺️ خريطة تعلم (12 أسبوعًا).",
+    "✅ قوائم تحقق (قبل التدريب، قبل النشر).",
+    "📚 مسرد شامل (عربي/إنجليزي).",
+    "📄 قائمة أوراق بحثية أساسية."
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "🌟 ماذا يقول القراء؟"
+  },
+  {
+   "t": "quote",
+   "text": "“أخيرًا كتاب بالعربية يشرح LLM بعمق، دون تعقيد، ودون تبسيط مخل.” — **م. أحمد، مهندس ML**",
+   "kind": "note"
+  },
+  {
+   "t": "quote",
+   "text": "“الجزء الرابع وحده يستحق ثمن الكتاب. بنيت أول MiniGPT بفضل هذا الكتاب.” — **س. ليلى، طالبة دراسات عليا**",
+   "kind": "note"
+  },
+  {
+   "t": "quote",
+   "text": "“لم أجد كتابًا يجمع النظرية والتطبيق والعربية في مكان واحد. هذا الكتاب فعلها.” — **د. خالد، باحث NLP**",
+   "kind": "note"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "🎁 عرض خاص"
+  },
+  {
+   "t": "p",
+   "text": "**احصل على الكتاب + الأكواد + القوالب + خريطة التعلم**"
+  },
+  {
+   "t": "p",
+   "text": "**بسعر خاص لفترة محدودة**"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h3",
+   "text": "📢 لا تفوّت الفرصة"
+  },
+  {
+   "t": "p",
+   "text": "**ابدأ رحلتك من “مستخدم” إلى “مهندس LLM”.**"
+  },
+  {
+   "t": "p",
+   "text": "**اطلب نسختك الآن.**"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "p",
+   "text": "*“الكتاب الذي كنت تتمنى أن تجده عندما بدأت.”*"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h1",
+   "text": "برومتات لتوليد صور إعلانية للكتاب"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 1: الصورة الرئيسية (Hero Image)"
+  },
+  {
+   "t": "code",
+   "lang": "python",
+   "code": "Create a professional book cover advertisement image for an Arabic technical book about Transformers and Large Language Models.\n\n**Book Title (Arabic)**: \"المحوّلات والنماذج اللغوية الكبيرة: من النظرية إلى بناء أنظمة ذكية\"\n**Subtitle (Arabic)**: \"دليل شامل من الأساسيات إلى الإنتاج\"\n\n**Visual Concept**:\nA futuristic, elegant composition showing a glowing neural network transformer architecture floating above an open book. The book emits golden light, and from its pages rise abstract representations of Arabic letters (ا، ب، ت) transforming into digital vectors and attention matrices. In the background, a subtle silhouette of a person (engineer) looking at the scene with wonder.\n\n**Style**: \n- Modern tech aesthetic, similar to O'Reilly book covers but more elegant\n- Dark navy blue background (#0A192F) with gold (#FFD700) and cyan (#00E5FF) accents\n- Cinematic lighting, volumetric rays\n- High detail, 4K quality\n\n**Composition**:\n- Book centered, slightly angled (3/4 view)\n- Neural network nodes and attention lines glowing above the book\n- Arabic calligraphy elements subtly integrated\n- Space for title text at top (30% of image)\n- Space for subtitle at bottom\n\n**Color Palette**:\n- Deep navy (#0A192F)\n- Gold (#FFD700)\n- Cyan (#00E5FF)\n- White accents\n\n**Text Placement** (leave empty space for overlay):\n- Top: Book title area\n- Bottom: Subtitle and author area\n\n**Aspect Ratio**: 16:9 (for web banner) OR 2:3 (for book cover)\n\n**Quality**: 8K, ultra-detailed, professional advertising photography style, sharp focus, dramatic lighting.\n\n**Negative Prompt**: \nblurry, low quality, distorted text, cluttered, messy, amateur, cartoonish, childish, cliché robot imagery, stock photo look."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 2: صورة “الرحلة” (The Journey)"
+  },
+  {
+   "t": "code",
+   "lang": "text",
+   "code": "Create a conceptual advertising image representing the journey of learning LLMs from scratch to production.\n\n**Visual Concept**:\nA visual metaphor of a path/journey, showing progression from left to right:\n- LEFT (Beginning): A single glowing neuron, simple, minimal\n- MIDDLE (Transformation): A complex transformer architecture with attention heads, matrices, glowing connections\n- RIGHT (End): A deployed AI system, servers, API endpoints, users interacting with an Arabic chatbot interface\n\nAbove the path, floating milestones with icons:\n- 📚 \"الأساسيات\"\n- 🔤 \"التضمينات\"  \n- ⚡ \"المحوّلات\"\n- 🏗️ \"بناء LLM\"\n- 🎯 \"التقييم\"\n- 🚀 \"النشر\"\n\n**Style**:\n- Isometric illustration style, modern and clean\n- Infographic aesthetic\n- Gradient background from dark blue (left) to warm gold (right)\n- Glowing elements, subtle particles\n- Professional, technical but accessible\n\n**Color Palette**:\n- Deep blue → purple → gold gradient\n- Neon accents (cyan, magenta, gold)\n- Dark background for contrast\n\n**Composition**:\n- Horizontal flow (left to right)\n- Milestones as glowing waypoints\n- Arabic labels for each milestone\n- Space at top for title\n- Space at bottom for tagline\n\n**Text Integration**:\nTitle (Arabic, top): \"رحلتك من الصفر إلى الإنتاج\"\nTagline (Arabic, bottom): \"48 فصلًا. 10 أجزاء. رحلة واحدة.\"\n\n**Aspect Ratio**: 16:9\n\n**Quality**: 8K, infographic style, clean, professional, modern tech illustration.\n\n**Negative Prompt**:\ncluttered, messy, unclear progression, distorted Arabic text, low quality, amateur, cliché."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 3: صورة “الأدوات” (The Toolkit)"
+  },
+  {
+   "t": "code",
+   "lang": "txt",
+   "code": "Create an advertising image showcasing the practical, hands-on nature of the book.\n\n**Visual Concept**:\nA top-down flat-lay composition of a developer's workspace, but with futuristic/tech elements:\n- An open book (the book) in the center, pages showing code snippets and Arabic text\n- Around it: a laptop with terminal showing \"Training... Loss: 0.42\", a notebook with Arabic notes, a coffee cup, a small neural network model (3D printed or holographic), a GPU chip glowing\n- Floating holographic elements: attention matrices, vector embeddings, Arabic letters transforming\n- A phone showing a chatbot conversation in Arabic\n\n**Style**:\n- Flat-lay photography style but with magical/tech elements\n- Warm, inviting, practical\n- Slight overhead angle\n- Professional product photography lighting\n\n**Color Palette**:\n- Warm wood tones (desk)\n- Dark tech elements (laptop, GPU)\n- Gold and cyan accents (glowing elements)\n- Arabic text in elegant calligraphy\n\n**Composition**:\n- Book centered and prominent\n- Tools arranged symmetrically around it\n- Space at top for title text\n- Space at bottom for tagline\n\n**Text Integration**:\n- Title (top): \"الأدوات الكاملة\"\n- Tagline (bottom): \"كود. قوالب. قوائم تحقق. كل ما تحتاجه.\"\n\n**Aspect Ratio**: 1:1 (for Instagram) OR 4:5\n\n**Quality**: 8K, professional product photography, warm lighting, detailed, sharp focus.\n\n**Negative Prompt**:\ncluttered, messy, dark, low quality, distorted text, amateur, stock photo, cliché."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 4: صورة “قبل وبعد” (Before/After)"
+  },
+  {
+   "t": "code",
+   "lang": "txt",
+   "code": "Create a split-screen advertising image showing transformation.\n\n**Visual Concept**:\nSplit vertically into two halves:\n\nLEFT SIDE (Before - \"المستخدم\"):\n- A person looking confused at a screen full of API documentation and English papers\n- Gray, muted colors (grays, dull blues)\n- Question marks floating\n- Text overlay: \"مستخدم LLM\" (LLM User)\n\nRIGHT SIDE (After - \"المهندس\"):\n- The same person, confident, smiling, looking at a screen showing their own MiniGPT training, with Arabic text and code\n- Vibrant colors (gold, cyan, warm tones)\n- Lightbulb, gears, neural network elements floating\n- Text overlay: \"مهندس LLM\" (LLM Engineer)\n\n**Divider**: A glowing vertical line in the center, with the book cover in the middle, acting as the \"bridge\" between the two states.\n\n**Style**:\n- Photorealistic with subtle tech illustration elements\n- Clean, modern, inspiring\n- Professional advertising photography\n\n**Color Palette**:\n- Left: desaturated (grays, muted blues)\n- Right: saturated (golds, cyans, warm lights)\n- Divider: glowing white/gold\n\n**Composition**:\n- 50/50 split\n- Book cover centered on the divider\n- Text labels on each side\n- Space at top for main title\n\n**Text Integration**:\n- Top: \"التحوّل\"\n- Left: \"مستخدم\"\n- Right: \"مهندس\"\n- Bottom: \"الكتاب الذي ينقلك من الاستخدام إلى البناء\"\n\n**Aspect Ratio**: 16:9\n\n**Quality**: 8K, professional, inspiring, photorealistic, sharp, dramatic lighting.\n\n**Negative Prompt**:\nlow quality, distorted faces, amateur, messy, cluttered, cartoonish, cliché."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 5: صورة “الأمان” (Safety & Trust)"
+  },
+  {
+   "t": "code",
+   "lang": "txt",
+   "code": "Create an advertising image emphasizing the safety, evaluation, and production-readiness of the book's content.\n\n**Visual Concept**:\nA shield made of glowing code/Arabic calligraphy, protecting a neural network model. Inside the shield: a beautiful, well-organized system architecture (RAG, Agent, VLM, all labeled). Outside: arrows representing attacks (Prompt Injection, Jailbreak, PII) bouncing off the shield.\n\n**Elements**:\n- Central shield (glowing gold, with Arabic calligraphy forming its surface)\n- Inside: clean system architecture diagram\n- Outside: red/dark arrows being deflected\n- Around: checkmarks (✅) for \"مُختبر\" (tested), \"آمن\" (safe), \"موثوق\" (reliable)\n- Background: dark, professional\n\n**Style**:\n- Modern cybersecurity aesthetic\n- Glowing, futuristic\n- Professional, trustworthy\n- Infographic elements\n\n**Color Palette**:\n- Dark background (#0A192F)\n- Gold shield (#FFD700)\n- Cyan and green accents (for \"safe\" elements)\n- Red (for attacks, deflected)\n\n**Composition**:\n- Shield centered\n- Architecture inside, clear and labeled\n- Attacks outside, deflected\n- Space at top for title\n- Space at bottom for tagline\n\n**Text Integration**:\n- Top: \"الأمان أولًا\"\n- Bottom: \"حماية. تقييم. نشر. كل شيء مُختبر.\"\n\n**Aspect Ratio**: 1:1 OR 4:5\n\n**Quality**: 8K, professional, clean, modern cybersecurity illustration, sharp, detailed.\n\n**Negative Prompt**:\ncluttered, messy, distorted, low quality, amateur, cliché hacker imagery, cartoonish."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 6: صورة “المقابلة” (Interview Ready)"
+  },
+  {
+   "t": "code",
+   "lang": "txt",
+   "code": "Create an advertising image targeting job seekers preparing for LLM interviews.\n\n**Visual Concept**:\nA confident professional (Arabic man/woman) sitting in a modern interview room, answering a technical question. In front of them, a holographic display showing attention matrices, LoRA diagrams, and RAG architectures. The interviewer (partially visible) looks impressed.\n\nAbove, floating elements:\n- \"Self-Attention\" formula (glowing)\n- \"LoRA\" diagram\n- \"RAG\" pipeline\n- \"DPO\" loss curve\n- Checkmarks (✅) for each\n\n**Style**:\n- Photorealistic with holographic tech elements\n- Modern office setting\n- Warm, inspiring lighting\n- Professional, confident mood\n\n**Color Palette**:\n- Warm office tones (wood, soft lights)\n- Holographic elements in cyan/gold\n- Professional attire (dark suit)\n\n**Composition**:\n- Candidate centered, confident posture\n- Holographic elements floating in front\n- Interviewer on the side (blurred)\n- Space at top for title\n- Space at bottom for tagline\n\n**Text Integration**:\n- Top: \"جاهز للمقابلة\"\n- Bottom: \"خريطة أسئلة شاملة. إجابات نموذجية. ثقة كاملة.\"\n\n**Aspect Ratio**: 16:9\n\n**Quality**: 8K, photorealistic, professional advertising photography, holographic elements, sharp, warm lighting.\n\n**Negative Prompt**:\ndistorted faces, low quality, amateur, messy, cluttered, stock photo, cliché interview imagery."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 7: صورة “العربية” (Arabic First)"
+  },
+  {
+   "t": "code",
+   "lang": "text",
+   "code": "Create an advertising image celebrating the Arabic-first nature of the book.\n\n**Visual Concept**:\nA beautiful, elegant composition centered on Arabic calligraphy transforming into digital code. \n\n**Elements**:\n- Center: The Arabic word \"المحوّلات\" (Transformers) written in stunning, modern Arabic calligraphy\n- The calligraphy breaks apart into glowing particles that reassemble into:\n  - Neural network nodes\n  - Attention matrices\n  - Code syntax (Python)\n  - Vector embeddings\n- Around: subtle Arabic text from the book (chapter titles, formulas)\n- Background: deep gradient (navy → purple → gold)\n\n**Style**:\n- Artistic, elegant, cultural\n- Modern Arabic calligraphy meets tech\n- Glowing, ethereal\n- High-end book cover aesthetic\n\n**Color Palette**:\n- Deep navy (#0A192F)\n- Gold (#FFD700) for calligraphy\n- Cyan (#00E5FF) for tech elements\n- Warm white for particles\n\n**Composition**:\n- Calligraphy centered and dominant\n- Transformation flowing outward\n- Space at top for title\n- Space at bottom for tagline\n\n**Text Integration**:\n- Top: \"بالعربية\"\n- Bottom: \"لأن لغتنا تستحق كتابًا يفهمها\"\n\n**Aspect Ratio**: 2:3 (book cover) OR 1:1\n\n**Quality**: 8K, artistic, elegant, modern Arabic calligraphy, glowing, high-end, sharp, detailed.\n\n**Negative Prompt**:\ndistorted Arabic text, low quality, amateur, cluttered, cartoonish, cultural appropriation, cliché."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 8: صورة “الشمولية” (The Complete Guide)"
+  },
+  {
+   "t": "code",
+   "lang": "txt",
+   "code": "Create an advertising image showing the comprehensive nature of the book.\n\n**Visual Concept**:\nA massive, beautiful hardcover book lying open, with its pages expanding into a 3D knowledge landscape:\n\n**Left page**: Theory (equations, diagrams, neural networks)\n**Right page**: Practice (code, systems, deployment)\n**Above the book**: A 3D landscape emerges:\n- Mountains = \"الأساسيات\" (Foundations)\n- Rivers = \"البيانات\" (Data)\n- Cities = \"التطبيقات\" (Applications)\n- Skies = \"الإنتاج\" (Production)\n- Stars = \"المقابلات\" (Interviews)\n\nTiny figures (engineers) walking through the landscape, exploring.\n\n**Style**:\n- Epic, cinematic, magical realism\n- High fantasy meets tech\n- Detailed, immersive\n- Warm, inviting\n\n**Color Palette**:\n- Warm golds, oranges (landscape)\n- Deep blues, purples (sky)\n- Green (data/rivers)\n- White (stars)\n\n**Composition**:\n- Book at bottom, open\n- Landscape expanding upward\n- Space at top for title\n- Space at bottom for tagline\n\n**Text Integration**:\n- Top: \"الرحلة الكاملة\"\n- Bottom: \"من الأساسيات إلى الإنتاج. في كتاب واحد.\"\n\n**Aspect Ratio**: 16:9\n\n**Quality**: 8K, cinematic, epic, detailed, magical realism, sharp, immersive.\n\n**Negative Prompt**:\ncluttered, messy, low quality, amateur, cartoonish, childish, cliché fantasy imagery."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 9: صورة “المؤلف/الكتاب” (Author/Book Promo)"
+  },
+  {
+   "t": "code",
+   "lang": "txt",
+   "code": "Create a professional author/book promotional image.\n\n**Visual Concept**:\nA clean, modern portrait-style image:\n- Foreground: The book (3D render, standing, cover visible) on a minimal desk\n- Background: A blurred, modern workspace (dual monitors showing code, a whiteboard with Arabic notes, a plant)\n- Subtle holographic elements: a small attention matrix floating above the book, an Arabic chatbot UI on a phone\n- Warm, inviting lighting\n\n**Style**:\n- Clean, minimal, modern\n- Professional product photography\n- Slight depth of field (book sharp, background blurred)\n- Warm, inviting\n\n**Color Palette**:\n- Warm wood desk\n- Dark book cover (navy/gold)\n- Soft background (blurred warm tones)\n- Holographic accents (cyan)\n\n**Composition**:\n- Book prominent, centered or rule-of-thirds\n- Background blurred\n- Space at top for title\n- Space at bottom for author name/tagline\n\n**Text Integration**:\n- Top: Book title (small)\n- Bottom: \"الكتاب الذي كنت تتمنى أن تجده عندما بدأت\"\n\n**Aspect Ratio**: 1:1 OR 4:5\n\n**Quality**: 8K, professional product photography, warm lighting, sharp focus on book, beautiful bokeh, high-end.\n\n**Negative Prompt**:\ncluttered, messy, low quality, amateur, distorted text, bad lighting, stock photo look."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "البرومت 10: صورة “الشعار/الأيقونة” (Logo/Icon)"
+  },
+  {
+   "t": "code",
+   "lang": "txt",
+   "code": "Create a minimalist logo/icon for the book.\n\n**Visual Concept**:\nA simple, memorable icon combining:\n- The Arabic letter \"م\" (Meem) — for \"المحوّلات\" (Transformers)\n- A subtle neural network node pattern\n- A book/page element\n- All in a modern, geometric style\n\n**Style**:\n- Minimalist, geometric, modern\n- Flat design with subtle gradients\n- Scalable (works as small icon and large logo)\n- Professional, timeless\n\n**Color Palette**:\n- Deep navy (#0A192F) as primary\n- Gold (#FFD700) as accent\n- Optional: cyan (#00E5FF) as secondary accent\n\n**Composition**:\n- Icon centered\n- Clean, balanced\n- Works on light and dark backgrounds\n- Space for wordmark (Arabic title) below or beside\n\n**Aspect Ratio**: 1:1\n\n**Quality**: Vector-style, minimalist, professional, scalable, timeless, clean.\n\n**Negative Prompt**:\ncomplex, cluttered, detailed, low quality, amateur, cartoonish, 3D, gradients (excessive), cliché."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "نصائح لاستخدام البرومتات"
+  },
+  {
+   "t": "ol",
+   "items": [
+    "**استخدم Midjourney أو DALL-E 3 أو Ideogram** — Ideogram ممتاز للنصوص العربية.",
+    "**أضف `--ar 16:9`** (Midjourney) أو `--ar 2:3` حسب الاستخدام.",
+    "**للنصوص العربية**: استخدم Ideogram، أو أضف النص يدويًا في Canva/Photoshop بعد التوليد.",
+    "**جرّب 4–5 نسخ** لكل برومت، واختر الأفضل.",
+    "**عدّل الألوان** حسب هوية العلامة التجارية.",
+    "**لا تنسَ `Negative Prompt`** — يمنع الصور السيئة.",
+    "**للطباعة**: استخدم دقة عالية (8K)، وتأكد من المساحة الفارغة للنص."
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "p",
+   "text": "**بالتوفيق في إطلاق كتابك!** 🚀"
+  }
+ ],
+ "preface": [
+  {
+   "t": "h2",
+   "text": "لماذا هذا الكتاب؟ ولماذا الآن؟"
+  },
+  {
+   "t": "p",
+   "text": "في عام 2017، نشر ثمانية باحثين في Google ورقة بحثية بعنوان “Attention is All You Need”. كانت الورقة قصيرة (11 صفحة)، لكنها كانت قنبلة فكرية. اقترحت معمارية جديدة، أسمتها **المحوّل (Transformer)**، تتخلى عن التكرار (Recurrence) والالتفاف (Convolution) تمامًا، وتعتمد على آلية واحدة: **الانتباه الذاتي (Self-Attention)**."
+  },
+  {
+   "t": "p",
+   "text": "في ذلك الوقت، لم يدرك أحد أن هذه الورقة ستغير وجه الذكاء الاصطناعي. بعد خمس سنوات، أصبح المحوّل هو الأساس الذي تُبنى عليه كل النماذج اللغوية الكبيرة: GPT، BERT، LLaMA، Qwen، DeepSeek، Claude، Gemini. وبعد ثماني سنوات، أصبحت هذه النماذج جزءًا من حياتنا اليومية: في هواتفنا، في محركات البحث، في الترجمة، في البرمجة، في الطب، في التعليم."
+  },
+  {
+   "t": "p",
+   "text": "لكن، ومع كل هذا الانتشار، ظهرت فجوة عميقة. **المعرفة موزعة**: الأوراق البحثية في arXiv، الدروس في المدونات، الأكواد في GitHub، النصائح في Twitter. لا يوجد **مرجع واحد** يجمع كل شيء: من الأساسيات الرياضية، إلى بناء نموذج من الصفر، إلى النشر في الإنتاج، إلى اجتياز مقابلة عمل. لا يوجد **دليل** يربط النظرية بالتطبيق، ويروي **لماذا** كل قطعة موجودة، و**متى** تفشل."
+  },
+  {
+   "t": "p",
+   "text": "هذا الكتاب هو محاولة لسد تلك الفجوة."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "لمن هذا الكتاب؟"
+  },
+  {
+   "t": "p",
+   "text": "هذا الكتاب **ليس** لكل شخص. إنه لكل من:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "**يريد أن يفهم** كيف تعمل النماذج اللغوية الكبيرة، وليس فقط كيف يستخدمها.",
+    "**يريد أن يبني** نموذجًا من الصفر، وليس فقط استدعاء API.",
+    "**يريد أن ينشر** نظامًا في الإنتاج، وليس فقط تجربة في دفتر Jupyter.",
+    "**يريد أن يجتاز** مقابلة عمل في LLM، وليس فقط حفظ الإجابات.",
+    "**يريد أن يفهم** العربية في النماذج، وليس فقط الإنجليزية."
+   ]
+  },
+  {
+   "t": "p",
+   "text": "إن كنت تبحث عن “دليل سريع”، أو “قائمة أوامر جاهزة”، أو “حل سحري”، فهذا الكتاب ليس لك. أما إن كنت تريد **فهمًا عميقًا**، **تطبيقًا عمليًا**، و**حكمة هندسية**، فهذا الكتاب كُتب لك."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "ما يميز هذا الكتاب؟"
+  },
+  {
+   "t": "h3",
+   "text": "1. الرحلة الكاملة، وليس القطع المتناثرة"
+  },
+  {
+   "t": "p",
+   "text": "هذا الكتاب يأخذك في رحلة **متكاملة**: من الخلية العصبية الواحدة، إلى آلية الانتباه، إلى بناء MiniGPT، إلى الضبط الدقيق، إلى RAG، إلى الوكلاء، إلى الوسائط المتعددة، إلى النشر، إلى المقابلات. كل فصل يبني على ما قبله. لا تبدأ من المنتصف. لا تقفز إلى النهاية. أنت **تبني**، خطوة بخطوة."
+  },
+  {
+   "t": "h3",
+   "text": "2. الكود، وليس فقط النظرية"
+  },
+  {
+   "t": "p",
+   "text": "كل مفهوم نظري في هذا الكتاب يقابله **كود قابل للتشغيل**. لن تكتفي بقراءة معادلة الانتباه. ستكتبها. لن تكتفي بفهم LoRA. ستنفذها. لن تكتفي بقراءة عن RAG. ستبني نظامًا كاملًا. الكود هو **الجسر** بين الفهم والتطبيق."
+  },
+  {
+   "t": "h3",
+   "text": "3. العربية، وليس الترجمة الحرفية"
+  },
+  {
+   "t": "p",
+   "text": "هذا الكتاب كُتب **بالعربية**، وليس مترجمًا. الأمثلة عربية. التحديات عربية. اللغة العربية ليست “إضافة”، بل **موضوع**. ستتعلم كيف تتعامل مع التهكم العربي، اللهجات العربية، الترميز العربي، والخط العربي. ستكتشف أن العربية ليست “لغة أخرى”، بل **تحدٍّ فريد** يستحق كتابًا خاصًا."
+  },
+  {
+   "t": "h3",
+   "text": "4. الأخطاء، وليس فقط الحلول"
+  },
+  {
+   "t": "p",
+   "text": "كل فصل يحتوي على **قائمة سوداء** بالأخطاء الشائعة: ما الذي يفعله المبتدئون؟ لماذا يفشل النموذج؟ كيف تتجنب الفخاخ؟ هذا الكتاب لا يخبرك فقط “ماذا تفعل”، بل “ماذا لا تفعل”، و“لماذا”."
+  },
+  {
+   "t": "h3",
+   "text": "5. الحكايات، وليس فقط الجداول"
+  },
+  {
+   "t": "p",
+   "text": "هذا الكتاب لا يكتفي بالتعريفات. كل فصل يبدأ بحكاية: طاهٍ، نحات، راعٍ، موظف، مبرمج. الحكاية ليست زينة. إنها **طريقة للفهم**. “حكاية المهندس الذي اشترى Ferrari ليقود في زحام” تشرح مشكلة النشر أكثر من أي جدول. “حكاية المترجم الذي ترجم عين خطأ” تشرح مشكلة الترجمة الآلية أكثر من أي معادلة."
+  },
+  {
+   "t": "h3",
+   "text": "6. 2026، وليس 2020"
+  },
+  {
+   "t": "p",
+   "text": "هذا الكتاب **محدث**. يغطي: FlashAttention-3، MLA، Mamba، MoE، DPO، ORPO، KTO، SimPO، GRPO، RAG، الوكلاء، VLM، Multi-LoRA، والتقييم الحديث. لا يكتفي بالتقنيات القديمة. يواكب **ما يحدث الآن**."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "كيف تقرأ هذا الكتاب؟"
+  },
+  {
+   "t": "p",
+   "text": "هناك طرق متعددة لقراءة هذا الكتاب، حسب هدفك:"
+  },
+  {
+   "t": "p",
+   "text": "**إذا كنت مبتدئًا**: اقرأ بالترتيب. من الفصل 1 إلى الفصل 48. لا تتخطَّ. كل فصل يبني على ما قبله."
+  },
+  {
+   "t": "p",
+   "text": "**إذا كنت خبيرًا**: اذهب إلى الأجزاء التي تهمك. الجزء الرابع (بناء LLM)، الجزء السابع (البناء من نماذج موجودة)، الجزء الثامن (التقييم والنشر). استخدم الملاحق كمرجع."
+  },
+  {
+   "t": "p",
+   "text": "**إذا كنت مستعجلًا**: اقرأ الجزء الثالث (المحوّلات)، الجزء الرابع (بناء LLM)، والجزء الثامن (النشر). هذه هي **الأساسيات** التي لا غنى عنها."
+  },
+  {
+   "t": "p",
+   "text": "**إذا كنت تحضر مقابلة**: اقرأ الفصل 46 (أسئلة المقابلات)، ثم ارجع إلى الفصول التي تحتاج مراجعتها."
+  },
+  {
+   "t": "quote",
+   "text": "**نصيحة أخيرة**: لا تقرأ هذا الكتاب كرواية. اقرأه **بيديك**. شغّل الكود. عدّل الأكواد. أخطئ. أصلح. هذا هو الطريق الوحيد للفهم.",
+   "kind": "tip"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "شكر وتقدير"
+  },
+  {
+   "t": "p",
+   "text": "هذا الكتاب لم يكن ليُكتب لولا جهود **آلاف** الباحثين والمهندسين الذين شاركوا أعمالهم: فريق المحوّل الأصلي، فريق GPT، فريق LLaMA، فريق Qwen، فريق DeepSeek، فريق Anthropic، وكل من نشر ورقة، أو كتب مدونة، أو شارك كودًا."
+  },
+  {
+   "t": "p",
+   "text": "شكر خاص لـ **المجتمع العربي** في الذكاء الاصطناعي: من درّب نماذج عربية، من كتب أدوات، من شارك معرفة. أنتم الأساس."
+  },
+  {
+   "t": "p",
+   "text": "وأخيرًا، شكرًا **لك**، عزيزي القارئ. لأنك اخترت أن **تفهم**، وليس فقط أن **تستخدم**. لأنك اخترت أن **تبني**، وليس فقط أن **تستهلك**. هذا الكتاب كُتب لك."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "p",
+   "text": "**فلنبدأ.**"
+  },
+  {
+   "t": "hr"
+  }
+ ],
+ "summary": [
+  {
+   "t": "h2",
+   "text": "نظرة عامة"
+  },
+  {
+   "t": "p",
+   "text": "**“المحوّلات والنماذج اللغوية الكبيرة: من النظرية إلى بناء أنظمة ذكية”** هو دليل شامل، عملي، ومحدث (2026) يأخذك في رحلة متكاملة من **الأساسيات الرياضية** إلى **بناء أنظمة LLM في الإنتاج**."
+  },
+  {
+   "t": "p",
+   "text": "الكتاب مقسم إلى **عشرة أجزاء**، **48 فصلًا**، و**تسعة ملاحق**، ويغطي:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "**النظرية**: كيف تعمل الشبكات العصبية، المحوّلات، الانتباه، التضمينات.",
+    "**البناء**: كيف تبني MiniGPT من الصفر، تدربه، تضبطه، تنشره.",
+    "**التقنيات الحديثة**: LoRA، DPO، RAG، الوكلاء، VLM، التكميم، التقطير، الدمج.",
+    "**التقييم**: كيف تقيس الجودة، الهلوسة، الأمان.",
+    "**التطبيقات**: المشاعر، الترجمة، RAG عربي، التلخيص، الكود.",
+    "**المسار المهني**: كيف تجتاز المقابلات، تبني أنظمة، تنمو مهنيًا."
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "الأجزاء العشرة"
+  },
+  {
+   "t": "h3",
+   "text": "الجزء I: الأساسيات (الفصول 1–3)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: كيف تعمل الشبكة العصبية من الصفر، كيف تتجنب الإفراط في التخصيص، كيف تدرب نموذجًا حديثًا (Mixed Precision، Gradient Accumulation، DDP/FSDP)."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: بدون هذه الأساسيات، سيبقى فهمك للمحوّلات سطحيًا. هذا الجزء هو **الأرضية** التي يقف عليها كل شيء آخر."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء II: التضمينات (الفصول 4–6)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: كيف يتحول النص إلى أرقام (Tokenization)، كيف تتعلم الكلمات معانيها (Word2Vec، GloVe)، كيف تتعلم الجمل تسلسلها (RNN، LSTM، GRU)."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: التضمينات هي **الجسر** بين اللغة والحساب. فهمها يجعل فهم المحوّلات أعمق."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء III: المحوّلات (الفصول 7–11)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: آلية الانتباه الذاتي، بنية المحوّل الكاملة، BERT/GPT/T5، المعماريات الحديثة (FlashAttention، MLA، MoE، Mamba)، تسريع العمليات الحسابية."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: هذا هو **القلب** النابض للنماذج اللغوية. بدون فهمه، لن تفهم أي شيء آخر."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء IV: بناء LLM من الصفر (الفصول 12–19)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: كيف تخطط لمشروع، تجهز البيانات، تبني MiniGPT، تدربه، تضبطه (SFT/LoRA)، تحسّن تفضيلاته (DPO)، تولّد النص، تضغطه (تكميم/تقطير)."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: هذا هو **الجزء العملي** الأهم. ستخرج منه بنموذج يعمل، وليس فقط معرفة نظرية."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء V: التقنيات المتقدمة (الفصول 20–24)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: هندسة الأوامر، PEFT المتقدم (IA3، Prefix، Prompt Tuning)، ضبط التفضيلات المتقدم (ORPO، KTO، SimPO، GRPO)، RAG، الوكلاء."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: هذه هي **الأدوات** التي تستخدمها في الإنتاج. بدونها، نموذجك لن يكون مفيدًا."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء VI: الوسائط المتعددة (الفصول 25–28)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: كيف يرى النموذج الصور، معماريات VLM، بناء VLM عربي، تقييم VLM."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: النماذج متعددة الوسائط هي **المستقبل**. من لا يعرفها، سيتخلف."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء VII: البناء من نماذج موجودة (الفصول 29–34)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: لماذا لا تبدأ من الصفر، التقطير، الدمج (TIES، DARE)، التشذيب، Multi-LoRA، Self-Improvement."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: 99% من المشاريع لا تحتاج إلى Pre-training من الصفر. هذا الجزء يخبرك **كيف تبني بذكاء**، وليس بتهور."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء VIII: التقييم والنشر (الفصول 35–40)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: المقاييس الأساسية (PPL، F1، BLEU، ROUGE)، المعايير الحديثة (MMLU، BBH، HELM)، LLM-as-a-Judge، تقييم VLM والوكلاء، الأمان، النشر."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: النموذج الذي لا يُقاس، لا يُعرف. والنموذج الذي لا يُنشر، لا يُستخدم."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء IX: التطبيقات (الفصول 41–45)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: تحليل المشاعر العربي، الترجمة الآلية، RAG للمستندات العربية، تلخيص المستندات الطويلة، توليد الكود."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: هذه هي **المشاريع الحقيقية** التي ستواجهها. كل فصل هو مشروع كامل، من البيانات إلى النشر."
+  },
+  {
+   "t": "h3",
+   "text": "الجزء X: المقابلات والمسار المهني (الفصول 46–48)"
+  },
+  {
+   "t": "p",
+   "text": "**ماذا ستتعلم**: أسئلة المقابلات، أنماط تصميم الأنظمة، أفضل الممارسات الهندسية، المسار المهني."
+  },
+  {
+   "t": "p",
+   "text": "**لماذا يهم**: المعرفة وحدها لا تكفي. تحتاج إلى **إيصالها**، و**تطبيقها**، و**النمو**."
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "ما يميز هذا الكتاب"
+  },
+  {
+   "t": "table",
+   "header": [
+    "الميزة",
+    "التفصيل"
+   ],
+   "rows": [
+    [
+     "**شامل**",
+     "من الأساسيات إلى الإنتاج، في كتاب واحد"
+    ],
+    [
+     "**عملي**",
+     "كود كامل، قابل للتشغيل، لكل مفهوم"
+    ],
+    [
+     "**محدث**",
+     "يغطي تقنيات 2026 (FlashAttention-3، MLA، Mamba، GRPO)"
+    ],
+    [
+     "**عربي**",
+     "أمثلة عربية، تحديات عربية، حلول عربية"
+    ],
+    [
+     "**نقدي**",
+     "يذكر حدود كل تقنية، وأخطاءها الشائعة"
+    ],
+    [
+     "**قصصي**",
+     "حكايات تجعل المفاهيم المجردة ملموسة"
+    ],
+    [
+     "**مرجعي**",
+     "ملاحق شاملة: مسرد، أوراق، أدوات، قوالب"
+    ]
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "لمن هذا الكتاب؟"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "**طلاب** الهندسة وعلوم الحاسوب.",
+    "**مهندسو** البرمجيات الذين يريدون التحول إلى AI.",
+    "**باحثو** NLP الذين يريدون فهمًا عمليًا.",
+    "**مهندسو** ML الذين يريدون بناء LLM.",
+    "**أي شخص** يريد اجتياز مقابلة في LLM."
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "h2",
+   "text": "ماذا ستتعلم في النهاية؟"
+  },
+  {
+   "t": "p",
+   "text": "بعد قراءة هذا الكتاب **وتطبيق الكود**، ستكون قادرًا على:"
+  },
+  {
+   "t": "ul",
+   "items": [
+    "✅ بناء MiniGPT من الصفر، وتدريبه على بيانات عربية.",
+    "✅ ضبط نموذج موجود (LoRA/QLoRA) على مهمتك.",
+    "✅ تحسين تفضيلات النموذج (DPO/ORPO).",
+    "✅ بناء نظام RAG للمستندات العربية.",
+    "✅ بناء وكيل يستخدم أدوات بأمان.",
+    "✅ بناء VLM عربي بسيط.",
+    "✅ تقييم النماذج (آلي، بشري، LLM-as-a-Judge).",
+    "✅ نشر النموذج في الإنتاج (vLLM، FastAPI، مراقبة).",
+    "✅ حماية النظام (Prompt Injection، PII، تحيز).",
+    "✅ اجتياز مقابلة LLM بثقة."
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "p",
+   "text": "**هذا ليس كتابًا للقراءة. إنه كتاب للبناء.**"
+  },
+  {
+   "t": "hr"
+  }
+ ]
+}

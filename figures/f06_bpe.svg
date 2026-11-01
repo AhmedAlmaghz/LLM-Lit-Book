@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">BPE: من بايتات حقيقة إلى وحدات ذات معنى</text>
+<rect x="40" y="84" width="400" height="380" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="240" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">خط الدمج على «low, lower, lowest»</text>
+<text x="78" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13.6" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dominant-baseline="middle">l o w │ l o w e r │ l o w e s t</text>
+<text x="78" y="168" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">انطلاق: حروف</text>
+<path d="M 290 178 C 300 190, 300 190, 290 198" fill="none" stroke="#4F46E5" stroke-width="1.6" marker-end="url(#agr)" opacity="1"/>
+<text x="78" y="200" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13.6" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dominant-baseline="middle">l o w │ l o w e r │ l o w e s t</text>
+<text x="78" y="220" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">زوج الأكثر تكرارًا: l o</text>
+<path d="M 290 230 C 300 242, 300 242, 290 250" fill="none" stroke="#4F46E5" stroke-width="1.6" marker-end="url(#agr)" opacity="1"/>
+<text x="78" y="252" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13.6" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dominant-baseline="middle">lo w │ lo w e r │ lo w e s t</text>
+<text x="78" y="272" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">دمج l o → lo</text>
+<path d="M 290 282 C 300 294, 300 294, 290 302" fill="none" stroke="#4F46E5" stroke-width="1.6" marker-end="url(#agr)" opacity="1"/>
+<text x="78" y="304" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13.6" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dominant-baseline="middle">low │ low e r │ low e s t</text>
+<text x="78" y="324" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">دمج lo w → low</text>
+<path d="M 290 334 C 300 346, 300 346, 290 354" fill="none" stroke="#4F46E5" stroke-width="1.6" marker-end="url(#agr)" opacity="1"/>
+<text x="78" y="356" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13.6" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dominant-baseline="middle">low │ low e r │ low e s t</text>
+<text x="78" y="376" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">دمج e r → er</text>
+<path d="M 290 386 C 300 398, 300 398, 290 406" fill="none" stroke="#4F46E5" stroke-width="1.6" marker-end="url(#agr)" opacity="1"/>
+<text x="78" y="408" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13.6" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dominant-baseline="middle">low │ lower │ lowest</text>
+<text x="78" y="428" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">النهاية حسب حجم المفردات</text>
+<rect x="190" y="440" width="277.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="328.5" y="452.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">يعيد الدمج حتى استيفاء حجم المفردات</text>
+<rect x="480" y="84" width="532" height="380" rx="14" ry="14" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="746.0" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">على نص عربي حقيقي (توضيحي)</text>
+<text x="504" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">البرمجة</text>
+<rect x="950" y="142" width="34" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="967.0" y="156" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">ال</text>
+<rect x="905" y="142" width="45" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="927.5" y="156" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">برم</text>
+<rect x="871" y="142" width="34" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="888.0" y="156" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">جة</text>
+<text x="504" y="222" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">فاعلموه</text>
+<rect x="950" y="206" width="34" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="967.0" y="220" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">ف</text>
+<rect x="883" y="206" width="67" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="916.5" y="220" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">اعلمو</text>
+<rect x="849" y="206" width="34" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="866.0" y="220" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">ه</text>
+<text x="504" y="286" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">متعدد الوسائط</text>
+<rect x="917" y="270" width="67" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="950.5" y="284" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">متعدد</text>
+<rect x="883" y="270" width="34" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="900.0" y="284" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">ال</text>
+<rect x="816" y="270" width="67" height="28" rx="7" ry="7" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="849.5" y="284" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">وسائط</text>
+<text x="746.0" y="360" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="middle" fill="#4F46E5" opacity="0.8" dir="rtl" dominant-baseline="middle">الشائع يبقى كما هو، والكلمات النادرة تُقصّ إلى مقاطع معلومة</text>
+<rect x="506" y="440" width="454.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="733.3" y="452.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">شارات خاصة: مسافة سابقة قبل كلمة جديدة، وعلامة نهاية الوحدة</text>
+<text x="520.0" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">BPE يلتقط اللواحق المتكررة في العربية (ال، ات، ها) من الإحصاء — دون قواعد صرف جاهزة</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 4 — الترميز إلى وحدات</text>
+</svg>

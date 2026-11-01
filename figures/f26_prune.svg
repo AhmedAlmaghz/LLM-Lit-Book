@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 520" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs></defs>
+<rect x="0" y="0" width="1040" height="520" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">التشذيب: احذف — ثم استعد المعنى</text>
+<rect x="28" y="84" width="460" height="200" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="258" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">تشذيب غير مقيد (Unstructured)</text>
+<circle cx="64" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="150" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="236" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="322" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="408" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="64" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="150" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="236" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="322" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="408" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="64" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="150" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="236" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="322" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="408" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="64" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="150" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="236" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="322" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="408" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="64" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="150" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="236" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="322" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="408" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="64" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="150" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="236" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="322" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="408" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="64" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="150" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="236" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="322" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="408" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="64" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="150" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="236" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="322" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="408" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="64" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="150" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="236" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="322" cy="140" r="5.5" fill="#4F46E5"/>
+<circle cx="408" cy="140" r="5.5" fill="#CBD5E1"/>
+<circle cx="64" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="150" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="236" cy="166" r="5.5" fill="#4F46E5"/>
+<circle cx="322" cy="166" r="5.5" fill="#CBD5E1"/>
+<circle cx="408" cy="166" r="5.5" fill="#4F46E5"/>
+<text x="258" y="262" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أصفار متفرقة — تحتاج عتادًا يدعم التناثر</text>
+<rect x="560" y="84" width="452" height="200" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="786.0" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">تشذيب مقيد (Structured)</text>
+<rect x="580" y="140" width="320" height="34" rx="8" ry="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.4" opacity="1"/>
+<text x="740" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="600" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">طبقة FFN</text>
+<text x="916" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">يبقى ✓</text>
+<rect x="580" y="184" width="320" height="34" rx="8" ry="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.4" opacity="1"/>
+<text x="740" y="202" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="600" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">رأس انتباه</text>
+<text x="916" y="202" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">يبقى ✓</text>
+<rect x="580" y="228" width="320" height="34" rx="8" ry="8" fill="#FFFFFF" stroke="#E11D48" stroke-width="1.4" opacity="1"/>
+<text x="740" y="246" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="600" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">كتلة كاملة</text>
+<text x="916" y="246" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">يُحذف ✗</text>
+<rect x="28" y="312" width="984" height="120" rx="14" ry="14" fill="#ECFDF5" stroke="#34D399" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="340" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">استعادة الجودة: Self-Data Distillation</text>
+<text x="520.0" y="372" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.6" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">النسخة الأصلية تولّد بيانات → النسخة المشذّبة تتدرب عليها — ثم دمج النسخ المستعادة (Merge)</text>
+<rect x="300.0" y="396" width="454.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="527.3" y="408.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">Llama-3.1-8B: حذف 6 كتل + استعادة ثم دمج = جودة قابلة للنشر</text>
+<rect x="28" y="452" width="984" height="48" rx="12" ry="12" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="477" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="600" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">التشذيب الحاد بدون استعادة يفقد القدرة التفكيرية — ابدأ بـ 10–25% واحتفظ بقياس على مهام صعبة</text>
+<text x="1028" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 32 — التشذيب واستعادة الجودة</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">الانتباه الذاتي: Q·Kᵀ ÷ √d_k ثم المزج مع V</text>
+<rect x="28.0" y="118" width="148.0" height="84" rx="12" ry="12" fill="white" stroke="#4F46E5" stroke-width="1.6" opacity="1"/>
+<rect x="28.0" y="118" width="7" height="84" rx="3.5" ry="3.5" fill="#4F46E5"/>
+<text x="105.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">Q, K, V</text>
+<text x="105.0" y="174" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">استعلام/مفتاح/قيمة</text>
+<line x1="178.0" y1="160" x2="190.0" y2="160" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="192.0" y="118" width="148.0" height="84" rx="12" ry="12" fill="white" stroke="#7C3AED" stroke-width="1.6" opacity="1"/>
+<rect x="192.0" y="118" width="7" height="84" rx="3.5" ry="3.5" fill="#7C3AED"/>
+<text x="269.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">QKᵀ</text>
+<text x="269.0" y="174" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">قرابة كل زوج مواضع</text>
+<line x1="342.0" y1="160" x2="354.0" y2="160" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="356.0" y="118" width="148.0" height="84" rx="12" ry="12" fill="white" stroke="#0891B2" stroke-width="1.6" opacity="1"/>
+<rect x="356.0" y="118" width="7" height="84" rx="3.5" ry="3.5" fill="#0891B2"/>
+<text x="433.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">÷ √d_k</text>
+<text x="433.0" y="174" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">تثبيت الأعداد</text>
+<line x1="506.0" y1="160" x2="518.0" y2="160" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="520.0" y="118" width="148.0" height="84" rx="12" ry="12" fill="white" stroke="#D97706" stroke-width="1.6" opacity="1"/>
+<rect x="520.0" y="118" width="7" height="84" rx="3.5" ry="3.5" fill="#D97706"/>
+<text x="597.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">+ Mask</text>
+<text x="597.0" y="174" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">منع رؤية المستقبل</text>
+<line x1="670.0" y1="160" x2="682.0" y2="160" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="684.0" y="118" width="148.0" height="84" rx="12" ry="12" fill="white" stroke="#E11D48" stroke-width="1.6" opacity="1"/>
+<rect x="684.0" y="118" width="7" height="84" rx="3.5" ry="3.5" fill="#E11D48"/>
+<text x="761.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">softmax</text>
+<text x="761.0" y="174" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">تحويل إلى أوزان</text>
+<line x1="834.0" y1="160" x2="846.0" y2="160" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="848.0" y="118" width="148.0" height="84" rx="12" ry="12" fill="white" stroke="#059669" stroke-width="1.6" opacity="1"/>
+<rect x="848.0" y="118" width="7" height="84" rx="3.5" ry="3.5" fill="#059669"/>
+<text x="925.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">· V</text>
+<text x="925.0" y="174" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">مزج القيم المختارة</text>
+<text x="108" y="300" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أوزان الانتباه (مثال حسي)</text>
+<rect x="120" y="370" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="120" y="400" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="150" y="400" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="120" y="430" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="150" y="430" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="180" y="430" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="120" y="460" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.66"/>
+<rect x="150" y="460" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.52"/>
+<rect x="180" y="460" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.52"/>
+<rect x="210" y="460" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="120" y="490" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="150" y="490" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="180" y="490" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="210" y="490" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<rect x="240" y="490" width="27" height="27" rx="4" fill="#4F46E5" opacity="0.26"/>
+<text x="114" y="354" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">القطة</text>
+<text x="135" y="332" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">القطة</text>
+<text x="114" y="384" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">جلست</text>
+<text x="165" y="332" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="0.85" dir="rtl" dominant-baseline="middle">جلست</text>
+<text x="114" y="414" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">على</text>
+<text x="195" y="332" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="0.85" dir="rtl" dominant-baseline="middle">على</text>
+<text x="114" y="444" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">السجادة</text>
+<text x="225" y="332" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="0.85" dir="rtl" dominant-baseline="middle">السجادة</text>
+<text x="114" y="474" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">لأنها</text>
+<text x="255" y="332" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="0.85" dir="rtl" dominant-baseline="middle">لأنها</text>
+<text x="114" y="504" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">متعبة</text>
+<text x="285" y="332" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="0.85" dir="rtl" dominant-baseline="middle">متعبة</text>
+<rect x="620" y="300" width="388" height="200" rx="14" ry="14" fill="#ECFEFF" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<text x="816.0" y="328" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dir="rtl" dominant-baseline="middle">القناع السببي (Causal Mask)</text>
+<text x="640" y="356" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">لأنها ← (القطة؟ السجادة؟) الآن يتضح:</text>
+<text x="640" y="380" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">«القطة» توزع وزن انتباه مرتفع — إحالة ضميرية صحيحة</text>
+<text x="640" y="404" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">المثلث البنفسجي: يمنع «رؤية» المستقبل أثناء التدريب</text>
+<rect x="642" y="440" width="321.40000000000003" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#E11D48" stroke-width="1.1" opacity="1"/>
+<text x="802.7" y="452.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">نسيان القناع = أشهر أخطاء تدريب المولّدات</text>
+<text x="520.0" y="530" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">كل رأس يسأل سؤالًا مختلفًا: تتبع/تركيب/ضمائر — والرؤوس تتضاعف مع (Multi-Head)</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 7 — الانتباه الذاتي</text>
+</svg>

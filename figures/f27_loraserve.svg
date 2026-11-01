@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 480" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker>
+<marker id="agrC" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker></defs>
+<rect x="0" y="0" width="1040" height="480" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">نموذج أساس واحد + مئة عميل: نمط LoRA-as-a-Service</text>
+<rect x="90" y="110" width="340" height="250" rx="16" ry="16" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="260" y="142" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">القاعدة المشتركة (Base LLM)</text>
+<text x="260" y="172" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">واحة واحدة لتخزين الأوزان</text>
+<rect x="120" y="200" width="280" height="60" rx="10" ry="10" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="260" y="232" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أوزان مجمّدة — لا تتغير</text>
+<rect x="120" y="282" width="280" height="54" rx="10" ry="10" fill="white" stroke="#CBD5E1" stroke-width="1.4" stroke-dasharray="5 3" opacity="1"/>
+<text x="260" y="312" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">بُنيت مرة واحدة — تكلفة مشتركة</text>
+<rect x="480" y="116" width="220" height="46" rx="10" ry="10" fill="white" stroke="#059669" stroke-width="1.5" opacity="1"/>
+<rect x="480" y="116" width="6" height="46" rx="3" ry="3" fill="#059669"/>
+<text x="598" y="144" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.2" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">عربية قانونية</text>
+<path d="M 440 240 C 452 140, 456 140, 474 140" fill="none" stroke="#059669" stroke-width="1.6" marker-end="url(#agrC)" opacity="0.85"/>
+<rect x="740" y="116" width="220" height="46" rx="10" ry="10" fill="white" stroke="#0891B2" stroke-width="1.5" opacity="1"/>
+<rect x="740" y="116" width="6" height="46" rx="3" ry="3" fill="#0891B2"/>
+<text x="858" y="144" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.2" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">ترجمة طبية</text>
+<path d="M 440 240 C 452 140, 456 140, 474 140" fill="none" stroke="#059669" stroke-width="1.6" marker-end="url(#agrC)" opacity="0.85"/>
+<rect x="480" y="178" width="220" height="46" rx="10" ry="10" fill="white" stroke="#7C3AED" stroke-width="1.5" opacity="1"/>
+<rect x="480" y="178" width="6" height="46" rx="3" ry="3" fill="#7C3AED"/>
+<text x="598" y="206" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.2" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">طلاقة تسويق</text>
+<path d="M 440 240 C 452 202, 456 202, 474 202" fill="none" stroke="#059669" stroke-width="1.6" marker-end="url(#agrC)" opacity="0.85"/>
+<rect x="740" y="178" width="220" height="46" rx="10" ry="10" fill="white" stroke="#D97706" stroke-width="1.5" opacity="1"/>
+<rect x="740" y="178" width="6" height="46" rx="3" ry="3" fill="#D97706"/>
+<text x="858" y="206" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.2" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">تدقيق كود</text>
+<path d="M 440 240 C 452 202, 456 202, 474 202" fill="none" stroke="#059669" stroke-width="1.6" marker-end="url(#agrC)" opacity="0.85"/>
+<rect x="480" y="240" width="220" height="46" rx="10" ry="10" fill="white" stroke="#E11D48" stroke-width="1.5" opacity="1"/>
+<rect x="480" y="240" width="6" height="46" rx="3" ry="3" fill="#E11D48"/>
+<text x="598" y="268" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.2" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">دعم HCoS</text>
+<path d="M 440 240 C 452 264, 456 264, 474 264" fill="none" stroke="#059669" stroke-width="1.6" marker-end="url(#agrC)" opacity="0.85"/>
+<rect x="740" y="240" width="220" height="46" rx="10" ry="10" fill="white" stroke="#334155" stroke-width="1.5" opacity="1"/>
+<rect x="740" y="240" width="6" height="46" rx="3" ry="3" fill="#334155"/>
+<text x="858" y="268" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.2" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">… عم 100</text>
+<path d="M 440 240 C 452 264, 456 264, 474 264" fill="none" stroke="#059669" stroke-width="1.6" marker-end="url(#agrC)" opacity="0.85"/>
+<text x="706" y="356" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">كل محوّل: رتبة صغيرة (r=8..32) — ميغا-بايتات لا غيغا</text>
+<rect x="706" y="372" width="291.8" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="851.9" y="384.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">تبديل ساخن (hot-swap) بلا إعادة تشغيل</text>
+<rect x="28" y="404" width="984" height="56" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="432" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">امتداد اقتصادي: تكلفة التدريب تدفع مرة واحدة؛ كل عميل جديدة = تدريب LoRA ساعات — لا نموذج جديد</text>
+<text x="1028" y="468" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 33 — Adapters وLoRA كنمط بناء</text>
+</svg>

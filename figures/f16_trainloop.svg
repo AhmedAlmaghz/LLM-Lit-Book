@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="36" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">حلقة التدريب المسبق: سبع خطوات لا تغادر</text>
+<rect x="28.0" y="100" width="128.57142857142858" height="56" rx="10" ry="10" fill="white" stroke="#0891B2" stroke-width="1.5" opacity="1"/>
+<rect x="28.0" y="100" width="7" height="56" rx="3.5" ry="3.5" fill="#0891B2"/>
+<text x="95.28571428571429" y="134" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.6" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">batch</text>
+<line x1="158.57142857142858" y1="128" x2="166.57142857142858" y2="128" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="168.57142857142858" y="100" width="128.57142857142858" height="56" rx="10" ry="10" fill="white" stroke="#4F46E5" stroke-width="1.5" opacity="1"/>
+<rect x="168.57142857142858" y="100" width="7" height="56" rx="3.5" ry="3.5" fill="#4F46E5"/>
+<text x="235.8571428571429" y="134" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.6" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">forward</text>
+<line x1="299.14285714285717" y1="128" x2="307.14285714285717" y2="128" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="309.14285714285717" y="100" width="128.57142857142858" height="56" rx="10" ry="10" fill="white" stroke="#D97706" stroke-width="1.5" opacity="1"/>
+<rect x="309.14285714285717" y="100" width="7" height="56" rx="3.5" ry="3.5" fill="#D97706"/>
+<text x="376.42857142857144" y="134" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.6" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">CE loss (ignore PAD)</text>
+<line x1="439.7142857142858" y1="128" x2="447.7142857142858" y2="128" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="449.7142857142858" y="100" width="128.57142857142858" height="56" rx="10" ry="10" fill="white" stroke="#4F46E5" stroke-width="1.5" opacity="1"/>
+<rect x="449.7142857142858" y="100" width="7" height="56" rx="3.5" ry="3.5" fill="#4F46E5"/>
+<text x="517.0000000000001" y="134" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.6" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">backward</text>
+<line x1="580.2857142857143" y1="128" x2="588.2857142857143" y2="128" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="590.2857142857143" y="100" width="128.57142857142858" height="56" rx="10" ry="10" fill="white" stroke="#E11D48" stroke-width="1.5" opacity="1"/>
+<rect x="590.2857142857143" y="100" width="7" height="56" rx="3.5" ry="3.5" fill="#E11D48"/>
+<text x="657.5714285714287" y="134" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.6" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">clip 1.0</text>
+<line x1="720.8571428571429" y1="128" x2="728.8571428571429" y2="128" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="730.8571428571429" y="100" width="128.57142857142858" height="56" rx="10" ry="10" fill="white" stroke="#059669" stroke-width="1.5" opacity="1"/>
+<rect x="730.8571428571429" y="100" width="7" height="56" rx="3.5" ry="3.5" fill="#059669"/>
+<text x="798.1428571428572" y="134" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.6" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">AdamW step</text>
+<line x1="861.4285714285714" y1="128" x2="869.4285714285714" y2="128" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="871.4285714285716" y="100" width="128.57142857142858" height="56" rx="10" ry="10" fill="white" stroke="#7C3AED" stroke-width="1.5" opacity="1"/>
+<rect x="871.4285714285716" y="100" width="7" height="56" rx="3.5" ry="3.5" fill="#7C3AED"/>
+<text x="938.7142857142859" y="134" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.6" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">sched.step()</text>
+<path d="M 972 128 C 972 210, 68 210, 68 130" fill="none" stroke="#4F46E5" stroke-width="1.7" stroke-dasharray="6 5" marker-end="url(#agrA)" opacity="1"/>
+<text x="520.0" y="196" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">كل خطوة تعود للبداية — الخسارة تنقص بالصبر لا بالمعجزات</text>
+<rect x="70" y="240" width="560" height="200" rx="14" ry="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="330" y="266" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">جدول معدل التعلم: Warmup ثم Cosine</text>
+<line x1="130" y1="400" x2="590" y2="400" stroke="#94A3B8" stroke-width="1.2" opacity="1"/>
+<line x1="130" y1="400" x2="130" y2="300" stroke="#94A3B8" stroke-width="1.2" opacity="1"/>
+<path d="M130.0,400.0 134.6,391.0 139.2,382.0 143.8,373.0 148.4,364.0 153.0,355.0 157.6,346.0 162.2,337.0 166.8,328.0 171.4,319.0 176.0,310.0 180.6,310.0 185.2,310.1 189.8,310.2 194.4,310.4 199.0,310.7 203.6,311.0 208.2,311.3 212.8,311.7 217.4,312.2 222.0,312.7 226.6,313.2 231.2,313.8 235.8,314.5 240.4,315.2 245.0,315.9 249.6,316.7 254.2,317.5 258.8,318.4 263.4,319.3 268.0,320.3 272.6,321.3 277.2,322.4 281.8,323.5 286.4,324.6 291.0,325.8 295.6,326.9 300.2,328.2 304.8,329.4 309.4,330.7 314.0,332.1 318.6,333.4 323.2,334.8 327.8,336.2 332.4,337.6 337.0,339.0 341.6,340.5 346.2,341.9 350.8,343.4 355.4,344.9 360.0,346.4 364.6,348.0 369.2,349.5 373.8,351.0 378.4,352.6 383.0,354.1 387.6,355.6 392.2,357.2 396.8,358.7 401.4,360.2 406.0,361.8 410.6,363.3 415.2,364.8 419.8,366.3 424.4,367.7 429.0,369.2 433.6,370.6 438.2,372.0 442.8,373.4 447.4,374.8 452.0,376.1 456.6,377.5 461.2,378.8 465.8,380.0 470.4,381.3 475.0,382.4 479.6,383.6 484.2,384.7 488.8,385.8 493.4,386.9 498.0,387.9 502.6,388.9 507.2,389.8 511.8,390.7 516.4,391.5 521.0,392.3 525.6,393.0 530.2,393.7 534.8,394.4 539.4,395.0 544.0,395.5 548.6,396.0 553.2,396.5 557.8,396.9 562.4,397.2 567.0,397.5 571.6,397.8 576.2,398.0 580.8,398.1 585.4,398.2 590.0,398.2" fill="none" stroke="#059669" stroke-width="2.2" opacity="1"/>
+<line x1="176.0" y1="396" x2="176.0" y2="302" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 3" opacity="1"/>
+<text x="184.0" y="304" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">نهاية warmup</text>
+<text x="130" y="296" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dominant-baseline="middle">LR</text>
+<text x="590" y="416" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="10.5" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dominant-baseline="middle">steps</text>
+<rect x="660" y="240" width="352" height="200" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="836.0" y="266" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">لوحة المراقبة المباشرة</text>
+<text x="694" y="302" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="start" fill="#4F46E5" opacity="1" dominant-baseline="middle">loss</text>
+<text x="978" y="302" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dominant-baseline="middle">0.89 → 0.31</text>
+<text x="694" y="336" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="start" fill="#059669" opacity="1" dominant-baseline="middle">grad_norm</text>
+<text x="978" y="336" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">0.6 (قمة 2.1)</text>
+<text x="694" y="370" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="start" fill="#7C3AED" opacity="1" dominant-baseline="middle">lr</text>
+<text x="978" y="370" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dominant-baseline="middle"> Scheduler 3e-4</text>
+<text x="694" y="404" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="start" fill="#0891B2" opacity="1" dominant-baseline="middle">tokens/s</text>
+<text x="978" y="404" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="end" fill="#334155" opacity="1" dominant-baseline="middle">41.2K</text>
+<rect x="690" y="410" width="299.2" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#D97706" stroke-width="1.1" opacity="1"/>
+<text x="839.6" y="422.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">قاعدة ذهبية: لا تثق بالرقم الأخير وحده</text>
+<rect x="28" y="480" width="984" height="62" rx="12" ry="12" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="504" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">نصيحة تجربة: ارفع LR قصدًا لترى الانفجار مرة — بعدها تتعرف على grad_norm في السجل مباشرة</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 15 — حلقة التدريب</text>
+</svg>

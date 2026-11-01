@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 470" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker></defs>
+<rect x="0" y="0" width="1040" height="470" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">التحسين الذاتي: كل النموذج معلمًا لنفسه</text>
+<rect x="31.60368466854112" y="123.08061731113054" width="236" height="68" rx="12" ry="12" fill="white" stroke="#4F46E5" stroke-width="1.6" opacity="1"/>
+<text x="149.60368466854112" y="150.08061731113054" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.8" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">توليد (نماذج قوية)</text>
+<text x="149.60368466854112" y="172.08061731113054" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">prompts متنوعة, k=1..6</text>
+<rect x="332.3963153314588" y="123.08061731113048" width="236" height="68" rx="12" ry="12" fill="white" stroke="#D97706" stroke-width="1.6" opacity="1"/>
+<text x="450.3963153314588" y="150.08061731113048" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.8" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">فلترة (معايير صارمة)</text>
+<text x="450.3963153314588" y="172.08061731113048" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dominant-baseline="middle">verifier + dedup</text>
+<rect x="332.3963153314589" y="308.91938268886946" width="236" height="68" rx="12" ry="12" fill="white" stroke="#7C3AED" stroke-width="1.6" opacity="1"/>
+<text x="450.3963153314589" y="335.91938268886946" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.8" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">تدريب (SFT/DPO)</text>
+<text x="450.3963153314589" y="357.91938268886946" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">بيانات من النموذج نفسه</text>
+<rect x="31.603684668541092" y="308.91938268886946" width="236" height="68" rx="12" ry="12" fill="white" stroke="#059669" stroke-width="1.6" opacity="1"/>
+<text x="149.6036846685411" y="335.91938268886946" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.8" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">تقييم (مجموعة ثابتة)</text>
+<text x="149.6036846685411" y="357.91938268886946" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">بلا تسرب إلى التوليد</text>
+<text x="300" y="242" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">حلقة مغلقة</text>
+<text x="300" y="266" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dominant-baseline="middle">each loop: critique &amp; retrain</text>
+<path d="M 268.4,146.7 A 108,108 0 0 1 331.6,146.7" fill="none" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrA)" opacity="0.9"/>
+<path d="M 407.9,255.7 A 108,108 0 0 0 407.9,244.3" fill="none" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrA)" opacity="0.9"/>
+<path d="M 331.6,353.3 A 108,108 0 0 1 268.4,353.3" fill="none" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrA)" opacity="0.9"/>
+<path d="M 192.1,244.3 A 108,108 0 0 0 192.1,255.7" fill="none" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrA)" opacity="0.9"/>
+<rect x="60" y="414" width="277.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#E11D48" stroke-width="1.1" opacity="1"/>
+<text x="198.5" y="426.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">خطر: انهيار التنوّع (mode collapse)</text>
+<rect x="400" y="414" width="306.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="553.3" y="426.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">قاعدة: دمج الأصل مع الجديد (SLERP/TIES)</text>
+<rect x="760" y="414" width="158.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="839.3" y="426.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">قياس على منحنى ثابت</text>
+<text x="1028" y="458" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 34 — Self-Improvement وSynthetic Data</text>
+</svg>

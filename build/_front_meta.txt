@@ -1,0 +1,12 @@
+{
+ "title": "المحوّلات والنماذج اللغوية الكبيرة",
+ "subtitle": "من النظرية إلى بناء أنظمة ذكية",
+ "edition": "الطبعة الأولى — 2026",
+ "publisher": "BookAI",
+ "stats": {
+  "words": 102354,
+  "code_blocks": 364,
+  "minutes": 572,
+  "pages_est": 319
+ }
+}

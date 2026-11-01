@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="agrP" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7C3AED"/></marker></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">VLM: كيف يلتقي التدفق البصري مع اللغة</text>
+<rect x="70" y="110" width="250" height="170" rx="16" ry="16" fill="#ECFEFF" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<text x="195" y="142" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">Vision Encoder (ViT)</text>
+<rect x="120" y="162" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="158" y="162" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="196" y="162" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="234" y="162" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="120" y="184" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="158" y="184" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="196" y="184" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="234" y="184" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="120" y="206" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="158" y="206" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="196" y="206" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="234" y="206" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="120" y="228" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="158" y="228" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="196" y="228" width="34" height="18" rx="3" ry="3" fill="#22D3EE" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<rect x="234" y="228" width="34" height="18" rx="3" ry="3" fill="#0891B2" stroke="none" stroke-width="1.4" opacity="0.55"/>
+<text x="195" y="260" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">صورة ← رُقَم مرئية 16×</text>
+<rect x="390" y="140" width="230" height="130" rx="16" ry="16" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.4" opacity="1"/>
+<text x="505" y="172" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">Projector (MLP)</text>
+<text x="505" y="202" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">فضاء الرؤية → فضاء اللغة</text>
+<text x="505" y="228" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">إسقاط منفصل أو دمج عميق</text>
+<rect x="690" y="140" width="290" height="170" rx="16" ry="16" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="835" y="172" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">LLM (Qwen / Aya …)</text>
+<text x="835" y="202" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">الرموز البصرية تعامل كأنها نص</text>
+<text x="835" y="228" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">التوليد يجري بالتدريب المتزامن</text>
+<line x1="320" y1="195" x2="388" y2="195" stroke="#7C3AED" stroke-width="1.9" marker-end="url(#agrP)" opacity="1"/>
+<line x1="620" y1="195" x2="688" y2="195" stroke="#4F46E5" stroke-width="1.9" marker-end="url(#agrA)" opacity="1"/>
+<rect x="320" y="168" width="99.4" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="369.7" y="180.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">جسر الإسقاط</text>
+<rect x="28" y="310" width="984" height="148" rx="16" ry="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="340" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">طرائق الدمج</text>
+<rect x="52.0" y="364" width="106.80000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#D97706" stroke-width="1.1" opacity="1"/>
+<text x="105.4" y="376.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.8" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">سطحي (LLaVA)</text>
+<text x="54.0" y="396" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">إسقاط فقط — أسهل وأرخص</text>
+<text x="54.0" y="420" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dominant-baseline="middle"></text>
+<rect x="369.3333333333333" y="364" width="136.4" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="437.5333333333333" y="376.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.8" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">عميق (DeepStack)</text>
+<text x="371.3333333333333" y="396" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">دمج في عمق الطبقات</text>
+<text x="371.3333333333333" y="420" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dominant-baseline="middle"></text>
+<rect x="686.6666666666666" y="364" width="240.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="806.6666666666666" y="376.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">MoE متعدد الوسائط (Ming-Flash)</text>
+<text x="688.6666666666666" y="396" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">خبراء للرؤية واللغة بالتوجيه</text>
+<text x="688.6666666666666" y="420" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dominant-baseline="middle"></text>
+<rect x="28" y="478" width="984" height="76" rx="14" ry="14" fill="#ECFDF5" stroke="#34D399" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="506" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.4" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">ابدأ كالتالي: LLM جاهز + ViT جاهز + إسقاط صغير (تجميد الطرفين) — أرخص من الصفر بمرات عديدة</text>
+<text x="520.0" y="534" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">بيانات: أزواج (صورة، وصف) — للعربية Aya-Vision 8B بدعم لغوي جيد</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصول 25–26 — النماذج متعددة الوسائط</text>
+</svg>

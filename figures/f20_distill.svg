@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 520" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker></defs>
+<rect x="0" y="0" width="1040" height="520" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">التقطير: علّم الطالب أن يفكر كالمعلم — لا أن يقلد قراراته فقط</text>
+<rect x="70" y="110" width="300" height="220" rx="16" ry="16" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="220" y="140" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">النموذج الكبير (Teacher)</text>
+<text x="220" y="172" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">قدرة عالية وكلفة تدريب ضخمة</text>
+<rect x="90" y="196" width="46.85714285714286" height="15" rx="4" ry="4" fill="#6366F1" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="146.85714285714286" y="204" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">قطة</text>
+<rect x="90" y="218" width="35.42857142857143" height="15" rx="4" ry="4" fill="#6366F1" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="135.42857142857144" y="226" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">كلب</text>
+<rect x="90" y="240" width="201.14285714285717" height="15" rx="4" ry="4" fill="#6366F1" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="301.14285714285717" y="248" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">قطط</text>
+<rect x="90" y="262" width="75.42857142857143" height="15" rx="4" ry="4" fill="#6366F1" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="175.42857142857144" y="270" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أسد</text>
+<rect x="90" y="284" width="46.85714285714286" height="15" rx="4" ry="4" fill="#6366F1" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="146.85714285714286" y="292" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">شيء</text>
+<text x="220" y="316" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">توزيع ناعم: T↑ يذوّب الحدة ويكشف البدائل</text>
+<rect x="640" y="110" width="300" height="220" rx="16" ry="16" fill="#ECFDF5" stroke="#34D399" stroke-width="1.4" opacity="1"/>
+<text x="790" y="140" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">النموذج الصغير (Student)</text>
+<text x="790" y="172" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أصغر وأسرع — قدرة قريبة</text>
+<rect x="660" y="196" width="32.25806451612903" height="15" rx="4" ry="4" fill="#10B981" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="660" y="218" width="16.129032258064516" height="15" rx="4" ry="4" fill="#10B981" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="660" y="240" width="180.6451612903226" height="15" rx="4" ry="4" fill="#10B981" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="660" y="262" width="67.74193548387098" height="15" rx="4" ry="4" fill="#10B981" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="660" y="284" width="25.806451612903228" height="15" rx="4" ry="4" fill="#10B981" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="790" y="316" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">يتعلّم التوزيع الاحتمالي لا القرار فقط</text>
+<line x1="370" y1="195" x2="640" y2="195" stroke="#059669" stroke-width="2.2" marker-end="url(#agrA)" opacity="1"/>
+<rect x="430" y="178" width="136.4" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="498.2" y="190.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">توزيع المعلم + T</text>
+<rect x="406" y="344" width="228" height="84" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="520" y="368" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">الخسارة المركّبة</text>
+<text x="520" y="394" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.6" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dominant-baseline="middle">α·CE(ce, y) + (1-α)·T²·KL(pT ‖ pS)</text>
+<text x="520" y="416" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">جرّب T=2..4؛ بلا T أغلب المعرفة تنهار</text>
+<rect x="28" y="438" width="984" height="62" rx="14" ry="14" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="470" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">فلتر بيانات المعلم دائمًا — الورث يحمل أخطاء؛ Self-Data Distillation استعادة ما تشذّب فيه المعلم</text>
+<text x="1028" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 30 — التقطير (Distillation)</text>
+</svg>

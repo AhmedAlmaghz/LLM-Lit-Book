@@ -1,0 +1,36 @@
+IN : \(\sigma(z) = \frac{1}{1+e^{-z}}\)
+OUT: σ(z) = (1)/(1+e⁻ᶻ)
+
+IN : Tanh: \(\frac{e^z - e^{-z}}{e^z + e^{-z}}\)
+OUT: Tanh: (eᶻ - e⁻ᶻ)/(eᶻ + e⁻ᶻ)
+
+IN : \(\mathrm{Focal} = -\alpha (1-\hat{y})^{\gamma} \log \hat{y}\)
+OUT: Focal = -α (1-ŷ)ᵞ log ŷ
+
+IN : \(P(\text{dropout})\) — ضَر капуста \(d_{model}\), \(X_{ij}\), \(10^{-5}\)
+OUT: P(dropout) — ضَر капуста d_(model), Xᵢⱼ, 10⁻⁵
+
+IN : \(\text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V\)
+OUT: Attention(Q,K,V) = softmax((QKᵀ)/(√(dₖ)))V
+
+IN : \(W = W_0 + \frac{\alpha}{r}\,BA,\quad \Delta W = BA\)
+OUT: W = W₀ + α/r BA, Δ W = BA
+
+IN : \(\mathcal{L}_{OR} = -\log\sigma\left(\log\frac{\pi_\theta(y_w|x)}{\pi_{ref}(y|x)} - \log\frac{\pi_\theta(y_l|x)}{\pi_{ref}(y|x)}\right)\)
+OUT: 𝓛_(OR) = -logσ(log(π_(θ)(y_(w)|x))/(π_(ref)(y|x)) - log(π_(θ)(yₗ|x))/(π_(ref)(y|x)))
+
+IN : \(d_{ff} = \frac{8}{3}d\),\(K \in \mathbb{R}^{n \times d_k}\), \(d_c \ll d_k, d_v\)
+OUT: d_(ff) = 8/3d,K ∈ ℝ^(n × dₖ), d_(c) ≪ dₖ, dᵥ
+
+IN : \(\sum_{i=1}^{d_k} q_i k_i\)
+OUT: Σᵢ₌₁^(dₖ) qᵢ kᵢ
+
+IN : \(\mathrm{PPL} = e^{\mathrm{loss}} \approx 10^{-5}\)
+OUT: PPL = eˡᵒˢˢ ≈ 10⁻⁵
+
+IN : \(\begin{pmatrix} a & b \\ c & d \end{pmatrix}\)
+OUT: a & b ; c & d
+
+IN : \(\nabla_{\theta} J(\theta)\), \(50\%\), \(\infty\), \(\Re\)
+OUT: ∇_(θ) J(θ), 50%, ∞, ℜ
+

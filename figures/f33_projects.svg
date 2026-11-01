@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">خمسة مشاريع متكاملة — من وصفية إلى توظيف</text>
+<rect x="28.0" y="68" width="442.0" height="108" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="28.0" y="68" width="6" height="108" rx="3" ry="3" fill="#059669"/>
+<circle cx="72.0" cy="102" r="22" fill="#05966922" stroke="#059669" stroke-width="1.5"/>
+<text x="72.0" y="102" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">41 </text>
+<text x="104.0" y="104" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.4" font-weight="700" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle"> تحليل مشاعر عربية</text>
+<text x="54.0" y="134" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">بيانات: فصحى + لهجات + سخرية متخفية</text>
+<text x="54.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">LoRA صغير مقابل LLM كبير بـ prompting</text>
+<rect x="500.0" y="68" width="442.0" height="108" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="500.0" y="68" width="6" height="108" rx="3" ry="3" fill="#0891B2"/>
+<circle cx="544.0" cy="102" r="22" fill="#0891B222" stroke="#0891B2" stroke-width="1.5"/>
+<text x="544.0" y="102" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">42 </text>
+<text x="576.0" y="104" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.4" font-weight="700" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle"> ترجمة آلية</text>
+<text x="526.0" y="134" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">قياس BLEU/COMET · لهجات · مصطلحات مخصصة</text>
+<text x="526.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">بيانات موازية أوسع، مرجع ترجمة نظيف</text>
+<rect x="28.0" y="186" width="442.0" height="108" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="28.0" y="186" width="6" height="108" rx="3" ry="3" fill="#4F46E5"/>
+<circle cx="72.0" cy="220" r="22" fill="#4F46E522" stroke="#4F46E5" stroke-width="1.5"/>
+<text x="72.0" y="220" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">43 </text>
+<text x="104.0" y="222" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.4" font-weight="700" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle"> RAG عربي</text>
+<text x="54.0" y="252" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">PDF/Word 500 صفحة · فهرسة دلالية</text>
+<text x="54.0" y="276" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">الأمانة (Faithfulness) هي الفيصل</text>
+<rect x="500.0" y="186" width="442.0" height="108" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="500.0" y="186" width="6" height="108" rx="3" ry="3" fill="#7C3AED"/>
+<circle cx="544.0" cy="220" r="22" fill="#7C3AED22" stroke="#7C3AED" stroke-width="1.5"/>
+<text x="544.0" y="220" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">44 </text>
+<text x="576.0" y="222" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.4" font-weight="700" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle"> تلخيص طويل</text>
+<text x="526.0" y="252" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">مذكرات 200K · ضغط ودمج هرمي</text>
+<text x="526.0" y="276" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">قياس الاتساق (consistency) عبر المقاطع</text>
+<rect x="28.0" y="304" width="442.0" height="108" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="28.0" y="304" width="6" height="108" rx="3" ry="3" fill="#D97706"/>
+<circle cx="72.0" cy="338" r="22" fill="#D9770622" stroke="#D97706" stroke-width="1.5"/>
+<text x="72.0" y="338" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#D97706" opacity="1" dominant-baseline="middle">45 </text>
+<text x="104.0" y="340" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.4" font-weight="700" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle"> توليد كود</text>
+<text x="54.0" y="370" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">دوال/اختبارات/استثناءات · معايير HumanEval</text>
+<text x="54.0" y="394" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">مراجعة كود + شرح الثغرات حسب المستوى</text>
+<rect x="268" y="430" width="504" height="70" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="452" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.4" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">صيغة كل مشروع: البيانات ← النمذجة ← الاضبط ← القياس ← النشر</text>
+<text x="520.0" y="478" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.6" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">لا رقم بلا معنى: ابدأ بقياس بسيط أساسًا (BM25، Naive Bayes) — ثم أثبت جدارة ما تقترحه</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الجزء التاسع — المشاريع العملية</text>
+</svg>

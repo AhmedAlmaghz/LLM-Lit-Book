@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 480" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs></defs>
+<rect x="0" y="0" width="1040" height="480" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">التنظيم (Regularization): أدوات منع الحفظ الأعمى</text>
+<rect x="28" y="82" width="470" height="150" rx="14" ry="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="28" y="82" width="6" height="150" rx="3" ry="3" fill="#4F46E5"/>
+<circle cx="82" cy="134" r="26" fill="#4F46E518" stroke="#4F46E5" stroke-width="1.6"/>
+<circle cx="71" cy="127" r="7" fill="white" stroke="#4F46E5" stroke-width="1.6"/>
+<circle cx="84" cy="131" r="7" fill="white" stroke="#4F46E5" stroke-width="1.6"/>
+<circle cx="94" cy="138" r="7" fill="white" stroke="#4F46E5" stroke-width="1.6"/>
+<line x1="70" y1="144" x2="96" y2="118" stroke="#E11D48" stroke-width="1.8" opacity="1"/>
+<text x="124" y="134" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="17.5" font-weight="700" text-anchor="start" fill="#4F46E5" opacity="1" dominant-baseline="middle">Dropout</text>
+<text x="124" y="168" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">تعطيل عشوائي 10–30% من الخلايا في كل خطوة تدريب</text>
+<text x="124" y="200" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">شبكة مختلفة كل خطوة — قوة مع إسقاط</text>
+<rect x="518" y="82" width="470" height="150" rx="14" ry="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="518" y="82" width="6" height="150" rx="3" ry="3" fill="#059669"/>
+<circle cx="572" cy="134" r="26" fill="#05966918" stroke="#059669" stroke-width="1.6"/>
+<path d="M560 134 l6 0 l4 -8 l6 16 l6 -16 l6 16 l6 -16 l4 8 l6 0" fill="none" stroke="#059669" stroke-width="1.8"/>
+<text x="614" y="134" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="17.5" font-weight="700" text-anchor="start" fill="#059669" opacity="1" dominant-baseline="middle">Weight Decay</text>
+<text x="614" y="168" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">عقوبة λΣw² تفضّل أوزانًا صغيرة وتُنعّم التعميم؛ عبر AdamW</text>
+<text x="614" y="200" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">ثبات السلوك ومقاومة الاهتزاز</text>
+<rect x="28" y="254" width="470" height="150" rx="14" ry="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="28" y="254" width="6" height="150" rx="3" ry="3" fill="#D97706"/>
+<circle cx="82" cy="306" r="26" fill="#D9770618" stroke="#D97706" stroke-width="1.6"/>
+<path d="M 68.0,292.0  69.0,293.8  70.1,295.5  71.1,297.1  72.1,298.6  73.2,300.0  74.2,301.3  75.2,302.5  76.3,303.7  77.3,304.7  78.3,305.8  79.4,306.7  80.4,307.6  81.4,308.5  82.5,309.3  83.5,310.1  84.6,310.8  85.6,311.5  86.6,312.1  87.7,312.7  88.7,313.3  89.7,313.9  90.8,314.4  91.8,314.9  92.8,315.4  93.9,315.9  94.9,316.3  95.9,316.7  97.0,317.2  98.0,317.6 " fill="none" stroke="#D97706" stroke-width="1.8" opacity="1"/>
+<text x="124" y="306" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="17.5" font-weight="700" text-anchor="start" fill="#D97706" opacity="1" dominant-baseline="middle">Early Stopping</text>
+<text x="124" y="340" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">راقب خسارة التحقق وتوقّف عند patience خطوات مع حفظ أفضل نقطة</text>
+<text x="124" y="372" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">أبسط تنظيم وأقوى أثر — بلا كلفة</text>
+<rect x="518" y="254" width="470" height="150" rx="14" ry="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="518" y="254" width="6" height="150" rx="3" ry="3" fill="#0891B2"/>
+<circle cx="572" cy="306" r="26" fill="#0891B218" stroke="#0891B2" stroke-width="1.6"/>
+<rect x="558" y="294" width="30" height="24" rx="4" ry="4" fill="#0891B220" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<rect x="566" y="288" width="30" height="24" rx="4" ry="4" fill="white" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<text x="614" y="306" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="17.5" font-weight="700" text-anchor="start" fill="#0891B2" opacity="1" dir="rtl" dominant-baseline="middle">بيانات أكثر</text>
+<text x="614" y="340" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">Augmentation أو بيانات حقيقية إضافية — أقوى علاج عملي</text>
+<text x="614" y="372" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">لا بديل عنها أبدًا</text>
+<text x="520.0" y="450" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">قاعدة عملية: اجمع تنظيمين قبل أن تفكر في نموذج أكبر</text>
+<text x="1028" y="468" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 2 — التنظيم</text>
+</svg>

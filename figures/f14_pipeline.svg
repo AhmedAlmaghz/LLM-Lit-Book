@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 600" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker></defs>
+<rect x="0" y="0" width="1040" height="600" fill="#FFFFFF"/>
+<text x="520.0" y="40" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">بناء LLM من الصفر: خط الأنابيب الكامل (الجزء الرابع)</text>
+<rect x="30.0" y="92" width="128.0" height="110" rx="12" ry="12" fill="white" stroke="#0891B2" stroke-width="1.5" opacity="1"/>
+<path d="M44.0,92 h100.0 a14,14 0 0 1 14,14 v22 h-128.0 v-22 a14,14 0 0 1 14,-14 z" fill="#0891B2"/>
+<text x="94.0" y="121" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">CH12</text>
+<text x="94.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">تخطيط المشروع</text>
+<text x="94.0" y="184" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">البيانات والزحف</text>
+<line x1="158.0" y1="147" x2="169.0" y2="147" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="170.0" y="92" width="128.0" height="110" rx="12" ry="12" fill="white" stroke="#4F46E5" stroke-width="1.5" opacity="1"/>
+<path d="M184.0,92 h100.0 a14,14 0 0 1 14,14 v22 h-128.0 v-22 a14,14 0 0 1 14,-14 z" fill="#4F46E5"/>
+<text x="234.0" y="121" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">CH13</text>
+<text x="234.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">Tokenizer</text>
+<text x="234.0" y="184" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">BPE العربي 32K</text>
+<line x1="298.0" y1="147" x2="309.0" y2="147" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="310.0" y="92" width="128.0" height="110" rx="12" ry="12" fill="white" stroke="#7C3AED" stroke-width="1.5" opacity="1"/>
+<path d="M324.0,92 h100.0 a14,14 0 0 1 14,14 v22 h-128.0 v-22 a14,14 0 0 1 14,-14 z" fill="#7C3AED"/>
+<text x="374.0" y="121" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">CH14</text>
+<text x="374.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">النموذج</text>
+<text x="374.0" y="184" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dominant-baseline="middle">RoPE · SwiGLU · RMSNorm</text>
+<line x1="438.0" y1="147" x2="449.0" y2="147" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="450.0" y="92" width="128.0" height="110" rx="12" ry="12" fill="white" stroke="#059669" stroke-width="1.5" opacity="1"/>
+<path d="M464.0,92 h100.0 a14,14 0 0 1 14,14 v22 h-128.0 v-22 a14,14 0 0 1 14,-14 z" fill="#059669"/>
+<text x="514.0" y="121" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">CH15</text>
+<text x="514.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">Pre-training</text>
+<text x="514.0" y="184" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dominant-baseline="middle">CPU/GPU · checkpoints</text>
+<line x1="578.0" y1="147" x2="589.0" y2="147" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="590.0" y="92" width="128.0" height="110" rx="12" ry="12" fill="white" stroke="#D97706" stroke-width="1.5" opacity="1"/>
+<path d="M604.0,92 h100.0 a14,14 0 0 1 14,14 v22 h-128.0 v-22 a14,14 0 0 1 14,-14 z" fill="#D97706"/>
+<text x="654.0" y="121" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">CH16</text>
+<text x="654.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">SFT/LoRA</text>
+<text x="654.0" y="184" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">تعليمات وتوحيد</text>
+<line x1="718.0" y1="147" x2="729.0" y2="147" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="730.0" y="92" width="128.0" height="110" rx="12" ry="12" fill="white" stroke="#E11D48" stroke-width="1.5" opacity="1"/>
+<path d="M744.0,92 h100.0 a14,14 0 0 1 14,14 v22 h-128.0 v-22 a14,14 0 0 1 14,-14 z" fill="#E11D48"/>
+<text x="794.0" y="121" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">CH17</text>
+<text x="794.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">DPO</text>
+<text x="794.0" y="184" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">تفضيلات دقيقة</text>
+<line x1="858.0" y1="147" x2="869.0" y2="147" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#agrA)" opacity="1"/>
+<rect x="870.0" y="92" width="128.0" height="110" rx="12" ry="12" fill="white" stroke="#4F46E5" stroke-width="1.5" opacity="1"/>
+<path d="M884.0,92 h100.0 a14,14 0 0 1 14,14 v22 h-128.0 v-22 a14,14 0 0 1 14,-14 z" fill="#4F46E5"/>
+<text x="934.0" y="121" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">CH18</text>
+<text x="934.0" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">التوليد</text>
+<text x="934.0" y="184" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dominant-baseline="middle">top-p · temperature</text>
+<rect x="30" y="240" width="980" height="92" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="268" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">حلقة التقييم (الفصول 19–40): قِس، أصلح، أعد — بلاها النموذج ملف أوزان فقط</text>
+<text x="520.0" y="296" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">منحنيات التدريب ← حزمة تقييم ← A/B ← واقيات ← مراقبة؛ الحلقة لا تغلق بعد النشر</text>
+<rect x="30.0" y="352" width="230.0" height="96" rx="12" ry="12" fill="white" stroke="#E11D48" stroke-width="1.4" opacity="1"/>
+<text x="145.0" y="380" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">فحص العقل</text>
+<text x="145.0" y="410" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.4" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">overfit دفعة واحدة قبل أي تدريب</text>
+<rect x="280.0" y="352" width="230.0" height="96" rx="12" ry="12" fill="white" stroke="#D97706" stroke-width="1.4" opacity="1"/>
+<text x="395.0" y="380" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dominant-baseline="middle">grad_norm</text>
+<text x="395.0" y="410" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.4" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">تابعه: الانفجار يسبق NaN</text>
+<rect x="530.0" y="352" width="230.0" height="96" rx="12" ry="12" fill="white" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="645.0" y="380" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">Checkpoints</text>
+<text x="645.0" y="410" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.4" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">نموذج+مُحسّن+جدول+RNG معًا</text>
+<rect x="780.0" y="352" width="230.0" height="96" rx="12" ry="12" fill="white" stroke="#7C3AED" stroke-width="1.4" opacity="1"/>
+<text x="895.0" y="380" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">عربية أولًا</text>
+<text x="895.0" y="410" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.4" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">Tokenizer خاص = توفير 30–50%</text>
+<rect x="30" y="492" width="980" height="74" rx="14" ry="14" fill="#ECFDF5" stroke="#34D399" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="520" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.2" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">نموذج مصغّر (10–124M) على GPU واحدة = أسرع طريق لفهم الظواهر كلها قبل 70B</text>
+<text x="520.0" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">لا تدرّب كبيرًا قبل أن تشعر — كل محوّل صغير يعلمك المفاهيم نفسها</text>
+<text x="1028" y="588" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الجزء الرابع — خريطة البناء</text>
+</svg>

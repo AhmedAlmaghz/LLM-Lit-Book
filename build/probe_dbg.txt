@@ -1,0 +1,4 @@
+A convert : 'π_(θ)(y_(w)|x)'
+B convert : 'π_(θ)(y_(w)|x)'
+render   : 'log(π_(θ)(y_(w)|x))/(π_(ref)(y|x))'
+renderS  : log(π_(θ)(y_(w)|x))/(π_(ref)(y|x))

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">أنماط تصميم أنظمة LLM</text>
+<rect x="28.0" y="80" width="304.6666666666667" height="300" rx="16" ry="16" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<path d="M58.0,80 h244.66666666666669 a30,30 0 0 1 30,30 v40 h-304.6666666666667 v-40 a30,30 0 0 1 30,-30 z" fill="#0891B2"/>
+<text x="180.33333333333334" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dir="rtl" dominant-baseline="middle">خدمة RAG</text>
+<circle cx="66.0" cy="182" r="11" fill="#0891B218" stroke="#0891B2" stroke-width="1.4"/>
+<text x="66.0" y="183" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">1</text>
+<text x="86.0" y="182" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">فهرسة (تقسيم دلالي)</text>
+<circle cx="66.0" cy="226" r="11" fill="#0891B218" stroke="#0891B2" stroke-width="1.4"/>
+<text x="66.0" y="227" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">2</text>
+<text x="86.0" y="226" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">بحث مزدوج متجه + كلمات</text>
+<circle cx="66.0" cy="270" r="11" fill="#0891B218" stroke="#0891B2" stroke-width="1.4"/>
+<text x="66.0" y="271" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">3</text>
+<text x="86.0" y="270" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">إعادة ترتيب متقاطع</text>
+<circle cx="66.0" cy="314" r="11" fill="#0891B218" stroke="#0891B2" stroke-width="1.4"/>
+<text x="66.0" y="315" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">4</text>
+<text x="86.0" y="314" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">قياس faithfulness</text>
+<rect x="58.0" y="342" width="92.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#0891B2" stroke-width="1.1" opacity="1"/>
+<text x="104.0" y="354.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.8" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dir="rtl" dominant-baseline="middle">​ابدأ بهذا</text>
+<rect x="367.6666666666667" y="80" width="304.6666666666667" height="300" rx="16" ry="16" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<path d="M397.6666666666667,80 h244.66666666666669 a30,30 0 0 1 30,30 v40 h-304.6666666666667 v-40 a30,30 0 0 1 30,-30 z" fill="#4F46E5"/>
+<text x="520.0" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dir="rtl" dominant-baseline="middle">خط تقييم</text>
+<circle cx="405.6666666666667" cy="182" r="11" fill="#4F46E518" stroke="#4F46E5" stroke-width="1.4"/>
+<text x="405.6666666666667" y="183" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">1</text>
+<text x="425.6666666666667" y="182" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">مجموعة ثابتة (golden set)</text>
+<circle cx="405.6666666666667" cy="226" r="11" fill="#4F46E518" stroke="#4F46E5" stroke-width="1.4"/>
+<text x="405.6666666666667" y="227" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">2</text>
+<text x="425.6666666666667" y="226" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">rubric وحَكَم (judge)</text>
+<circle cx="405.6666666666667" cy="270" r="11" fill="#4F46E518" stroke="#4F46E5" stroke-width="1.4"/>
+<text x="405.6666666666667" y="271" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">3</text>
+<text x="425.6666666666667" y="270" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">عينات بشرية 10–20%</text>
+<circle cx="405.6666666666667" cy="314" r="11" fill="#4F46E518" stroke="#4F46E5" stroke-width="1.4"/>
+<text x="405.6666666666667" y="315" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">4</text>
+<text x="425.6666666666667" y="314" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">سجل انحدار لكل إصدار</text>
+<rect x="397.6666666666667" y="342" width="114.2" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="454.7666666666667" y="354.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.8" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">ليس اختيارياً</text>
+<rect x="707.3333333333334" y="80" width="304.6666666666667" height="300" rx="16" ry="16" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<path d="M737.3333333333334,80 h244.66666666666669 a30,30 0 0 1 30,30 v40 h-304.6666666666667 v-40 a30,30 0 0 1 30,-30 z" fill="#7C3AED"/>
+<text x="859.6666666666667" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dir="rtl" dominant-baseline="middle">وكيل أدوات</text>
+<circle cx="745.3333333333334" cy="182" r="11" fill="#7C3AED18" stroke="#7C3AED" stroke-width="1.4"/>
+<text x="745.3333333333334" y="183" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">1</text>
+<text x="765.3333333333334" y="182" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">شبكة أدوات موصوفة (JSON Schema)</text>
+<circle cx="745.3333333333334" cy="226" r="11" fill="#7C3AED18" stroke="#7C3AED" stroke-width="1.4"/>
+<text x="745.3333333333334" y="227" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">2</text>
+<text x="765.3333333333334" y="226" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">حلقة ReAct بموارد محدودة</text>
+<circle cx="745.3333333333334" cy="270" r="11" fill="#7C3AED18" stroke="#7C3AED" stroke-width="1.4"/>
+<text x="745.3333333333334" y="271" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">3</text>
+<text x="765.3333333333334" y="270" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">Sandbox + تحقق مخرج</text>
+<circle cx="745.3333333333334" cy="314" r="11" fill="#7C3AED18" stroke="#7C3AED" stroke-width="1.4"/>
+<text x="745.3333333333334" y="315" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">4</text>
+<text x="765.3333333333334" y="314" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">سجل تتبع (trace) لكل خطوة</text>
+<rect x="737.3333333333334" y="342" width="129.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="801.8333333333334" y="354.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.8" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">القيمة الحقيقية</text>
+<rect x="28" y="412" width="984" height="118" rx="16" ry="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="438" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">حدّد النمط بثلاثة أصوات: الزمن، الكلفة، الدقة</text>
+<rect x="88" y="468" width="142.0" height="22" rx="11" ry="11" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="159.0" y="479.4" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">تأخير p95 أقل من 800ms</text>
+<rect x="238.0" y="468" width="106.0" height="22" rx="11" ry="11" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="291.0" y="479.4" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">كلفة/سؤال $0.004</text>
+<rect x="352.0" y="468" width="100.0" height="22" rx="11" ry="11" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="402.0" y="479.4" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">دقة الجواب ≥97%</text>
+<rect x="460.0" y="468" width="106.0" height="22" rx="11" ry="11" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="513.0" y="479.4" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">خصوصية داخل حدود</text>
+<text x="520.0" y="516" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">صمّم من أجل الاستبدال: طبقات قابلة للمبادلة تجعل الترقية سريعة</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 47 — أنماط تصميم أنظمة LLM</text>
+</svg>

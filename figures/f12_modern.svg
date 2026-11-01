@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">ما بعد المحوّل الكلاسيكي: معايير الإنتاج 2024–2026</text>
+<rect x="28" y="76" width="984" height="96" rx="14" ry="14" fill="#ECFEFF" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="100" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dir="rtl" dominant-baseline="middle">لا مصفوفة كاملة أبدًا — وفر ذاكرة HBM بالتقطيع والتسلسل الفوري</text>
+<text x="520.0" y="122" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">FlashAttention 1/2/3 : Online Softmax + Tiling</text>
+<text x="300.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" fill="#0891B2" opacity="1" dir="rtl" dominant-baseline="middle">FP16 ~740 TFLOPS (FA-3 على H100)</text>
+<text x="580.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" fill="#0891B2" opacity="1" dominant-baseline="middle">FP8 ~1.2 PFLOPS</text>
+<text x="820.0" y="148" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" fill="#0891B2" opacity="1" dir="rtl" dominant-baseline="middle">ذاكرة O(N) بدل O(N²)</text>
+<rect x="28.0" y="208" width="308.0" height="210" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="28.0" y="208" width="6" height="210" rx="3" ry="3" fill="#4F46E5"/>
+<text x="185.0" y="234" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">Dense Transformer</text>
+<text x="54.0" y="272" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• جميع الطبقات كثيفة</text>
+<text x="54.0" y="308" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• MLA لتقليص KV cache</text>
+<text x="54.0" y="344" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• أمثلة: LLaMA، Qwen</text>
+<rect x="54.0" y="386" width="121.60000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="114.80000000000001" y="398.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">الأساس العالمي</text>
+<rect x="366.0" y="208" width="308.0" height="210" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="366.0" y="208" width="6" height="210" rx="3" ry="3" fill="#7C3AED"/>
+<text x="523.0" y="234" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">MoE (خبراء)</text>
+<text x="392.0" y="272" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• موجّه يفعّل k من N خبيرًا</text>
+<text x="392.0" y="308" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• سعة أعلى بكلفة معاملات أقل</text>
+<text x="392.0" y="344" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dominant-baseline="middle">• DeepSeek-V3 · Mixtral</text>
+<rect x="392.0" y="386" width="158.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="471.3" y="398.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">كفاءة على المعاملات</text>
+<rect x="704.0" y="208" width="308.0" height="210" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="704.0" y="208" width="6" height="210" rx="3" ry="3" fill="#059669"/>
+<text x="861.0" y="234" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">Mamba (SSM)</text>
+<text x="730.0" y="272" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• تعاقد زمني مستمر (Recurrence)</text>
+<text x="730.0" y="308" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• كفاءة O(N) بالتسلسل</text>
+<text x="730.0" y="344" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• هجين مع الانتباه (Samba)</text>
+<rect x="730.0" y="386" width="106.80000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="783.4" y="398.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">سياقات هائلة</text>
+<rect x="28" y="442" width="984" height="66" rx="12" ry="12" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="464" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">MHA vs GQA vs MLA — توفير الذاكرة في الاستدلال:</text>
+<text x="270.0" y="490" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dominant-baseline="middle">MHA: 1×   </text>
+<text x="420.0" y="490" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">GQA (8): 8× توفير</text>
+<text x="610.0" y="490" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">MLA: كاش مضغوط مع جودة عالية</text>
+<text x="520.0" y="536" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">الاختيار الهندسي: FlashAttention + GQA/MLA + تكميم KV هي ذاكرة تكفي CPU شخص واحد</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 10 — ما بعد المحوّل الكلاسيكي</text>
+</svg>

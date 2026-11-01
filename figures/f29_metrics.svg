@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 520" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs></defs>
+<rect x="0" y="0" width="1040" height="520" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">مصفوفة الالتباس: أبعاد الصواب وأفق المسامحة</text>
+<rect x="150" y="150" width="120" height="120" rx="10" ry="10" fill="#FFFFFF" stroke="#10B981" stroke-width="1.8" opacity="1"/>
+<rect x="150" y="150" width="120" height="8" rx="4" ry="4" fill="#10B981"/>
+<text x="210.0" y="192" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">إيجابي حقيقي TP</text>
+<text x="210.0" y="222" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="17" font-weight="700" text-anchor="middle" fill="#10B981" opacity="1" dominant-baseline="middle">0.94</text>
+<rect x="280" y="150" width="120" height="120" rx="10" ry="10" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.8" opacity="1"/>
+<rect x="280" y="150" width="120" height="8" rx="4" ry="4" fill="#EF4444"/>
+<text x="340.0" y="192" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">سلبي زائف FN</text>
+<text x="340.0" y="222" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="17" font-weight="700" text-anchor="middle" fill="#EF4444" opacity="1" dominant-baseline="middle">0.02</text>
+<rect x="150" y="280" width="120" height="120" rx="10" ry="10" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.8" opacity="1"/>
+<rect x="150" y="280" width="120" height="8" rx="4" ry="4" fill="#F59E0B"/>
+<text x="210.0" y="322" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">إيجابي زائف FP</text>
+<text x="210.0" y="352" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="17" font-weight="700" text-anchor="middle" fill="#F59E0B" opacity="1" dominant-baseline="middle">0.03</text>
+<rect x="280" y="280" width="120" height="120" rx="10" ry="10" fill="#FFFFFF" stroke="#64748B" stroke-width="1.8" opacity="1"/>
+<rect x="280" y="280" width="120" height="8" rx="4" ry="4" fill="#64748B"/>
+<text x="340.0" y="322" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">سلبي حقيقي TN</text>
+<text x="340.0" y="352" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="17" font-weight="700" text-anchor="middle" fill="#64748B" opacity="1" dominant-baseline="middle">0.01</text>
+<text x="275" y="126" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">تنبؤ: إيجابي</text>
+<text x="405" y="126" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">تنبؤ: سلبي</text>
+<text x="134" y="210.0" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">حقيقة: مريض</text>
+<text x="134" y="340.0" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">حقيقة: سليم</text>
+<rect x="520" y="140" width="220" height="108" rx="12" ry="12" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="520" y="140" width="220" height="6" rx="3" ry="3" fill="#334155"/>
+<text x="630" y="172" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#334155" opacity="1" dominant-baseline="middle">Accuracy</text>
+<text x="630" y="198" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.2" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">(TP+TN)/الكل</text>
+<text x="630" y="224" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">قد تخدع على بيانات غير متزنة</text>
+<rect x="770" y="140" width="220" height="108" rx="12" ry="12" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="770" y="140" width="220" height="6" rx="3" ry="3" fill="#D97706"/>
+<text x="880" y="172" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dominant-baseline="middle">Precision</text>
+<text x="880" y="198" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.2" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dominant-baseline="middle">TP/(TP+FP)</text>
+<text x="880" y="224" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">كم إشارةً منها صادقة؟</text>
+<rect x="520" y="270" width="220" height="108" rx="12" ry="12" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="520" y="270" width="220" height="6" rx="3" ry="3" fill="#E11D48"/>
+<text x="630" y="302" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">Recall</text>
+<text x="630" y="328" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.2" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dominant-baseline="middle">TP/(TP+FN)</text>
+<text x="630" y="354" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">كم مريضًا التقطتَ فعلًا؟</text>
+<rect x="770" y="270" width="220" height="108" rx="12" ry="12" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<rect x="770" y="270" width="220" height="6" rx="3" ry="3" fill="#059669"/>
+<text x="880" y="302" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">F1</text>
+<text x="880" y="328" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.2" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dominant-baseline="middle">2PR/(P+R)</text>
+<text x="880" y="354" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">التوازن — المقياس الافتراضي لل</text>
+<rect x="28" y="414" width="984" height="82" rx="14" ry="14" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="442" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.4" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">بيانات غير متوازنة؟ الدقة كذبة (99% «سليم» ترفض التشخيص) — استخدم PR-AUC وFocal Loss وClass Weights</text>
+<text x="520.0" y="472" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">قسّم البيانات قبل المعالجة — وإلا تسرّبت العينات المكررة إلى الاختبار (تسريب صامت)</text>
+<text x="1028" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 35 — مقاييس التقييم الأساسية</text>
+</svg>

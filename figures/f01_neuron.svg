@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 540" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker>
+<marker id="agrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E11D48"/></marker>
+<linearGradient id="gSum" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366F1" stop-opacity="1"/><stop offset="1" stop-color="#4338CA" stop-opacity="1"/></linearGradient>
+<linearGradient id="gOut" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#059669" stop-opacity="1"/><stop offset="1" stop-color="#047857" stop-opacity="1"/></linearGradient></defs>
+<rect x="0" y="0" width="1040" height="540" fill="#FFFFFF"/>
+<text x="520.0" y="36" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">الخلية العصبية: من الأرقام إلى القرار</text>
+<rect x="40" y="90" width="176" height="46" rx="10" ry="10" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="128" y="114" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">سحب كثيفة</text>
+<text x="230" y="114" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dominant-baseline="middle">×w1</text>
+<line x1="224" y1="113" x2="414" y2="246" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="40" y="164" width="176" height="46" rx="10" ry="10" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="128" y="188" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">رطوبة عالية</text>
+<text x="230" y="188" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dominant-baseline="middle">×w2</text>
+<line x1="224" y1="187" x2="414" y2="246" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="40" y="238" width="176" height="46" rx="10" ry="10" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="128" y="262" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">هبوط ضغط</text>
+<text x="230" y="262" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dominant-baseline="middle">×w3</text>
+<line x1="224" y1="261" x2="414" y2="246" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<rect x="40" y="312" width="176" height="46" rx="10" ry="10" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.4" opacity="1"/>
+<text x="128" y="336" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">رياح شرقية</text>
+<text x="230" y="336" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dominant-baseline="middle">×w4</text>
+<line x1="224" y1="335" x2="414" y2="246" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#agrA)" opacity="1"/>
+<circle cx="466" cy="246" r="46" fill="url(#gSum)" stroke="#4F46E5" stroke-width="2"/>
+<text x="466" y="238" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">Σ</text>
+<text x="466" y="264" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="10.5" font-weight="400" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">z = Σw·x + b</text>
+<line x1="512" y1="246" x2="574" y2="246" stroke="#94A3B8" stroke-width="1.8" marker-end="url(#agrA)" opacity="1"/>
+<rect x="578" y="218" width="128" height="56" rx="12" ry="12" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.4" opacity="1"/>
+<text x="642" y="242" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">تنشيط σ</text>
+<text x="642" y="262" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="10.5" font-weight="400" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">ReLU / GELU / SiLU</text>
+<line x1="706" y1="246" x2="764" y2="246" stroke="#94A3B8" stroke-width="1.8" marker-end="url(#agrA)" opacity="1"/>
+<rect x="768" y="222" width="128" height="48" rx="12" ry="12" fill="url(#gOut)" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="832" y="240" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="16" font-weight="700" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">a</text>
+<text x="832" y="258" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#fff" opacity="1" dir="rtl" dominant-baseline="middle">التنبأ</text>
+<line x1="898" y1="246" x2="918" y2="246" stroke="#94A3B8" stroke-width="1.8" marker-end="url(#agrA)" opacity="1"/>
+<rect x="922" y="222" width="112" height="48" rx="10" ry="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="978" y="250" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">«الليلة مطر»</text>
+<path d="M 995 310 C 740 490, 320 480, 150 402" fill="none" stroke="#E11D48" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#agrB)" opacity="1"/>
+<rect x="300" y="416" width="392" height="40" rx="20" ry="20" fill="#FFF1F2" stroke="#FB7185" stroke-width="1.4" opacity="1"/>
+<text x="496" y="437" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">الانتشار العكسي: خطأ التنبأ يعود لتصحيح الأوزان</text>
+<text x="1016" y="470" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.9" dir="rtl" dominant-baseline="middle">التعلّم = تقدير منصف للأوزان يختفض خطأ التنبأ</text>
+<rect x="604" y="500" width="136.4" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="672.2" y="512.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">الانتشار الأمامي</text>
+<rect x="768" y="500" width="129.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#E11D48" stroke-width="1.1" opacity="1"/>
+<text x="832.5" y="512.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">الانتشار العكسي</text>
+<text x="1028" y="528" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 1 — الشبكات العصبية من الصفر</text>
+</svg>

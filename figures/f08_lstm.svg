@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 545" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker>
+<marker id="agrG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker></defs>
+<rect x="0" y="0" width="1040" height="545" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">LSTM: بوابة إدارة الذاكرة</text>
+<rect x="302" y="148" width="420" height="168" rx="16" ry="16" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1.6" opacity="1"/>
+<rect x="322" y="122" width="84.60000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="364.3" y="134.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">خلية LSTM</text>
+<circle cx="362" cy="214" r="26" fill="#F1F5F9" stroke="#0891B2" stroke-width="1.8"/>
+<text x="362" y="215" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="16" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">i</text>
+<text x="362" y="258" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">بوابة الدخل</text>
+<text x="362" y="276" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">ما الذي يثر من جديد؟</text>
+<circle cx="512" cy="214" r="26" fill="#F1F5F9" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="512" y="215" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="16" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">f</text>
+<text x="512" y="258" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">بوابة النسيان</text>
+<text x="512" y="276" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">ماذا نُبقي من الماضي؟</text>
+<circle cx="662" cy="214" r="26" fill="#F1F5F9" stroke="#059669" stroke-width="1.8"/>
+<text x="662" y="215" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="16" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">o</text>
+<text x="662" y="258" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">بوابة الإخراج</text>
+<text x="662" y="276" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">ماذا نُعلن الآن؟</text>
+<line x1="302" y1="308" x2="722" y2="308" stroke="#D97706" stroke-width="3" opacity="1"/>
+<text x="512" y="330" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">الخط العصبي C_t — شريط المعلومات الطويل (Conveyor Belt)</text>
+<rect x="98" y="386" width="210" height="84" rx="12" ry="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="203" y="412" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">t−2</text>
+<text x="203" y="444" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">h ← ذاكرة + معلومة جديدة</text>
+<line x1="308" y1="398" x2="398" y2="398" stroke="#D97706" stroke-width="2.4" marker-end="url(#agrG)" opacity="1"/>
+<rect x="398" y="386" width="210" height="84" rx="12" ry="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="503" y="412" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">t−1</text>
+<text x="503" y="444" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">h ← ذاكرة + معلومة جديدة</text>
+<line x1="608" y1="398" x2="698" y2="398" stroke="#D97706" stroke-width="2.4" marker-end="url(#agrG)" opacity="1"/>
+<rect x="698" y="386" width="210" height="84" rx="12" ry="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="803" y="412" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">t</text>
+<text x="803" y="444" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">h ← ذاكرة + معلومة جديدة</text>
+<text x="520.0" y="366" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">الذاكرة تمتد عبر الزمن؛ والبوابات تنظّم ما يُنشر في كل خطوة</text>
+<rect x="58" y="504" width="980" height="34" rx="10" ry="10" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="521" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="400" text-anchor="middle" fill="#D97706" opacity="1" dir="rtl" dominant-baseline="middle">الحد: حساب الزمن تسلسلي بلا توازٍ؛ وهنا استحوذ المحوّل على الساحة (الفصل 8)</text>
+<text x="1028" y="533" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 6 — تضمينات الجُمل (RNN · LSTM · GRU)</text>
+</svg>

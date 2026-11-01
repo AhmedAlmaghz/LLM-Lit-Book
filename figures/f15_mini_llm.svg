@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 600" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker></defs>
+<rect x="0" y="0" width="1040" height="600" fill="#FFFFFF"/>
+<text x="520.0" y="36" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">MiniLLaMA (نمط LLaMA مصغّر): لكل قطعة سبب وجودها</text>
+<rect x="96" y="80" width="420" height="56" rx="12" ry="12" fill="#ECFEFF" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="104" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">Token Embedding</text>
+<text x="306.0" y="126" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">وحدات ← متجهات (بلا سياق بعد)</text>
+<rect x="96" y="152" width="420" height="252" rx="14" ry="14" fill="white" stroke="#4F46E5" stroke-width="1.6" opacity="1"/>
+<text x="306.0" y="178" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">N × Transformer Block</text>
+<rect x="128" y="208" width="356" height="28" rx="7" ry="7" fill="#F8FAFC" stroke="#7C3AED" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="223" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">RMSNorm</text>
+<rect x="128" y="240" width="356" height="28" rx="7" ry="7" fill="#F8FAFC" stroke="#4F46E5" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="255" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">Multi-Head Attention + RoPE</text>
+<rect x="128" y="272" width="356" height="28" rx="7" ry="7" fill="#F8FAFC" stroke="#059669" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="287" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">Residual +</text>
+<rect x="128" y="304" width="356" height="28" rx="7" ry="7" fill="#F8FAFC" stroke="#7C3AED" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="319" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">RMSNorm</text>
+<rect x="128" y="336" width="356" height="28" rx="7" ry="7" fill="#F8FAFC" stroke="#D97706" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="351" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#D97706" opacity="1" dominant-baseline="middle">FFN (SwiGLU · d_ff ≈ 2.7×d)</text>
+<rect x="128" y="368" width="356" height="28" rx="7" ry="7" fill="#F8FAFC" stroke="#059669" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="383" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.5" font-weight="600" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">Residual +</text>
+<rect x="96" y="416" width="420" height="56" rx="12" ry="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.4" opacity="1"/>
+<text x="306.0" y="440" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">Final RMSNorm + LM Head</text>
+<text x="306.0" y="462" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">وزن مشارَك مع تضمين الدخل (weight tying)</text>
+<rect x="570" y="92" width="430" height="180" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="785.0" y="118" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">لماذا هذه القطع تحديدًا؟</text>
+<rect x="596" y="146" width="47.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="619.8" y="158.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">RoPE</text>
+<text x="720" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">موضع نسبي، سياق قابل للتوسع</text>
+<rect x="596" y="176" width="69.80000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="630.9" y="188.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">RMSNorm</text>
+<text x="720" y="188" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أسرع من LayerNorm</text>
+<rect x="596" y="206" width="62.400000000000006" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#D97706" stroke-width="1.1" opacity="1"/>
+<text x="627.2" y="218.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#D97706" opacity="1" dominant-baseline="middle">SwiGLU</text>
+<text x="720" y="218" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">تنشيط سلس ببوابة</text>
+<rect x="596" y="236" width="106.80000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="649.4" y="248.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">Weight Tying</text>
+<text x="720" y="248" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">أوفر في المعاملات</text>
+<rect x="570" y="292" width="430" height="150" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="785.0" y="318" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">خط تكوين صغير (config)</text>
+<text x="600" y="352" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dominant-baseline="middle">MiniLLM(vocab=32k, d=512, layers=12, heads=8)</text>
+<rect x="600" y="372" width="370" height="26" rx="7" ry="7" fill="#F1F5F9" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="612" y="386" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="11" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">parameters: 16.4M (embed+head مربوطان) + 38.5M (12 طبقة)</text>
+<rect x="600" y="410" width="114.2" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="657.1" y="422.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">≈ 55M معاملًا</text>
+<rect x="40" y="492" width="960" height="86" rx="14" ry="14" fill="#FFF1F2" stroke="#FDA4AF" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="518" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">الأخطاء الثلاثة في الكود، لا في المفهوم</text>
+<text x="520.0" y="546" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.6" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">1. نسيان القناع السببي   2. خسارة على PAD (دون ignore_index=-100)   3. need_weights=True أثناء التدريب (مكلف بلا فائدة)</text>
+<text x="520.0" y="570" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.2" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">تحقّق: شكل المخرجات أولًا، ثم forward كامل، ثم جرعة التدريب الفعلية</text>
+<text x="1028" y="588" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 14 — بناء النموذج</text>
+</svg>

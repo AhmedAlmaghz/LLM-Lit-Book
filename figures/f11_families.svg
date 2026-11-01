@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 560" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker></defs>
+<rect x="0" y="0" width="1040" height="560" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">ثلاث فلسفات في بناء العقل اللغوي</text>
+<rect x="28.0" y="84" width="308.0" height="400" rx="16" ry="16" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<path d="M54.0,84 H310.0 a26,26 0 0 1 26,26 v44 h-308.0 v-44 a26,26 0 0 1 26,-26 z" fill="#059669"/>
+<text x="182.0" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="19" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">BERT</text>
+<text x="182.0" y="140" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#fff" opacity="0.92" dir="rtl" dominant-baseline="middle">مُشفّر ثنائي الجانب</text>
+<rect x="90.0" y="186" width="188.20000000000002" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="184.10000000000002" y="198.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">Bidirectional Masked LM</text>
+<text x="54.0" y="240" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• يقرأ من الجانبين (قبل/بعد)</text>
+<text x="54.0" y="280" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• يخمّن المقنّع &lt;MASK&gt;</text>
+<text x="54.0" y="320" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• استعمال: تصنيف، POS، فهم</text>
+<text x="54.0" y="360" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• لا قيد على الرؤية</text>
+<text x="182.0" y="360" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">قناع ثنائي الجانب</text>
+<rect x="144.5" y="380" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="159.5" y="380" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="174.5" y="380" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="189.5" y="380" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="204.5" y="380" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="144.5" y="395" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="159.5" y="395" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="174.5" y="395" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="189.5" y="395" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="204.5" y="395" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="144.5" y="410" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="159.5" y="410" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="174.5" y="410" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="189.5" y="410" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="204.5" y="410" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="144.5" y="425" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="159.5" y="425" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="174.5" y="425" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="189.5" y="425" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="204.5" y="425" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="144.5" y="440" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="159.5" y="440" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="174.5" y="440" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="189.5" y="440" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="204.5" y="440" width="12" height="12" rx="3" fill="#059669" opacity="1.0"/>
+<rect x="118.0" y="448" width="106.80000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="171.4" y="460.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">فهم لا توليد</text>
+<rect x="366.0" y="84" width="308.0" height="400" rx="16" ry="16" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<path d="M392.0,84 H648.0 a26,26 0 0 1 26,26 v44 h-308.0 v-44 a26,26 0 0 1 26,-26 z" fill="#7C3AED"/>
+<text x="520.0" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="19" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">GPT</text>
+<text x="520.0" y="140" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#fff" opacity="0.92" dir="rtl" dominant-baseline="middle">مُفكّك سببي</text>
+<rect x="428.0" y="186" width="180.8" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="518.4" y="198.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">Causal LM (next token)</text>
+<text x="392.0" y="240" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• يتنبأ بالتالي فقط (توليد)</text>
+<text x="392.0" y="280" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• يعمل تدفّقيًا عبر KV cache</text>
+<text x="392.0" y="320" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• استعمال: توليد، محادثة، كود</text>
+<text x="392.0" y="360" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• قناع مثلثي (لا نظرة للأمام)</text>
+<text x="520.0" y="360" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">قناع سببي مثلثي</text>
+<rect x="482.5" y="380" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="497.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="512.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="527.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="542.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="482.5" y="395" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="497.5" y="395" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="512.5" y="395" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="527.5" y="395" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="542.5" y="395" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="482.5" y="410" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="497.5" y="410" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="512.5" y="410" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="527.5" y="410" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="542.5" y="410" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="482.5" y="425" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="497.5" y="425" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="512.5" y="425" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="527.5" y="425" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="542.5" y="425" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="482.5" y="440" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="497.5" y="440" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="512.5" y="440" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="527.5" y="440" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="542.5" y="440" width="12" height="12" rx="3" fill="#7C3AED" opacity="1.0"/>
+<rect x="456.0" y="448" width="106.80000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#7C3AED" stroke-width="1.1" opacity="1"/>
+<text x="509.4" y="460.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">توليد لا فهم</text>
+<rect x="704.0" y="84" width="308.0" height="400" rx="16" ry="16" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<path d="M730.0,84 H986.0 a26,26 0 0 1 26,26 v44 h-308.0 v-44 a26,26 0 0 1 26,-26 z" fill="#4F46E5"/>
+<text x="858.0" y="112" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="19" font-weight="800" text-anchor="middle" fill="#fff" opacity="1" dominant-baseline="middle">T5</text>
+<text x="858.0" y="140" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#fff" opacity="0.92" dir="rtl" dominant-baseline="middle">مُشفّر + مُفكّك</text>
+<rect x="766.0" y="186" width="225.20000000000002" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="878.6" y="198.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">Text-to-Text Span Corruption</text>
+<text x="730.0" y="240" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• قارئ ثم كاتب (Enc→Dec)</text>
+<text x="730.0" y="280" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• تدريب استعادة المقاطع (Span)</text>
+<text x="730.0" y="320" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• استعمال: ترجمة، تلخيص، صياغة</text>
+<text x="730.0" y="360" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• قناعان يجتمعان</text>
+<text x="858.0" y="360" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">قناعان معاً</text>
+<rect x="820.5" y="380" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="835.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="850.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="865.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="880.5" y="380" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="820.5" y="395" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="835.5" y="395" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="850.5" y="395" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="865.5" y="395" width="12" height="12" rx="3" fill="#F1F5F9" opacity="0.5"/>
+<rect x="880.5" y="395" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="820.5" y="410" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="835.5" y="410" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="850.5" y="410" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="865.5" y="410" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="880.5" y="410" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="820.5" y="425" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="835.5" y="425" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="850.5" y="425" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="865.5" y="425" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="880.5" y="425" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="820.5" y="440" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="835.5" y="440" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="850.5" y="440" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="865.5" y="440" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="880.5" y="440" width="12" height="12" rx="3" fill="#4F46E5" opacity="1.0"/>
+<rect x="794.0" y="448" width="99.4" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="843.7" y="460.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">فهم + توليد</text>
+<text x="520.0" y="530" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.3" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">السؤال في المقابلات: متى تستخدم causal ومتى bidirectional؟ — الإجابة دائمًا: في نوع الهدف التدريبي!</text>
+<text x="1028" y="548" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 9 — BERT · GPT · T5</text>
+</svg>

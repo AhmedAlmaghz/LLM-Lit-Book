@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 520" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4F46E5"/></marker>
+<marker id="agrBk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E11D48"/></marker></defs>
+<rect x="0" y="0" width="1040" height="520" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">الرسم البياني الحسابي لقاعدة السلسلة</text>
+<rect x="48" y="128" width="46" height="44" rx="10" ry="10" fill="white" stroke="#0891B2" stroke-width="1.7" opacity="1"/>
+<text x="71.0" y="150" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">x</text>
+<rect x="144" y="128" width="176" height="44" rx="10" ry="10" fill="white" stroke="#334155" stroke-width="1.7" opacity="1"/>
+<text x="232.0" y="150" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">z1 = W1·x + b1</text>
+<rect x="380" y="128" width="140" height="44" rx="10" ry="10" fill="white" stroke="#334155" stroke-width="1.7" opacity="1"/>
+<text x="450.0" y="150" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">a1 = σ(z1)</text>
+<rect x="586" y="128" width="190" height="44" rx="10" ry="10" fill="white" stroke="#334155" stroke-width="1.7" opacity="1"/>
+<text x="681.0" y="150" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">z2 = W2·a1 + b2</text>
+<rect x="842" y="128" width="140" height="44" rx="10" ry="10" fill="white" stroke="#334155" stroke-width="1.7" opacity="1"/>
+<text x="912.0" y="150" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">a2 = σ(z2)</text>
+<rect x="1042" y="128" width="56" height="44" rx="10" ry="10" fill="#FFF1F2" stroke="#E11D48" stroke-width="1.7" opacity="1"/>
+<text x="1070.0" y="150" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="14.5" font-weight="600" text-anchor="middle" fill="#1E293B" opacity="1" dominant-baseline="middle">L</text>
+<line x1="98" y1="150" x2="140" y2="150" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrF)" opacity="1"/>
+<line x1="324" y1="150" x2="376" y2="150" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrF)" opacity="1"/>
+<line x1="524" y1="150" x2="582" y2="150" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrF)" opacity="1"/>
+<line x1="780" y1="150" x2="838" y2="150" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrF)" opacity="1"/>
+<line x1="986" y1="150" x2="1038" y2="150" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrF)" opacity="1"/>
+<rect x="660" y="84" width="232.60000000000002" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.1" opacity="1"/>
+<text x="776.3" y="96.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dir="rtl" dominant-baseline="middle">الاتجاه الأمامي (تدفق الحساب)</text>
+<text x="1070.0" y="330" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">∂L/∂a2</text>
+<text x="912.0" y="330" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">∂L/∂z2 = ∂L/∂a2 · σ′(z2)</text>
+<text x="912.0" y="330" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">∂L/∂W2</text>
+<text x="681.0" y="330" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">∂L/∂a1</text>
+<text x="450.0" y="330" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">∂L/∂z1</text>
+<text x="232.0" y="330" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">∂L/∂W1</text>
+<text x="232.0" y="330" font-family="Consolas, 'Cascadia Mono', 'Liberation Mono', monospace" font-size="12.5" font-weight="400" text-anchor="middle" fill="#E11D48" opacity="1" dominant-baseline="middle">∂L/∂b1</text>
+<path d="M 1070 128 C 1042 240, 1042 370, 1038 314" fill="none" stroke="#E11D48" stroke-width="1.7" stroke-dasharray="5 4" marker-end="url(#agrBk)" opacity="1"/>
+<path d="M 1036 330 C 1010 382, 1010 382, 984 330" fill="none" stroke="#E11D48" stroke-width="1.5" marker-end="url(#agrBk)" opacity="0.85"/>
+<path d="M 836 330 C 807 382, 807 382, 778 330" fill="none" stroke="#E11D48" stroke-width="1.5" marker-end="url(#agrBk)" opacity="0.85"/>
+<path d="M 580 330 C 551 382, 551 382, 522 330" fill="none" stroke="#E11D48" stroke-width="1.5" marker-end="url(#agrBk)" opacity="0.85"/>
+<path d="M 374 330 C 348 382, 348 382, 322 330" fill="none" stroke="#E11D48" stroke-width="1.5" marker-end="url(#agrBk)" opacity="0.85"/>
+<path d="M 138 330 C 117 382, 117 382, 96 330" fill="none" stroke="#E11D48" stroke-width="1.5" marker-end="url(#agrBk)" opacity="0.85"/>
+<rect x="240" y="406" width="536.0" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#E11D48" stroke-width="1.1" opacity="1"/>
+<text x="508.0" y="418.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#E11D48" opacity="1" dir="rtl" dominant-baseline="middle">القاعدة: ∂L/∂w = (∂L/∂a)·(∂a/∂z)·(∂z/∂w) — طبقة تلو الأخرى نحو البداية</text>
+<text x="520.0" y="454" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="13.5" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">التدرج يسافر عكسيًا عبر نفس سلسلة العقد: كل عقدة تمرّر الفرق إلى من سبقها</text>
+<text x="1028" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 1 — الانتشار العكسي</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 520" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs></defs>
+<rect x="0" y="0" width="1040" height="520" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">سلّم التكميم: دقة مقابل ذاكرة (نموذج 8B تقريبًا)</text>
+<text x="58" y="79" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">FP32 — مرجع الدقة الكاملة</text>
+<rect x="58" y="92" width="340" height="16" rx="6" ry="6" fill="#F1F5F9" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="58" y="92" width="340.0" height="16" rx="6" ry="6" fill="#E11D48" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="396" y="79" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="end" fill="#64748B" opacity="1" dominant-baseline="middle">~64 GB</text>
+<text x="58" y="135" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">BF16/FP16 — معيار التدريب</text>
+<rect x="58" y="148" width="340" height="16" rx="6" ry="6" fill="#F1F5F9" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="58" y="148" width="170.0" height="16" rx="6" ry="6" fill="#D97706" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="396" y="135" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="end" fill="#64748B" opacity="1" dominant-baseline="middle">~32 GB</text>
+<text x="58" y="191" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">INT8 — PTQ الشائع</text>
+<rect x="58" y="204" width="340" height="16" rx="6" ry="6" fill="#F1F5F9" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="58" y="204" width="85.0" height="16" rx="6" ry="6" fill="#4F46E5" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="396" y="191" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="end" fill="#64748B" opacity="1" dominant-baseline="middle">~16 GB</text>
+<text x="58" y="247" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">FP8 (E5M2) — على H100+</text>
+<rect x="58" y="260" width="340" height="16" rx="6" ry="6" fill="#F1F5F9" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="58" y="260" width="44.2" height="16" rx="6" ry="6" fill="#7C3AED" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="396" y="247" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="end" fill="#64748B" opacity="1" dominant-baseline="middle">~8 GB</text>
+<text x="58" y="303" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">INT4/FP4 · QLoRA — تجارب — بحذر</text>
+<rect x="58" y="316" width="340" height="16" rx="6" ry="6" fill="#F1F5F9" stroke="none" stroke-width="1.4" opacity="1"/>
+<rect x="58" y="316" width="27.2" height="16" rx="6" ry="6" fill="#059669" stroke="none" stroke-width="1.4" opacity="1"/>
+<text x="396" y="303" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="end" fill="#64748B" opacity="1" dominant-baseline="middle">~5 GB</text>
+<rect x="520" y="76" width="492" height="234" rx="14" ry="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="766.0" y="104" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">أحكام عملية قبل كل درجة</text>
+<text x="546" y="140" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• PTQ (بعد التدريب): أسرع وأرخص — قِس perplexity بعد الانتقال</text>
+<text x="546" y="170" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• QAT (أثناء التدريب): أدق لكن مكلف — يُنظر فيه من 4 بت فأقل</text>
+<text x="546" y="200" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• ابدأ دائمًا بـ INT8/FP8 ثم قِس</text>
+<text x="546" y="230" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.3" font-weight="400" text-anchor="start" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">• التكميم العدواني يُفقِد مهارات التفكير في النماذج الصغيرة</text>
+<rect x="546" y="264" width="269.6" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#059669" stroke-width="1.1" opacity="1"/>
+<text x="680.8" y="276.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dir="rtl" dominant-baseline="middle">قِس: perplexity + جودة مهمة حقيقية</text>
+<rect x="28" y="330" width="984" height="114" rx="14" ry="14" fill="#ECFEFF" stroke="#0891B2" stroke-width="1.4" opacity="1"/>
+<text x="520.0" y="356" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14.5" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dir="rtl" dominant-baseline="middle">KV cache: رأس التكلفة في السياقات الطويلة</text>
+<text x="520.0" y="386" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.4" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">سياق 128K على نموذج 70B مع GQA — الكاش قد يبلغ ~40GB؛ MLA + تكميم KV يجعلها خدمية على GPU واحدة</text>
+<rect x="258.0" y="410" width="173.4" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#0891B2" stroke-width="1.1" opacity="1"/>
+<text x="344.7" y="422.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">vLLM · PagedAttention</text>
+<rect x="454.0" y="410" width="40.2" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#0891B2" stroke-width="1.1" opacity="1"/>
+<text x="474.1" y="422.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">TGI</text>
+<rect x="524.0" y="410" width="106.80000000000001" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#0891B2" stroke-width="1.1" opacity="1"/>
+<text x="577.4" y="422.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">TensorRT-LLM</text>
+<rect x="686.0" y="410" width="151.20000000000002" height="24" rx="12.0" ry="12.0" fill="#EEF2FF" stroke="#0891B2" stroke-width="1.1" opacity="1"/>
+<text x="761.6" y="422.6" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">Tensor Parallelism</text>
+<text x="520.0" y="478" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.8" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">ابدأ صغيرًا: perplexity + تحقق من مهمة حقيقية كافيان لتقرير كل درجة قبل النشر</text>
+<text x="1028" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 11 — تسريع العمليات الحسابية</text>
+</svg>

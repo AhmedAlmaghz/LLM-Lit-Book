@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 520" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" direction="ltr">
+<defs><marker id="agrM" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7C3AED"/></marker></defs>
+<rect x="0" y="0" width="1040" height="520" fill="#FFFFFF"/>
+<text x="520.0" y="34" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">دمج النماذج: مزج الأقدار دون تدريب</text>
+<rect x="110" y="104" width="200" height="64" rx="12" ry="12" fill="white" stroke="#4F46E5" stroke-width="1.6" opacity="1"/>
+<text x="210" y="136" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">A</text>
+<text x="210" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">مهندس كود</text>
+<path d="M 210 168 C 230 234, 430 262, 500 262" fill="none" stroke="#4F46E5" stroke-width="1.7" marker-end="url(#agrM)" opacity="0.9"/>
+<rect x="390" y="104" width="200" height="64" rx="12" ry="12" fill="white" stroke="#0891B2" stroke-width="1.6" opacity="1"/>
+<text x="490" y="136" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#0891B2" opacity="1" dominant-baseline="middle">B</text>
+<text x="490" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">مهندس رياضيات</text>
+<path d="M 490 168 C 510 234, 430 262, 500 262" fill="none" stroke="#0891B2" stroke-width="1.7" marker-end="url(#agrM)" opacity="0.9"/>
+<rect x="670" y="104" width="200" height="64" rx="12" ry="12" fill="white" stroke="#059669" stroke-width="1.6" opacity="1"/>
+<text x="770" y="136" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">C</text>
+<text x="770" y="158" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">مهندس تفسير</text>
+<path d="M 770 168 C 790 234, 430 262, 500 262" fill="none" stroke="#059669" stroke-width="1.7" marker-end="url(#agrM)" opacity="0.9"/>
+<rect x="400" y="230" width="260" height="104" rx="16" ry="16" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.4" opacity="1"/>
+<text x="530" y="262" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="17" font-weight="800" text-anchor="middle" fill="#7C3AED" opacity="1" dir="rtl" dominant-baseline="middle">دمج (Merging)</text>
+<text x="530" y="292" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">نفس البنية الأساسية (SAME init)</text>
+<text x="530" y="314" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.8" font-weight="400" text-anchor="middle" fill="#334155" opacity="1" dir="rtl" dominant-baseline="middle">شرط: نفس المعمارية (نفس family)</text>
+<rect x="28" y="366" width="300" height="110" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="178" y="392" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#4F46E5" opacity="1" dominant-baseline="middle">Model Soups</text>
+<text x="54" y="420" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">متوسط خام (average) للنماذج</text>
+<text x="54" y="442" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">أفضل: مهام مشابهة ونفس التجربة</text>
+<rect x="360" y="366" width="300" height="110" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="510" y="392" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#7C3AED" opacity="1" dominant-baseline="middle">TIES-Merging</text>
+<text x="386" y="420" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">يصنف دلتا: إيجابي/سلبي/غير مؤثر</text>
+<text x="386" y="442" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">يحل التضارب قبل الجمع</text>
+<rect x="710" y="366" width="300" height="110" rx="14" ry="14" fill="white" stroke="#CBD5E1" stroke-width="1.4" opacity="1"/>
+<text x="860" y="392" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#059669" opacity="1" dominant-baseline="middle">DARE</text>
+<text x="736" y="420" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11.8" font-weight="400" text-anchor="start" fill="#1E293B" opacity="1" dir="rtl" dominant-baseline="middle">إسقاط عشوائي مع تخفيف</text>
+<text x="736" y="442" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">يُبطّل 90% من الفروق بنجاح مدهش</text>
+<text x="520.0" y="500" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="12.6" font-weight="400" text-anchor="middle" fill="#64748B" opacity="1" dir="rtl" dominant-baseline="middle">تنبيه: معرفة النماذج قد تتصادم — قِس الناتج على مجموعة مهام دقيقة</text>
+<text x="1028" y="508" font-family="'Segoe UI', 'Cairo', 'Tahoma', 'Noto Naskh Arabic', sans-serif" font-size="10.5" font-weight="400" text-anchor="end" fill="#64748B" opacity="0.75" dir="rtl" dominant-baseline="middle">الفصل 31 — Model Merging</text>
+</svg>
