@@ -111,6 +111,14 @@ def _uni(text, table):
     return None
 
 
+def _clean_sents(s):
+    """ينظّف الحواجز المؤقتة ⟦⟧ الناتجة عن تحويل داخلي قبل تغليفها بحاجز خارجي
+    (بدونها تتشابك الأنماط المتداخلة ويبقى ⟧ يتيمًا في النص)."""
+    s = re.sub(r"_⟦([^⟧]*)⟧", r"_(\1)", s)
+    s = re.sub(r"\^⟦([^⟧]*)⟧", r"^( \1)", s)
+    return s.replace("^( ", "^(")
+
+
 def _pass(s):
     out = []
     i = 0
@@ -274,9 +282,9 @@ def _pass(s):
                 i += 1
                 continue
             if i + 1 < len(s) and s[i + 1] == "{":
-                tok = _convert(tok, False)
+                tok = _clean_sents(_convert(tok, False))
             elif isinstance(tok, str) and "\\" in tok:
-                tok = _convert(tok, False)
+                tok = _clean_sents(_convert(tok, False))
             table = _SUPER_MAP if c == "^" else _SUB_MAP
             u = _uni(tok, table)
             if u is None:

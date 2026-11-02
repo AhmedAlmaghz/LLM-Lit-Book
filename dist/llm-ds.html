@@ -557,7 +557,7 @@ L → dL/da2 → dL/dz2 → dL/dW2 → dL/da1 → dL/dz1 → dL/dW1
 <h4>الخسارة ليست مجرد رقم</h4>
 <p>دالة الخسارة تخبر النموذج <strong>ماذا يعني أن يكون مخطئًا</strong>. اختيار خاطئ لدالة الخسارة يمكن أن يجعل النموذج يتعلم شيئًا مختلفًا تمامًا عما تريد.</p>
 <h4>أشهر دوال الخسارة</h4>
-<div class="tblwrap"><table><thead><tr><th>الدالة</th><th>الاستخدام</th><th>الصيغة</th><th>ملاحظات</th></tr></thead><tbody><tr><td><strong>MSE</strong> (Mean Squared Error)</td><td>الانحدار (Regression)</td><td><span class="mth">1/nΣ(y - ŷ)²</span></td><td>حساسة للقيم الشاذة</td></tr><tr><td><strong>MAE</strong> (Mean Absolute Error)</td><td>الانحدار</td><td>\(\frac{1}{n}\sum</td><td>y - \hat{y}</td><td>\)</td><td>أقل حساسية للشواذ</td></tr><tr><td><strong>BCE</strong> (Binary Cross-Entropy)</td><td>التصنيف الثنائي</td><td><span class="mth">-1/nΣ[ylogŷ + (1-y)log(1-ŷ)]</span></td><td>الأفضل مع Sigmoid</td></tr><tr><td><strong>CCE</strong> (Categorical Cross-Entropy)</td><td>التصنيف المتعدد</td><td><span class="mth">-Σ yᵢ logŷᵢ</span></td><td>الأفضل مع Softmax</td></tr><tr><td><strong>Focal Loss</strong></td><td>تصنيف غير متوازن</td><td><span class="mth">- α (1-ŷ)ᵞ logŷ</span></td><td>تركز على العينات الصعبة</td></tr><tr><td><strong>KL Divergence</strong></td><td>التقطير وتوزيعات الاحتمال</td><td><span class="mth">Σ p log(p/q)</span></td><td>ليست متماثلة!</td></tr></tbody></table></div>
+<div class="tblwrap"><table><thead><tr><th>الدالة</th><th>الاستخدام</th><th>الصيغة</th><th>ملاحظات</th></tr></thead><tbody><tr><td><strong>MSE</strong> (Mean Squared Error)</td><td>الانحدار (Regression)</td><td><span class="mth">1/nΣ(y - ŷ)²</span></td><td>حساسة للقيم الشاذة</td></tr><tr><td><strong>MAE</strong> (Mean Absolute Error)</td><td>الانحدار</td><td><span class="mth">1/nΣ |y - ŷ|</span></td><td>أقل حساسية للشواذ</td></tr><tr><td><strong>BCE</strong> (Binary Cross-Entropy)</td><td>التصنيف الثنائي</td><td><span class="mth">-1/nΣ[ylogŷ + (1-y)log(1-ŷ)]</span></td><td>الأفضل مع Sigmoid</td></tr><tr><td><strong>CCE</strong> (Categorical Cross-Entropy)</td><td>التصنيف المتعدد</td><td><span class="mth">-Σ yᵢ logŷᵢ</span></td><td>الأفضل مع Softmax</td></tr><tr><td><strong>Focal Loss</strong></td><td>تصنيف غير متوازن</td><td><span class="mth">- α (1-ŷ)ᵞ logŷ</span></td><td>تركز على العينات الصعبة</td></tr><tr><td><strong>KL Divergence</strong></td><td>التقطير وتوزيعات الاحتمال</td><td><span class="mth">Σ p log(p/q)</span></td><td>ليست متماثلة!</td></tr></tbody></table></div>
 <blockquote class="qa mistake"><span class="k">❌</span><strong>خطأ شائع</strong>: استخدام MSE مع مخرجات Softmax في التصنيف. النتيجة: تدرجات صغيرة جدًا وتدريب بطيء. استخدم CCE (أو <code class="ic">CrossEntropyLoss</code> في PyTorch، التي تجمع Softmax وCCE معًا).</blockquote>
 <h4>الفرق بين BCE وCCE في سطر</h4>
 <ul><li><strong>BCE</strong>: كل عينة يمكن أن تنتمي إلى فئة أو أكثر (multi-label).</li><li><strong>CCE</strong>: كل عينة تنتمي إلى فئة واحدة فقط (multi-class).</li></ul>
@@ -16652,7 +16652,7 @@ curl<span class="w"> </span>http://localhost:8000/ready
 <p><strong>بالتوفيق.</strong></p>
 </section><div class="colophon"><div class="rule"></div>
 انتهى كتاب «المحوّلات والنماذج اللغوية الكبيرة» — الطبعة الأولى — 2026 · BookAI
-<br>~102,354 كلمة · 364 كتلة كود · 33 مخططًا توضيحيًا · صيغ إخراج MD/HTML/PDF/DOCX/EPUB
+<br>~102,353 كلمة · 364 كتلة كود · 33 مخططًا توضيحيًا · صيغ إخراج MD/HTML/PDF/DOCX/EPUB
 </div><a class="toTop" href="#top" title="إلى الأعلى">↑</a>
 </div>
 </body></html>

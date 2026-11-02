@@ -1022,7 +1022,7 @@ print(f"أقصى فرق بين التدرجين: {diff:.2e}")
 | الدالة | الاستخدام | الصيغة | ملاحظات |
 |---|---|---|---|
 | **MSE** (Mean Squared Error) | الانحدار (Regression) | \(\frac{1}{n}\sum(y - \hat{y})^2\) | حساسة للقيم الشاذة |
-| **MAE** (Mean Absolute Error) | الانحدار | \(\frac{1}{n}\sum|y - \hat{y}|\) | أقل حساسية للشواذ |
+| **MAE** (Mean Absolute Error) | الانحدار | \(\frac{1}{n}\sum \|y - \hat{y}\|\) | أقل حساسية للشواذ |
 | **BCE** (Binary Cross-Entropy) | التصنيف الثنائي | \(-\frac{1}{n}\sum[y\log\hat{y} + (1-y)\log(1-\hat{y})]\) | الأفضل مع Sigmoid |
 | **CCE** (Categorical Cross-Entropy) | التصنيف المتعدد | \(-\sum y_i \log\hat{y}_i\) | الأفضل مع Softmax |
 | **Focal Loss** | تصنيف غير متوازن | \(- \alpha (1-\hat{y})^\gamma \log\hat{y}\) | تركز على العينات الصعبة |

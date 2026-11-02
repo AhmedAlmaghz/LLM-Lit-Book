@@ -92,79 +92,68 @@ _MATH_PAT = re.compile(r"\\\[(.*?)\\\]|\\\((.*?)\\\)", re.DOTALL)
 _CODE_PAT = re.compile(r"`([^`\n]+)`")
 _BOLD_PAT = re.compile(r"\*\*(.+?)\*\*", re.DOTALL)
 _ITAL_PAT = re.compile(r"(?<![\w*])\*([^*\n]{1,120})\*(?![\w*])")
+_PH_PAT = re.compile(r"\x00(\d+)\x00")
 
 
 def tokenize(text):
-    """يعيد قائمة (نص، نوع): plain/b/i/c/m/md — الرياضيات تُحوَّل عبر mathlite."""
+    """يعيد قائمة (نص، نوع): plain/b/i/c/m/md — بنفس خوارزمية build_html.inline:
+    حماية الكود السطري بعلامات مؤقتة، ثم رياضيات/غامق/مائل على السلسلة الواحدة،
+    ثم استرجاع الكود — حتى تُقرأ أزواج **…** التي تتقاطع مع `كود` قراءةً صحيحة."""
+    spans = []
+
+    def _coderep(m):
+        spans.append(m.group(1))
+        return f"\x00{len(spans) - 1}\x00"
+
+    t = _CODE_PAT.sub(_coderep, text)
     out = []
-    # الكود السطري أولًا (يُحمى من باقي المعالجات)
-    parts = []
+    _split_struct(t, "plain", out, spans)
+    return [(x, k) for x, k in out if x]
+
+
+def _restore(s, spans):
+    """يعيد نص الكود مكان علاماته المؤقتة (يُستعمل قبل تحويل الصيغ الرياضية)."""
+    return _PH_PAT.sub(lambda m: spans[int(m.group(1))], s)
+
+
+def _split_struct(text, kind, out, spans):
+    """الغامق ثم المائل في النص الساده (كما في build_html)، ثم الرياضيات في أي مستوى."""
+    if not text:
+        return
+    if kind == "plain":
+        m = _BOLD_PAT.search(text)
+        if m:
+            _split_struct(text[:m.start()], kind, out, spans)
+            _split_struct(m.group(1), "b", out, spans)
+            _split_struct(text[m.end():], kind, out, spans)
+            return
+        m = _ITAL_PAT.search(text)
+        if m:
+            _split_struct(text[:m.start()], kind, out, spans)
+            _split_struct(m.group(1), "i", out, spans)
+            _split_struct(text[m.end():], kind, out, spans)
+            return
+    m = _MATH_PAT.search(text)
+    if m:
+        _split_struct(text[:m.start()], kind, out, spans)
+        body = m.group(1) if m.group(1) is not None else m.group(2)
+        conv = mathlite.convert(_restore(body, spans))
+        out.append((conv, "md" if m.group(1) is not None else "m"))
+        _split_struct(text[m.end():], kind, out, spans)
+        return
+    _emit(text, kind, out, spans)
+
+
+def _emit(text, kind, out, spans):
+    """يُخرج المقاطع مع تحويل علامات الكود المؤقتة إلى رموز c."""
     pos = 0
-    for m in _CODE_PAT.finditer(text):
+    for m in _PH_PAT.finditer(text):
         if m.start() > pos:
-            parts.append(("text", text[pos:m.start()]))
-        parts.append(("code", m.group(1)))
+            out.append((text[pos:m.start()], kind))
+        out.append((spans[int(m.group(1))], "c"))
         pos = m.end()
     if pos < len(text):
-        parts.append(("text", text[pos:]))
-    for kind, seg in parts:
-        if kind == "code":
-            out.append((seg, "c"))
-        else:
-            _split_math(seg, out)
-    return [(t, k) for t, k in out if t]
-
-
-def _split_math(seg, out):
-    """يفصل الرياضيات `\\(...\\)` و `\\[...\\]` ثم يفوّض الباقي للغامق/المائل."""
-    pos = 0
-    for mm in _MATH_PAT.finditer(seg):
-        if mm.start() > pos:
-            _split_markup(seg[pos:mm.start()], out)
-        body = mm.group(1) if mm.group(1) is not None else mm.group(2)
-        kind = "md" if mm.group(1) is not None else "m"
-        out.append((mathlite.convert(body), kind))
-        pos = mm.end()
-    _split_markup(seg[pos:], out)
-
-
-def _split_markup(seg, out, kind="plain"):
-    """يفكك **غامق** خارجيًا، ثم *مائل* داخليًا."""
-    if not seg:
-        return
-    pos = 0
-    for bm in _BOLD_PAT.finditer(seg):
-        if bm.start() > pos:
-            _split_ital(seg[pos:bm.start()], out, kind)
-        inner = "b" if kind == "plain" else kind
-        _split_ital(bm.group(1), out, inner)
-        pos = bm.end()
-    _split_ital(seg[pos:], out, kind)
-
-
-def _split_ital(seg, out, kind):
-    """يفكك المائل *…* مع الحفاظ على نوع الأساس (b/plain)."""
-    if not seg:
-        return
-    if kind != "plain":
-        # داخل الغامق: يبقى كل شيء بنفس النوع (فيه كود/رياضيات عولجت سابقًا)
-        pos = 0
-        for im in _ITAL_PAT.finditer(seg):
-            if im.start() > pos:
-                out.append((seg[pos:im.start()], kind))
-            out.append((im.group(1), kind))
-            pos = im.end()
-        if pos < len(seg):
-            out.append((seg[pos:], kind))
-        return
-    pos = 0
-    for im in _ITAL_PAT.finditer(seg):
-        if im.start() > pos:
-            out.append((seg[pos:im.start()], "plain"))
-        out.append((im.group(1), "i"))
-        pos = im.end()
-    if pos < len(seg):
-        out.append((seg[pos:], "plain"))
+        out.append((text[pos:], kind))
 
 
 def add_inline_runs(p, text, size=10.5, base_bold=False, base_color=None):
@@ -241,6 +230,25 @@ def figure(doc, key, label):
 
 
 # -------------------------------------------------- الكود الملوّن
+_TOK_STYLE = {}
+
+
+def token_style(ttype):
+    """نمط Pygments مع تراجع إلى رمز الأب عند غيابه (مثل Punctuation.Indicator في YAML)."""
+    if ttype in _TOK_STYLE:
+        return _TOK_STYLE[ttype]
+    st = {}
+    t = ttype
+    while t is not None:
+        try:
+            st = style_theme.style_for_token(t)
+            break
+        except KeyError:
+            t = t.parent
+    _TOK_STYLE[ttype] = st
+    return st
+
+
 def add_codeblock(doc, lang, code):
     code = code.rstrip("\n")
     try:
@@ -264,7 +272,7 @@ def add_codeblock(doc, lang, code):
         for ttype, val in lexer.get_tokens(line):
             if val == "":
                 continue
-            st = style_theme.style_for_token(ttype)
+            st = token_style(ttype)
             r = p.add_run(val)
             r.font.size = Pt(8)
             r.font.name = MONO_FONT

@@ -1,0 +1,4 @@
+new stats: {'words': 102353, 'code_blocks': 364, 'minutes': 572, 'pages_est': 319}
+old stats: {'words': 102354, 'code_blocks': 364, 'minutes': 572, 'pages_est': 319}
+meta minus stats same: True
+ragged tables in new book.json: 0 []

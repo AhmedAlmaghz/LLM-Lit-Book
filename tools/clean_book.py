@@ -78,6 +78,16 @@ def _guess_lang(code, declared):
         return "python"
     return "txt"
 
+def _split_table_row(line):
+    """يقسّم صف جدول على الأنابيب غير المهرَّبة فقط (`\\|` = أنبوب حرفي داخل خلية)."""
+    s = line.strip()
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|") and not s.endswith("\\|"):
+        s = s[:-1]
+    return [p.strip().replace("\\|", "|") for p in re.split(r"(?<!\\)\|", s)]
+
+
 def parse_blocks(text):
     """يحول نص Markdown إلى قائمة بلوكات منظمة."""
     lines = text.splitlines()
@@ -128,8 +138,7 @@ def parse_blocks(text):
             rows = []
             j = i
             while j < n and lines[j].strip().startswith("|"):
-                r = [c.strip() for c in lines[j].strip().strip("|").split("|")]
-                rows.append(r); j += 1
+                rows.append(_split_table_row(lines[j])); j += 1
             header = rows[0]
             body = rows[2:] if len(rows) > 2 else rows[1:]
             blocks.append({"t": "table", "header": header, "rows": body})
