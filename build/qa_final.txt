@@ -1,0 +1,29 @@
+
+================== PDF ==================
+pages=626 size=595x842pt latex_leaks=0 sentinels=0 image_refs=34
+
+================== DOCX ==================
+paras=18290 tables=191 images=34 H1=13 H2=59 bidi=7974 markdown_leaks=0
+
+================== EPUB ==================
+entries=55 mimetype_first=True stored=True missing_manifest=0 broken_links=0
+
+================== MD ==================
+lines=26449 chapters=48 figures=33 inline_math=378 display_math=83 sentinels=0
+
+================== HTML ==================
+bytes=11,585,738 sections=71 figures=33 codeboxes=451 imgs=34 title=True closing=True
+
+================== CODE ==================
+chapter_files=47 notebooks=10 invalid_notebooks=0
+requirements=True readme=True
+
+================== FILES ==================
+book_print.html            2.90 MB
+llm-ds.docx                7.18 MB
+llm-ds.epub                8.05 MB
+llm-ds.html               11.47 MB
+llm-ds.md                  1.40 MB
+llm-ds.pdf                37.15 MB
+README.md                  0.00 MB
+images=34 images_print=34

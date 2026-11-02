@@ -1,5 +1,0 @@
-texts: 11598
-stars: 0
-ph: 0
-tex: 0
-snt: 0

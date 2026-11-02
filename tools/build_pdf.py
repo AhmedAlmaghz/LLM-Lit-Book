@@ -37,7 +37,7 @@ def main():
         SRC.resolve().as_uri(),
     ]
     t0 = time.time()
-    r = subprocess.run(args, capture_output=True, timeout=420)
+    r = subprocess.run(args, capture_output=True, timeout=600)
     dt = time.time() - t0
     ok = OUT.exists() and OUT.stat().st_size > 100000
     size = OUT.stat().st_size if OUT.exists() else 0

@@ -1,5 +1,0 @@
-math bodies containing '**': 0
-DPO formula: \[ \mathcal{L}_{\text{DPO}} = -\mathbb{E}_{(x, y_w, y_l)} \left[ \log \sigma \left( \beta \left( \log \frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \log \frac{\pi_\theta(y_l|x)}{\pi_{\text{ref}}
-DPO convert : 𝓛_(DPO) = -𝔼_((x, y_(w), yₗ)) [ log σ ( β ( log (π_(θ)(y_(w)|x))/(π_(ref)(y_(w)|x)) - log (π_(θ)(yₗ|x))/(π_(ref)(yₗ|x)) ) ) ]
-sentinel? False
-total formulas with sentinel: 0

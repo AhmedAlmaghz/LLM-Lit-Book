@@ -1,6 +1,0 @@
-\frac{1}{n}\sum |y - \hat{y}|  =>  1/nΣ |y - ŷ|
-failures: []
-\frac{1}{n}\sum \lvert y - \hat{y} \rvert  =>  1/nΣ lvert y - ŷ rvert
-failures: []
-\frac{1}{n}\sum |y_i - \hat{y}_i|^2  =>  1/nΣ |yᵢ - ŷᵢ|²
-failures: []

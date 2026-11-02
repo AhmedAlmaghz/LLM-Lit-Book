@@ -1,0 +1,16 @@
+torch>=2.3
+transformers>=4.44
+datasets>=2.20
+accelerate>=0.33
+peft>=0.12
+trl>=0.9
+bitsandbytes>=0.43
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+evaluate>=0.4
+scikit-learn>=1.4
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+tqdm>=4.66
+safetensors>=0.4

@@ -5629,7 +5629,7 @@ Breakdown:
 <p>لنفترض أن لدينا:</p>
 <ul><li><span class="mth">x</span>: التعليمات (prompt).</li><li><span class="mth">y_(w)</span>: الإجابة المفضلة (chosen).</li><li><span class="mth">yₗ</span>: الإجابة غير المفضلة (rejected).</li><li><span class="mth">π_(θ)</span>: النموذج الذي ندرّبه (policy).</li><li><span class="mth">π_(ref)</span>: النموذج المرجعي (عادة النموذج بعد SFT، مجمد).</li></ul>
 <p>خسارة DPO:</p>
-<p><span class="mthd">𝓛_(DPO) = -𝔼_((x, y_⟦w), yₗ)⟧ [ log σ ( β ( log (π_(θ)(y_(w)|x))/(π_(ref)(y_(w)|x)) - log (π_(θ)(yₗ|x))/(π_(ref)(yₗ|x)) ) ) ]</span></p>
+<p><span class="mthd">𝓛_(DPO) = -𝔼_((x, y_(w), yₗ)) [ log σ ( β ( log (π_(θ)(y_(w)|x))/(π_(ref)(y_(w)|x)) - log (π_(θ)(yₗ|x))/(π_(ref)(yₗ|x)) ) ) ]</span></p>
 <p>حيث <span class="mth">β</span> يتحكم في قوة الابتعاد عن النموذج المرجعي (عادة 0.1).</p>
 <p><strong>التفسير</strong>:</p>
 <ul><li><span class="mth">log (π_(θ)(y|x))/(π_(ref)(y|x))</span>: “كم زاد احتمال هذه الإجابة مقارنة بالنموذج المرجعي؟”</li><li>الفرق بين الاثنين: “كم زاد احتمال الإجابة المفضلة أكثر من غير المفضلة؟”</li><li><span class="mth">σ</span>: دالة sigmoid. نريد أن يكون هذا الفرق كبيرًا (موجبًا)، بحيث يكون <span class="mth">σ</span> قريبًا من 1.</li><li><span class="mth">β</span>: يمنع النموذج من الابتعاد كثيرًا عن المرجع (KL implicit).</li></ul>
