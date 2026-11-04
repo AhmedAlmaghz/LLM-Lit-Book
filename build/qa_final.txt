@@ -1,29 +1,62 @@
+النتيجة: 33/33 فحصًا ناجحًا
 
 ================== PDF ==================
-pages=626 size=595x842pt latex_leaks=0 sentinels=0 image_refs=34
+pages=660 size=595x842pt bytes=37,090,828 image_refs=34
+PASS  PDF: عدد الصفحات 600+  (660)
+PASS  PDF: لا رياضيات LaTeX خام  (leaks=0)
+PASS  PDF: لا علامات تسريب  (sentinels=0)
+PASS  PDF: 70 رقم فهرس مطبوع  (70)
+PASS  PDF: إشارات مرجعية 70+  (75)
+PASS  PDF: تذييل في كل الصفحات عدا الغلاف  (659/660)
+PASS  PDF: رؤوس في معظم الصفحات  (584/660)
+PASS  PDF: المؤلف في البيانات الوصفية  (أحمد صالح المغز)
 
 ================== DOCX ==================
-paras=18290 tables=191 images=34 H1=13 H2=59 bidi=7974 markdown_leaks=0
+bytes=7,589,420 sections=13 paras=18322 tables=202 H1=4 H2=58 bidi=8006 header_footer_parts=50
+PASS  DOCX: 13 مقطعًا (غلاف + مقدمة + 10 أجزاء + ملاحق)  (13)
+PASS  DOCX: ترقيم الصفحات يبدأ من 0 في المقطع الأول فقط  (['0', None, None])
+PASS  DOCX: رأس/تذييل مختلف للصفحة الأولى في افتتاحيات الأجزاء  (12)
+PASS  DOCX: حقول STYLEREF و PAGE
+PASS  DOCX: 11 لوحة افتتاح أجزاء داكنة  (11)
+PASS  DOCX: لا رياضيات LaTeX خام  (0)
+PASS  DOCX: المؤلف في الخصائص  (م. أحمد صالح المغز)
+PASS  DOCX: اللغة ar  (ar)
 
 ================== EPUB ==================
-entries=55 mimetype_first=True stored=True missing_manifest=0 broken_links=0
+bytes=8,441,770 entries=55 math_spans=461 creator=م. أحمد صالح المغز
+PASS  EPUB: mimetype أولًا وغير مضغوط
+PASS  EPUB: لا رياضيات LaTeX خام  (macros=0 delims=0)
+PASS  EPUB: 400+ عنصر رياضيات  (461)
+PASS  EPUB: XML صالح لكل المستندات  (0)
+PASS  EPUB: لا روابط مفقودة  (0)
+PASS  EPUB: المؤلف  (م. أحمد صالح المغز)
 
 ================== MD ==================
-lines=26449 chapters=48 figures=33 inline_math=378 display_math=83 sentinels=0
+bytes=1,440,682 lines=26451 chapters=48 figures=33
+PASS  MD: 48 فصلًا  (48)
+PASS  MD: 33 مخططًا  (33)
+PASS  MD: لا LaTeX خام خارج الكود  (macros=0 delims=0)
+PASS  MD: لا رياضيات @(...)@ متبقية  (0)
+PASS  MD: اسم المؤلف
 
 ================== HTML ==================
-bytes=11,585,738 sections=71 figures=33 codeboxes=451 imgs=34 title=True closing=True
+bytes=11,606,001 sections=71 figures=33 codeboxes=451 math_spans=461
+PASS  HTML: 400+ عنصر رياضيات  (461)
+PASS  HTML: لا رموز LaTeX داخل الرياضيات  (0)
+PASS  HTML: 33 مخططًا  (33)
+PASS  HTML: مستند مكتمل
 
 ================== CODE ==================
 chapter_files=47 notebooks=10 invalid_notebooks=0
-requirements=True readme=True
+PASS  CODE: 40+ ملف فصل  (47)
+PASS  CODE: دفاتر Colab/Kaggle صالحة  (10 notebooks)
 
 ================== FILES ==================
-book_print.html            2.90 MB
-llm-ds.docx                7.18 MB
+book_print.html            2.93 MB
+llm-ds.docx                7.24 MB
 llm-ds.epub                8.05 MB
-llm-ds.html               11.47 MB
+llm-ds.html               11.49 MB
 llm-ds.md                  1.40 MB
-llm-ds.pdf                37.15 MB
+llm-ds.pdf                35.37 MB
 README.md                  0.00 MB
 images=34 images_print=34

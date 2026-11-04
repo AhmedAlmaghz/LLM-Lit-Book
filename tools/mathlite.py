@@ -14,8 +14,10 @@ _SUPER_MAP = {
     "a": "ᵃ", "b": "ᵇ", "c": "ᶜ", "d": "ᵈ", "e": "ᵉ", "f": "ᶠ", "g": "ᵍ", "h": "ʰ",
     "j": "ʲ", "k": "ᵏ", "l": "ˡ", "m": "ᵐ", "o": "ᵒ", "p": "ᵖ", "r": "ʳ", "s": "ˢ",
     "t": "ᵗ", "u": "ᵘ", "v": "ᵛ", "w": "ʷ", "x": "ˣ", "y": "ʸ", "z": "ᶻ",
-    "T": "ᵀ", "A": "ᴬ", "B": "ᴮ", "C": "ᶜ2"[:1], "E": "ᴱ", "H": "ᴴ", "I": "ᴵ", "M": "ᴹ",
-    "N": "ᴺ", "O": "ᴼ", "P": "ᴾ", "R": "ᴿ", "S": "ˢ" if False else "ˢ",
+    "T": "ᵀ", "A": "ᴬ", "B": "ᴮ", "C": "ᶜ", "D": "ᴰ", "E": "ᴱ", "F": "ᶠ", "G": "ᴳ",
+    "H": "ᴴ", "I": "ᴵ", "J": "ᴶ", "K": "ᴷ", "L": "ᴸ", "M": "ᴹ",
+    "N": "ᴺ", "O": "ᴼ", "P": "ᴾ", "R": "ᴿ", "S": "ˢ", "U": "ᵁ", "V": "ⱽ",
+    "W": "ᵂ", "X": "ˣ", "Y": "ʸ", "Z": "ᶻ",
     "α": "ᵅ", "β": "ᵝ", "γ": "ᵞ", "δ": "ᵟ", "ε": "ᵋ", "θ": "ᶿ", "ι": "ᶥ",
     "φ": "ᵠ", "χ": "ᵡ", "⋅": "⋅",
 }
@@ -148,6 +150,32 @@ def _pass(s):
                 i += 5
                 changed = True
                 continue
+            if s.startswith("\\underbrace", i):
+                g, j = _read_group(s, i + 11)
+                if g is not None:
+                    inner = _convert(g, False)
+                    k = j
+                    while k < n and s[k] == " ":
+                        k += 1
+                    label = None
+                    if s.startswith("_{", k):
+                        lg, k2 = _read_group(s, k + 1)
+                        if lg is not None:
+                            label = _convert(lg, False)
+                            j = k2
+                    out.append(inner + (f" ({label})" if label else ""))
+                    i = j
+                    changed = True
+                    continue
+                out.append("underbrace")
+                i += 11
+                changed = True
+                continue
+            if s.startswith("\\|", i):
+                out.append("‖")
+                i += 2
+                changed = True
+                continue
             if s.startswith("\\sqrt", i):
                 j = i + 5
                 g, j2 = _read_group(s, j)
@@ -199,10 +227,8 @@ def _pass(s):
                         t, j2 = _read_token(s, j)
                         g = t or ""
                     inner = _convert(g, False)
-                    if name in ("mathbf", "bm", "pmb", "mathpzc"):
-                        out.append("*" + inner + "*" if len(inner) <= 3 else inner)
-                    else:
-                        out.append(inner)
+                    # لا نستخدم علامات Markdown (*) داخل الرياضيات: تظهر حرفية
+                    out.append(inner)
                     i = j2
                     changed = True
                     matched = True
@@ -224,6 +250,10 @@ def _pass(s):
             # أوامر الحجم والفواصل الرقيقة والفواصل المزدوجة
             for sc in _SIZE_CMDS:
                 if s.startswith("\\" + sc, i):
+                    nxt = s[i + 1 + len(sc):i + 2 + len(sc)]
+                    # \leftarrow / \rightarrow ليست أوامر حجم: نتحقق من حدّ الكلمة
+                    if sc[-1].isalpha() and nxt.isalpha():
+                        continue
                     i += 1 + len(sc)
                     changed = True
                     matched = True
@@ -235,7 +265,7 @@ def _pass(s):
                 i += 2
                 changed = True
                 continue
-            specials = {"%": "%", "&": "&", "#": "#", "$": "$",
+            specials = {"%": "%", "&": " ", "#": "#", "$": "$",
                         "_": "_", "{": "{", "}": "}"}
             if s[i + 1:i + 2] in specials:
                 out.append(specials[s[i + 1]])
@@ -316,6 +346,8 @@ def _convert(body, cleanup=True):
         s = re.sub(r"_⟦([^⟧]*)⟧", r"_(\1)", s)
         s = re.sub(r"\^⟦([^⟧]*)⟧", r"^( \1)", s)
         s = s.replace("^( ", "^(")
+    # علامة & في LaTeX محاذاة، لكن لا نلمس كيانات HTML مثل &#x27;
+    s = re.sub(r"&(?!(?:#\d+|#x[0-9A-Fa-f]+|[A-Za-z][A-Za-z0-9]*);)", " ", s)
     s = re.sub(r"[ ]{2,}", " ", s)
     return s.strip()
 
@@ -332,7 +364,9 @@ def render(text):
             last_failures.append((out[:80], leftovers[:3] if leftovers else tricky[:3]))
         return "" + out + ""
 
-    out = re.sub(r"\\\((.*?)\\\)", repl, text, flags=re.DOTALL)
+    # المعادلات العرضية \[ ... \] تُحوّل أيضًا (MD/EPUB لا تعرض LaTeX خامًا)
+    out = re.sub(r"\\\[(.*?)\\\]", repl, text, flags=re.DOTALL)
+    out = re.sub(r"\\\((.*?)\\\)", repl, out, flags=re.DOTALL)
     return out
 
 

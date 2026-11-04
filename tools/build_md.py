@@ -16,6 +16,11 @@ from booklib import load, ensure_dist_images, quote_label, FIGS, DIST
 import mathlite
 
 
+def mth(s):
+    """رياضيات MD → صيغة يونيكود مقروءة (لا تظهر رموز LaTeX الخام في أي قارئ)."""
+    return mathlite.render(s)
+
+
 def img_md(key, num_label):
     m = FIGS[key]
     return f"![{m['title']}](images/{key}.png)\n*{num_label}: {m['title']}*"
@@ -25,20 +30,20 @@ def block_md(b):
     """بلوك واحد → نص MD (سلاسل متعددة الأسطر داخل فقرة واحدة)."""
     t = b["t"]
     if t in ("h1", "h2", "h3"):
-        return "#" * {"h1": 1, "h2": 2, "h3": 3}[t] + " " + b["text"]
+        return "#" * {"h1": 1, "h2": 2, "h3": 3}[t] + " " + mth(b["text"])
     if t == "p":
-        return b["text"]
+        return mth(b["text"])
     if t == "quote":
         return "\n".join("> " + seg.strip()
-                         for seg in quote_label(b["text"], b.get("kind", "note")).split("\n"))
+                         for seg in quote_label(mth(b["text"]), b.get("kind", "note")).split("\n"))
     if t == "code":
         return f"````{b.get('lang') or 'text'}\n{b['code'].rstrip()}\n````"
     if t == "ul":
-        return "\n".join("- " + it.replace("\n", " ") for it in b["items"])
+        return "\n".join("- " + mth(it).replace("\n", " ") for it in b["items"])
     if t == "ol":
-        return "\n".join(f"{k}. " + it.replace("\n", " ") for k, it in enumerate(b["items"], 1))
+        return "\n".join(f"{k}. " + mth(it).replace("\n", " ") for k, it in enumerate(b["items"], 1))
     if t == "table":
-        esc = lambda s: re.sub(r"\|", r"\\|", re.sub(r"\s*\n\s*", "<br>", s))
+        esc = lambda s: re.sub(r"\|", r"\\|", re.sub(r"\s*\n\s*", "<br>", mth(s)))
         head = b["header"]
         rows = b["rows"]
         out = ["| " + " | ".join(esc(h) for h in head) + " |",
@@ -79,7 +84,8 @@ def main():
     add("\n\n".join([
         f"# {meta['title']}",
         f"#### {meta['subtitle']}",
-        f"**{meta['edition']}** · {meta['publisher']} · ⏱ ~{st['minutes']} دقيقة قراءة · 📄 ~{st['pages_est']} صفحة",
+        f"**{meta.get('author_display', meta.get('author', ''))}**",
+        f"**{meta['edition']}** · {meta['publisher']} · ⏱ ~{st['minutes']} دقيقة قراءة",
     ]))
     add("| العنصر | القيمة |\n| --- | --- |\n"
         + "\n".join([
@@ -94,11 +100,11 @@ def main():
     toc = ["## فهرس الكتاب", ""]
     for pt in parts:
         chs = [c for c in book["chapters"] if c["part"] == pt["num"]]
-        toc.append(f"**الجزء {pt['ordinal']}: {pt['title']}** *(الفصول {chs[0]['num']}–{chs[-1]['num']})*")
-        toc.extend(f"- الفصل {c['num']}: {c['title']}" for c in chs)
+        toc.append(f"**الجزء {pt['ordinal']}: {mth(pt['title'])}** *(الفصول {chs[0]['num']}–{chs[-1]['num']})*")
+        toc.extend(f"- الفصل {c['num']}: {mth(c['title'])}" for c in chs)
         toc.append("")
     toc.append("**الملاحق** *(ملحق أ — ط)*")
-    toc.extend(f"- {a['title']}" for a in book["appendices"])
+    toc.extend(f"- {mth(a['title'])}" for a in book["appendices"])
     add("\n".join(toc))
 
     # ---------- فهرس الأشكال ----------
@@ -115,7 +121,7 @@ def main():
 
     # ---------- أعمال تأسيسية ----------
     fr = book["front"]
-    add("## الهداء\n\n" + "\n\n".join(b["text"] for b in fr["dedication"][0:9] if b["t"] == "p"))
+    add("## الهداء\n\n" + "\n\n".join(mth(b["text"]) for b in fr["dedication"][0:9] if b["t"] == "p"))
     add("## المقدمة")
     chunks.extend(render_blocks(fr["preface"]))
     add("## خطة الكتاب")
@@ -124,11 +130,11 @@ def main():
     # ---------- الأجزاء والفصول ----------
     for pt in parts:
         pn = pt["num"]
-        add(f"# الجزء {pt['ordinal']}: {pt['title']}")
+        add(f"# الجزء {pt['ordinal']}: {mth(pt['title'])}")
         for key in B.figs_for_part(pn):
             add(img_md(key, f"شكل ج{pn}"))
         for c in [c for c in book["chapters"] if c["part"] == pn]:
-            add(f"## الفصل {c['num']}: {c['title']}")
+            add(f"## الفصل {c['num']}: {mth(c['title'])}")
             chunks.extend(render_blocks(c["blocks"]))
             ks = B.figs_for_chapter(c["num"])
             if ks:
@@ -145,7 +151,7 @@ def main():
     # ---------- الملاحق ----------
     add("# الملاحق")
     for a in book["appendices"]:
-        add(f"## {a['title']}")
+        add(f"## {mth(a['title'])}")
         chunks.extend(render_blocks(a["blocks"]))
 
     # ---------- الخاتمة ----------

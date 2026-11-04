@@ -5,3 +5,10 @@ __pycache__/
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Build scratch (probes, logs, QA renders)
+build/_*
+build/probe_*
+build/qa/
+tools/_*.py
+dist/_*.pdf

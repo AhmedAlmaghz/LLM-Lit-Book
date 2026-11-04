@@ -8,7 +8,7 @@ build_epub.py — إصدار EPUB3 عربي RTL مبني على zip خام (بل
 - يعيد استخدام شظايا build_html (inline/block/chapter/front)
 - يتحقق من صحة كل مستند XML قبل الكتابة
 """
-import sys, uuid, zipfile, datetime
+import re, sys, uuid, zipfile, datetime
 from pathlib import Path
 from xml.etree import ElementTree as ET
 import html as _html
@@ -18,6 +18,17 @@ import booklib as B
 from booklib import load, FIGS
 import build_html as H
 import mathlite
+
+RUNMARK_RE = re.compile(r'<span class="runmark">.*?</span>')
+
+
+def strip_marks(s):
+    return RUNMARK_RE.sub("", s)
+
+
+def plain(s):
+    """نص عادي لعناصر التنقل: رياضيات يونيكود + تهريب XML."""
+    return _html.escape(mathlite.render(s or ""))
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
@@ -52,23 +63,28 @@ def _resolver(k):
 def part_section(book, pt):
     pn = pt["num"]
     chs = [c for c in book["chapters"] if c["part"] == pn]
-    out = [f'<section class="part" id="part{pn}">',
-           f'<span class="pbadge">الجزء {pt["ordinal"]}</span>',
-           f'<h1>{H.inline(pt["title"])}</h1>',
-           f'<div class="plight">الفصول {chs[0]["num"]}–{chs[-1]["num"]}</div>']
-    for key in B.figs_for_part(pn):
-        out.append('<div class="chfig" style="margin-bottom:0"><span class="kicker">شريحة الجزء</span>')
-        out.append(H.figure_html(key, f"شكل ج{pn}", _resolver))
-        out.append("</div>")
-    out.append("</section>")
-    return "\n".join(out)
+    fig = "".join(
+        f'<div class="partfig">{H.figure_html(key, f"شكل ج{pn}", _resolver)}</div>'
+        for key in B.figs_for_part(pn))
+    return "\n".join([
+        f'<section class="part" id="part{pn}">',
+        '<div class="part-inner">',
+        f'<div class="pghost">{pn:02d}</div>',
+        f'<span class="pbadge">الجزء {pt["ordinal"]}</span>',
+        f'<h1>{H.inline(pt["title"])}</h1>',
+        f'<div class="plight">الفصول {chs[0]["num"]}–{chs[-1]["num"]} · {len(chs)} فصولًا</div>',
+        '<div class="pmeta">المحوّلات والنماذج اللغوية الكبيرة · من النظرية إلى بناء أنظمة ذكية</div>',
+        fig,
+        "</div>",
+        "</section>",
+    ])
 
 
 def build_part(book, pt):
     chunks = [part_section(book, pt)]
     for c in [c for c in book["chapters"] if c["part"] == pt["num"]]:
-        chunks.append(H.chapter_html(c, _resolver))
-    title = f"الجزء {pt['ordinal']}: {pt['title']}"
+        chunks.append(strip_marks(H.chapter_html(c, _resolver)))
+    title = f"الجزء {pt['ordinal']}: {mathlite.render(pt['title'])}"
     return xhtml(title, "\n".join(chunks))
 
 
@@ -77,14 +93,17 @@ def build_front(book):
     st = meta["stats"]
     cover = ('<div class="coverpage">'
              '<img src="../images/cover.png" alt="غلاف الكتاب"/></div>')
+    author = meta.get("author_display", meta.get("author", ""))
     head = f"""<div class="dochead">
+  <div class="eyebrow">كتاب عملي · إصدار 2026</div>
   <h1>{H.inline(meta['title'])}</h1>
   <div class="sub">{H.inline(meta['subtitle'])}</div>
+  <div class="author">{H.inline(author)}</div>
   <div class="meta">{H.inline(meta['edition'])} · {meta['publisher']} ·
-   ⏱ ~{st['minutes']} دقيقة قراءة · 📄 ~{st['pages_est']} صفحة ·
+   ⏱ ~{st['minutes']} دقيقة قراءة ·
    48 فصلًا · 10 أجزاء · 9 ملاحق · 33 مخططًا</div>
 </div>"""
-    body = cover + head + "\n" + H.front_html(book["front"], _resolver)
+    body = cover + head + "\n" + strip_marks(H.front_html(book["front"], _resolver))
     return xhtml("المقدمة والهداء", body)
 
 
@@ -95,15 +114,15 @@ def build_toc(book):
     for pt in parts:
         chs = [c for c in book["chapters"] if c["part"] == pt["num"]]
         out.append(f'<li><a href="part{pt["num"]:02d}.xhtml">الجزء {pt["ordinal"]}: '
-                   f'{_html.escape(pt["title"])}</a>')
+                   f'{plain(pt["title"])}</a>')
         out.append("<ol>")
         for c in chs:
             out.append(f'<li><a href="part{pt["num"]:02d}.xhtml#ch{c["num"]}">'
-                       f'الفصل {c["num"]}: {_html.escape(c["title"])}</a></li>')
+                       f'الفصل {c["num"]}: {plain(c["title"])}</a></li>')
         out.append("</ol></li>")
     out.append('<li><a href="appendices.xhtml">الملاحق (ملحق أ — ط)</a><ol>')
     for i, a in enumerate(book["appendices"]):
-        out.append(f'<li><a href="appendices.xhtml#apx-{i}">{_html.escape(a["title"])}</a></li>')
+        out.append(f'<li><a href="appendices.xhtml#apx-{i}">{plain(a["title"])}</a></li>')
     out.append("</ol></li>")
     out.append('<li><a href="colophon.xhtml">خاتمة الكتاب</a></li>')
     out.append("</ol></section>")
@@ -111,12 +130,15 @@ def build_toc(book):
 
 
 def build_appendices(book):
-    out = ['<section class="part" id="apx"><span class="pbadge">الملاحق</span>'
-           '<h1>الملاحق التسعة</h1><div class="plight">ملحق أ — ط</div></section>']
+    out = ['<section class="part" id="apx"><div class="part-inner">'
+           '<span class="pbadge">الملاحق</span>'
+           '<h1>الملاحق التسعة</h1>'
+           '<div class="plight">ملحق أ — ط · قوالب وChecklists ومراجع عملية</div>'
+           '</div></section>']
     for i, a in enumerate(book["appendices"]):
         ap = dict(a)
         ap["ord"] = i
-        out.append(H.appendices_html(ap, _resolver))
+        out.append(strip_marks(H.appendices_html(ap, _resolver)))
     return xhtml("الملاحق", "\n".join(out))
 
 
@@ -151,14 +173,14 @@ def build_nav(book):
     for pt in parts:
         chs = [c for c in book["chapters"] if c["part"] == pt["num"]]
         nav.append(f'<li><a href="text/part{pt["num"]:02d}.xhtml">الجزء {pt["ordinal"]}: '
-                   f'{_html.escape(pt["title"])}</a><ol>')
+                   f'{plain(pt["title"])}</a><ol>')
         for c in chs:
             nav.append(f'<li><a href="text/part{pt["num"]:02d}.xhtml#ch{c["num"]}">'
-                       f'الفصل {c["num"]}: {_html.escape(c["title"])}</a></li>')
+                       f'الفصل {c["num"]}: {plain(c["title"])}</a></li>')
         nav.append("</ol></li>")
     nav.append('<li><a href="text/appendices.xhtml">الملاحق</a><ol>')
     for i, a in enumerate(book["appendices"]):
-        nav.append(f'<li><a href="text/appendices.xhtml#apx-{i}">{_html.escape(a["title"])}</a></li>')
+        nav.append(f'<li><a href="text/appendices.xhtml#apx-{i}">{plain(a["title"])}</a></li>')
     nav.append("</ol></li>")
     nav.append('<li><a href="text/colophon.xhtml">خاتمة الكتاب</a></li>')
     nav.append("</ol></nav>")
@@ -176,13 +198,14 @@ def ncx_navpoints(book):
     items = [("المقدمة والهداء", "text/front.xhtml", 1),
              ("الفهرس", "text/toc.xhtml", 1)]
     for pt in book["part_titles"]:
-        items.append((f"الجزء {pt['ordinal']}: {pt['title']}", f"text/part{pt['num']:02d}.xhtml", 1))
+        items.append((f"الجزء {pt['ordinal']}: {mathlite.render(pt['title'])}",
+                      f"text/part{pt['num']:02d}.xhtml", 1))
         for c in [c for c in book["chapters"] if c["part"] == pt["num"]]:
-            items.append((f"الفصل {c['num']}: {c['title']}",
+            items.append((f"الفصل {c['num']}: {mathlite.render(c['title'])}",
                           f"text/part{pt['num']:02d}.xhtml#ch{c['num']}", 2))
     items.append(("الملاحق", "text/appendices.xhtml", 1))
     for i, a in enumerate(book["appendices"]):
-        items.append((a["title"], f"text/appendices.xhtml#apx-{i}", 2))
+        items.append((mathlite.render(a["title"]), f"text/appendices.xhtml#apx-{i}", 2))
     items.append(("خاتمة الكتاب", "text/colophon.xhtml", 1))
     return items
 
@@ -232,11 +255,16 @@ def build_opf(book, files):
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">{BOOK_ID}</dc:identifier>
     <dc:title>{_html.escape(meta['title'])}</dc:title>
-    <dc:creator>BookAI</dc:creator>
+    <dc:creator id="author">{_html.escape(meta.get('author_display', meta.get('author', '')))}</dc:creator>
     <dc:publisher>{_html.escape(meta['publisher'])}</dc:publisher>
     <dc:language>ar</dc:language>
     <dc:date>2026</dc:date>
     <dc:description>{_html.escape(meta['subtitle'])}</dc:description>
+    <dc:subject>LLM</dc:subject>
+    <dc:subject>Transformers</dc:subject>
+    <dc:subject>RAG</dc:subject>
+    <dc:subject>Agents</dc:subject>
+    <dc:subject>الذكاء الاصطناعي</dc:subject>
     <meta property="dcterms:modified">{MODIFIED}</meta>
     <meta name="cover" content="cover-image"/>
   </metadata>
@@ -279,16 +307,36 @@ strong { font-weight: bold; color: #0F172A; }
 a { color: #4338CA; text-decoration: none; }
 code { font-family: "Consolas", "Courier New", monospace; font-size: 0.86em; background: #F1F5F9; border-radius: 3px; padding: 0 0.2em; direction: ltr; unicode-bidi: embed; }
 pre { direction: ltr; text-align: left; white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere; }
-section.part { page-break-before: always; text-align: center; padding: 18% 1em 0; }
+section.part { page-break-before: always; text-align: center; padding: 10% 1em 0; }
+.part-inner { padding: 1.2em 0.4em; }
 section.part h1 { font-size: 1.9em; border: 0; color: #31267B; }
+.pghost { display: none; }
 .pbadge { display: inline-block; background: #EEF2FF; color: #4338CA; border: 1px solid #C7D2FE;
   border-radius: 999px; padding: 0.15em 0.9em; font-size: 0.85em; margin-bottom: 0.6em; }
 .plight { color: #64748B; font-size: 0.9em; margin: 0.3em 0 1.2em; }
+.pmeta { color: #94A3B8; font-size: 0.82em; margin: 0.2em 0 0.6em; }
+.partfig { margin: 1.4em 0 0; }
+.chead { page-break-inside: avoid; border-bottom: 1px solid #E2E8F0; padding-bottom: 0.45em;
+  margin-bottom: 0.7em; }
+.chead h2 { border: 0; margin: 0.1em 0 0; }
+.cnum-ghost { display: none; }
+.cbody { padding: 0; }
+.ch { page-break-before: always; margin-top: 0.4em; }
 .chnum { display: block; color: #0891B2; font-size: 0.8em; letter-spacing: 0.02em; margin: 0.4em 0 0.1em; }
 .dochead { text-align: center; padding: 2em 0 1em; }
+.dochead .eyebrow { display: inline-block; color: #4338CA; background: #EEF2FF; border: 1px solid #C7D2FE;
+  border-radius: 999px; padding: 0.1em 0.9em; font-size: 0.82em; margin-bottom: 0.8em; }
 .dochead h1 { font-size: 2em; margin-bottom: 0.2em; }
 .dochead .sub { color: #475569; font-size: 1.15em; margin-bottom: 0.6em; }
+.dochead .author { color: #3730A3; font-weight: bold; font-size: 1.02em; margin-bottom: 0.4em; }
 .dochead .meta { color: #64748B; font-size: 0.88em; }
+.mth { direction: ltr; unicode-bidi: isolate; font-family: "Cambria Math", Cambria, serif;
+  font-style: italic; color: #4338CA; }
+.mthd { display: block; text-align: center; direction: ltr; unicode-bidi: isolate;
+  font-family: "Cambria Math", Cambria, serif; font-style: italic; color: #4338CA;
+  margin: 0.6em 0; }
+.runmark { display: none; }
+.tocpage { display: none; }
 .coverpage { text-align: center; page-break-after: always; }
 .coverpage img { max-width: 100%; height: auto; }
 blockquote.qa { margin: 0.9em 0; padding: 0.6em 0.8em; border-right: 4px solid #818CF8;

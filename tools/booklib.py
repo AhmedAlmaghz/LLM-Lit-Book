@@ -12,6 +12,9 @@ FIGS_PNG = ROOT / "figures" / "png"
 DIST = ROOT / "dist"
 IMG_ROOT = ROOT / "images"           # داخل مجلد dist
 
+AUTHOR = "أحمد صالح المغز"
+AUTHOR_DISPLAY = "م. أحمد صالح المغز"
+
 KIND_LABEL = {
     "tip": "نصيحة", "warn": "تحذير", "note": "ملاحظة", "hook": "سؤال يفتح الشهية",
     "lesson": "درس عملي", "danger": "خطأ شائع قاتل", "rule": "قاعدة عملية",
@@ -73,6 +76,8 @@ def load():
         if c["num"] == 48 and c["blocks"] and c["blocks"][-1].get("t") == "h1":
             c["blocks"] = c["blocks"][:-1]
     book["part_titles"] = parts
+    book["meta"].setdefault("author", AUTHOR)
+    book["meta"].setdefault("author_display", AUTHOR_DISPLAY)
     return book
 
 
