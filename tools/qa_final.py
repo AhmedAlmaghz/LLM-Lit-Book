@@ -46,10 +46,12 @@ leaks, sentinels = [], []
 imgs = 0
 toc_numbers = 0
 foot_pages = head_pages = 0
+fig_pages = fig_pages_with_img = 0
 # مرور واحد على الصفحات: نص + إحداثيات + صور (أسرع بكثير من ثلاث مرورات)
 for i in range(pages):
     page = d[i]
-    imgs += len(page.get_images(full=True))
+    page_imgs = len(page.get_images(full=True))
+    imgs += page_imgs
     data = page.get_text("dict", flags=pymupdf.TEXTFLAGS_TEXT)
     top = bottom = False
     chunks = []
@@ -70,6 +72,10 @@ for i in range(pages):
                         and r.y1 < 780):
                     toc_numbers += 1
     text = "\n".join(chunks)
+    if "المخطط التوضيحي للفصل" in text:
+        fig_pages += 1
+        if page_imgs:
+            fig_pages_with_img += 1
     if re.search(r"\\frac\{|\\begin\{|\\sum_|\\mathbf", text):
         leaks.append(i + 1)
     if "⟦" in text:
@@ -89,6 +95,8 @@ check("PDF: إشارات مرجعية 70+", len(toc) >= 70, str(len(toc)))
 check("PDF: تذييل في كل الصفحات عدا الغلاف", foot_pages >= pages - 2,
       f"{foot_pages}/{pages}")
 check("PDF: رؤوس في معظم الصفحات", head_pages >= pages // 2, f"{head_pages}/{pages}")
+check("PDF: لا صناديق مخططات فارغة",
+      fig_pages == fig_pages_with_img, f"{fig_pages_with_img}/{fig_pages}")
 check("PDF: المؤلف في البيانات الوصفية", AUTHOR in (meta.get("author") or ""),
       meta.get("author") or "")
 d.close()

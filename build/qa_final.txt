@@ -1,14 +1,15 @@
-النتيجة: 33/33 فحصًا ناجحًا
+النتيجة: 34/34 فحصًا ناجحًا
 
 ================== PDF ==================
-pages=660 size=595x842pt bytes=37,090,828 image_refs=34
-PASS  PDF: عدد الصفحات 600+  (660)
+pages=666 size=595x842pt bytes=36,857,227 image_refs=34
+PASS  PDF: عدد الصفحات 600+  (666)
 PASS  PDF: لا رياضيات LaTeX خام  (leaks=0)
 PASS  PDF: لا علامات تسريب  (sentinels=0)
 PASS  PDF: 70 رقم فهرس مطبوع  (70)
 PASS  PDF: إشارات مرجعية 70+  (75)
-PASS  PDF: تذييل في كل الصفحات عدا الغلاف  (659/660)
-PASS  PDF: رؤوس في معظم الصفحات  (584/660)
+PASS  PDF: تذييل في كل الصفحات عدا الغلاف  (665/666)
+PASS  PDF: رؤوس في معظم الصفحات  (590/666)
+PASS  PDF: لا صناديق مخططات فارغة  (29/29)
 PASS  PDF: المؤلف في البيانات الوصفية  (أحمد صالح المغز)
 
 ================== DOCX ==================
@@ -57,6 +58,6 @@ llm-ds.docx                7.24 MB
 llm-ds.epub                8.05 MB
 llm-ds.html               11.49 MB
 llm-ds.md                  1.40 MB
-llm-ds.pdf                35.37 MB
+llm-ds.pdf                35.15 MB
 README.md                  0.00 MB
 images=34 images_print=34
