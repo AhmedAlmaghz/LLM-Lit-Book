@@ -1,0 +1,25 @@
+{
+  "name": "المحوّلات والنماذج اللغوية الكبيرة",
+  "short_name": "المحوّلات",
+  "description": "كتاب عملي بالعربية من النظرية إلى بناء أنظمة LLM: 48 فصلًا، 10 أجزاء، 9 ملاحق و364 كتلة كود قابلة للتشغيل.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0B1020",
+  "theme_color": "#141033",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/cover.jpg",
+      "sizes": "900x1350",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

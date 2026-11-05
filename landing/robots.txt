@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahmedalmaghz.github.io/LLM-Lit-Book/sitemap.xml

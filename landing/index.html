@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تعلّم بناء LLMs بالعربية — من المحوّلات إلى الإنتاج | الكتاب العملي الأعمق</title>
+<meta name="description" content="كتاب عملي 2026: من خلية عصبية واحدة إلى Transformer وFlashAttention وMoE وLoRA وDPO وGRPO وRAG العربي وAgents والنشر — مع كود تشغيله ومخططات و48 فصلًا. الفصل الأول مجاني.">
+<meta name="keywords" content="LLM, محول، نماذج لغوية، تعلم آلي، ذكاء اصطناعي، RAG، LoRA، QLoRA، GRPO، DPO، Agents، العربية، Python، FlashAttention">
+<meta name="author" content="م. أحمد صالح المغز">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://ahmedalmaghz.github.io/LLM-Lit-Book/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/cover.jpg">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#070B1A">
+
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="BookAI">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:title" content="ابنِ LLMs حقيقية — الكتاب العربي من المحوّلات إلى الإنتاج">
+<meta property="og:description" content="48 فصلًا عمليًا، 364 كتلة كود بايثون، 33 مخططًا، كود متاح — والفصل الأول مجاني الآن.">
+<meta property="og:url" content="https://ahmedalmaghz.github.io/LLM-Lit-Book/">
+<meta property="og:image" content="https://ahmedalmaghz.github.io/LLM-Lit-Book/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="غلاف كتاب المحوّلات والنماذج اللغوية الكبيرة من النظرية إلى الإنتاج">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="المحوّلات والنماذج اللغوية الكبيرة — تعلّم بناء LLMs بالعربية">
+<meta name="twitter:description" content="ليس كتاب API. كتاب من الخلية إلى خط الإنتاج — والفصل الأول مجاني.">
+<meta name="twitter:image" content="https://ahmedalmaghz.github.io/LLM-Lit-Book/assets/og.jpg">
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "المحوّلات والنماذج اللغوية الكبيرة — من النظرية إلى بناء أنظمة ذكية",
+  "author": { "@type": "Person", "name": "م. أحمد صالح المغز" },
+  "publisher": { "@type": "Organization", "name": "BookAI" },
+  "inLanguage": "ar",
+  "datePublished": "2026",
+  "numberOfPages": 666,
+  "image": "https://ahmedalmaghz.github.io/LLM-Lit-Book/assets/og.jpg",
+  "url": "https://ahmedalmaghz.github.io/LLM-Lit-Book/",
+  "genre": ["Artificial Intelligence", "Computer Science", "Large Language Models"],
+  "keywords": "LLM, Transformers, GRPO, LoRA, DPO, RAG, Agents, Arabic NLP, FlashAttention",
+  "isAccessibleForFree": true,
+  "about": ["Transformers", "Large Language Models", "Retrieval-Augmented Generation", "Fine-tuning", "Model evaluation"]
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "هل أحتاج خلفية رياضيات أو ML لأبدأ؟",
+    "acceptedAnswer": { "@type": "Answer", "text": "لا يشترط. الجزء الأول يبني الخلية العصبية بالكامل من الصفر مع NumPy ثم PyTorch، والمحترفون في LLM سيجدون في الأجزاء 5–10 ما يختصر عليهم شهورًا." }
+  }, {
+    "@type": "Question",
+    "name": "هل الكود جاهز للتشغيل على جهازي؟",
+    "acceptedAnswer": { "@type": "Answer", "text": "نعم: 47 ملف بايثون خطيًا حسب الفصول، و10 دفاتر Colab/Kaggle، وrequirements.txt. تمارين صغيرة تعمل على CPU، وبعض النماذج الكبيرة تحتاج GPU قوي أو Colab Pro." }
+  }, {
+    "@type": "Question",
+    "name": "ما الذي يميز هذا الكتاب عن المحتوى العربي الموجود؟",
+    "acceptedAnswer": { "@type": "Answer", "text": "ليس ترجمة ولا دروس استخدم الواجهة؛ بل من الداخل: التوكننة العربية، LoRA/QLoRA، DPO مقابل ORPO مقابل GRPO، RAG عربي مع reranker، نشر vLLM/TGI، وقياس الجودة واستدامتها." }
+  }, {
+    "@type": "Question",
+    "name": "ما الصيغ التي تنشرونها وما المتوقع مجانيًا؟",
+    "acceptedAnswer": { "@type": "Answer", "text": "PDF للطباعة، EPUB، DOCX، HTML، وMarkdown كمرجع Git — مع الكود والمخططات. الفصل الأول متاح الآن مجانًا، وباقي الفصول تُفتح عند الإطلاق." }
+  }, {
+    "@type": "Question",
+    "name": "متى ستصدر النسخة وكيف سأعرف؟",
+    "acceptedAnswer": { "@type": "Answer", "text": "الطبعة الأولى جاهزة للنشر ولم تُحدد أسعار الشراكات النهائية بعد. التسجيل عبر النموذج يجعلك أول من يستلم إشعار الإطلاق وروابط الشراء — بلا دفعات الآن." }
+  }, {
+    "@type": "Question",
+    "name": "هل ستتوفر تحديثات بعد الطبعة الأولى؟",
+    "acceptedAnswer": { "@type": "Answer", "text": "نعم: تصحيحات وتحديثات خلال سنة من الإطلاق، ومسجلو القائمة يحصلون عليها، ويرحب المستودع بمشكلات التصحيح وطلبات المساهمة في الكود." }
+  }]
+}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/config.js" defer></script>
+<script src="assets/site.js" defer></script>
+</head>
+
+<body>
+<a class="skip" href="#main">تخطي إلى المحتوى</a>
+
+<header class="topnav" id="topnav">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">AI</span>
+      <span><strong>المحوّلات</strong><small>LLM بالعربي · من النظرية إلى الإنتاج</small></span>
+    </a>
+    <nav class="nav-links" aria-label="التنقل داخل الصفحة">
+      <a href="#why">لماذا؟</a>
+      <a href="#curriculum">المحتوى</a>
+      <a href="#quiz">اختبر نفسك</a>
+      <a href="#faq">أسئلة</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="./chapter-01.html">اقرأ أول فصل مجانًا</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ الهيرو ============ -->
+<section class="hero" id="top">
+  <span class="hero-orb orb-a" aria-hidden="true"></span>
+  <span class="hero-orb orb-b" aria-hidden="true"></span>
+  <div class="wrap hero-layout">
+    <div class="hero-copy">
+      <div class="hero-badges">
+        <span class="eyebrow"><span class="live-dot"></span>طبعة أولى · 2026 · عربي بالكامل</span>
+        <span class="fresh">آخر تحديث: نوفمبر 2026</span>
+      </div>
+      <h1 class="hero-title"><span class="line-dim">ابنِ</span> <span class="grad-big">LLMs حقيقية</span><br><span class="line-bright">ولا تكتفِ باستدعاء واجهة.</span></h1>
+      <p class="lead">الكتاب العربي العملي للانتقال من <strong>الخلية العصبية</strong> إلى <strong>Transformer</strong> و<strong>MoE</strong>، ومن <strong>LoRA</strong> و<strong>DPO</strong> و<strong>GRPO</strong> إلى <strong>RAG العربي</strong> و<strong>Agents</strong> والنشر — بكود تُشغله، ومخططات تكشف ما وراء الحجاب، ومسار من الصفر إلى النظام الحقيقي.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#lead" data-purchase>احجز نسخة الإطلاق</a>
+        <a class="btn btn-secondary" href="./chapter-01.html" data-free-chapter>اقرأ أول فصل مجانًا</a>
+      </div>
+      <div class="trust-pills" aria-label="ضمانات">
+        <span><b>لا دفعات الآن</b> — الحجز ليبقيك مطلعًا</span>
+        <span>PDF · EPUB · DOCX · HTML · Markdown</span>
+        <span>الكود متاح <b>GitHub</b></span>
+      </div>
+      <dl class="stat-grid" aria-label="إحصائيات الكتاب">
+        <div><dt>48</dt><dd>فصلًا عمليًا</dd></div>
+        <div><dt>364</dt><dd>كتلة كود Python</dd></div>
+        <div><dt>102K</dt><dd>كلمة بالعربية</dd></div>
+        <div><dt>33</dt><dd>مخططًا توضيحيًا</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero-stage" aria-hidden="true">
+      <span class="stage-ring ring-a"></span>
+      <span class="stage-ring ring-b"></span>
+      <figure class="cover-shell">
+        <img src="assets/cover.webp" width="300" height="450" alt="الغلاف الحقيقي لكتاب المحوّلات والنماذج اللغوية الكبيرة" fetchpriority="high">
+        <figcaption><span>الغلاف الحقيقي · بدون صور توليدية</span></figcaption>
+      </figure>
+      <div class="terminal-card">
+        <div class="terminal-dots"><i></i><i></i><i></i><span>code/ch01.py</span></div>
+        <pre><span class="terminal-line l1"><span class="prompt">$</span> python code/ch01.py</span>
+<span class="terminal-line l2"><span class="out">شبكة عصبية من الصفر → تتعلم ✅</span></span>
+<span class="terminal-line l3"><span class="prompt">$</span> python code/ch10.py</span>
+<span class="terminal-line l4"><span class="out"><span class="ok">حلقة التدريب</span> كاملة → أضف/شغّل وعدّل</span></span></pre>
+      </div>
+      <div class="mini-pill pill-a">FlashAttention-3</div>
+      <div class="mini-pill pill-b">RAG بالعربي</div>
+      <div class="mini-pill pill-c">DPO · GRPO · LoRA</div>
+    </div>
+  </div>
+  <div class="hero-ticker" aria-hidden="true"><div class="ticker-track">FlashAttention-3 · MoE · Mamba · LoRA · QLoRA · AWQ · DPO · ORPO · KTO · GRPO · vLLM · TGI · RAG بالعربي · Agents · تقييم عربي · الانتشار الأمامي · ما وراء الحجاب · FlashAttention-3 · MoE · Mamba · LoRA · QLoRA · AWQ · DPO · ORPO · KTO · GRPO · vLLM · TGI · RAG بالعربي · Agents · تقييم عربي · الانتشار الأمامي · ما وراء الحجاب</div></div>
+</section>
+
+<div class="proof-bar" aria-label="لماذا يؤمن بهذا القارئ؟">
+  <div class="wrap proof-inner">
+    <span><b>47</b> ملف كود خطي</span><span class="sep">•</span>
+    <span><b>10</b> دفاتر Colab/Kaggle</span><span class="sep">•</span>
+    <span><b>9</b> ملاحق مرجعية</span><span class="sep">•</span>
+    <span><b>الفصل الأول مجاني</b> — لا كلام، اقرأ ثم احكم</span>
+  </div>
+</div>
+
+<!-- ============ لماذا هذا الكتاب ============ -->
+<section class="section section-paper" id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">الجمل التي لا تكتبها الإعلانات</span>
+      <h2>«أنا أعرف كيف أستخدم LLM…<br>لكنني لا أعرف <em>لماذا يفشل</em>.»</h2>
+      <p>هذه ليست مراجع مراجعة. هذه مواقف يعرفها من بنى نموذجًا واحدًا على الأقل — والكتاب يجيب عليها من الداخل: السبب، والمؤشر، والكود، والحل.</p>
+    </div>
+    <div class="pain-grid">
+      <article class="pain reveal"><h3>«الـ RAG كان ممتازًا على العينات… وردّ غلط على وثائق العميل.»</h3><p>الحل ليس «جرّب prompt جديد». الحل: <strong>استرجاع عربي هجين، تقييم retrieval، و reranker يميز الجد من الهلوسة</strong> — الفصل 23 وملاحق التقييم.</p></article>
+      <article class="pain reveal"><h3>«دفعت على Full Fine-tuning، ولم أحقق ما كان يعطيه LoRA ربع التكلفة.»</h3><p>الكتاب يضع <strong>مصفوفة قرار PEFT</strong>: LoRA، QLoRA، DoRA، Adapter و (IA)³ — متى وكيف وبأي مخاطرة.</p></article>
+      <article class="pain reveal"><h3>«DPO أسهل من GRPO… أم العكس؟ ومتى ينتهي RLHF؟»</h3><p>لن تجد جوابًا واحدًا هنا. ستجد <strong>مشهد 2025–2026 كاملًا</strong>: DPO، ORPO، KTO، GRPO — وما يناسب فريقًا عربيًا بميزانية GPU حقيقية.</p></article>
+      <article class="pain reveal"><h3>«النشرات روتينية حتى ظهرت الهلوسة في الإنتاج.»</h3><p>من أول endpoint حتى المراقبة: <strong>vLLM وTGI، AWQ/GPTQ، LLM-as-a-Judge، وضبط الجودة بعد النشر</strong> — الفصول 35–40.</p></article>
+    </div>
+
+    <div class="personas" style="margin-top:16px">
+      <article class="persona persona-1 reveal"><span class="tag">مهندس LLM</span><h3>تبني، ولا تستهلك</h3><p>رحلة كاملة من الشبكة من الصفر حتى بنية Transformer حديثة ونشر نماذج مضبوطة.</p><ul><li><span>←</span> خط تدريب كامل: من NumPy إلى PyTorch</li><li><span>←</span> ضبط دقيق ونشر: LoRA وGRPO وAWQ</li></ul></article>
+      <article class="persona persona-2 reveal"><span class="tag">مدير تقني / مؤسس منتج</span><h3>تعرف ماذا تطلب من فريقك</h3><p>قرار البناء مقابل الشراء، عندما تختفي الهلوسة، ومتى يكون RAG بدل التدريب.</p><ul><li><span>←</span> مصفوفة قرار: RAG أم FT أم Agent</li><li><span>←</span> مقاييس لا تخدع: جودة، سرعة، تكلفة، أمان</li></ul></article>
+      <article class="persona persona-3 reveal"><span class="tag">مطور عربي / باحث</span><h3>العربية ليست “خصمًا”</h3><p>من التوكننة إلى التقييم، ولماذا تفشل النماذج العامة على العربي، وما الذي يجعلها تعمل.</p><ul><li><span>←</span> التوكننة والتركيز والعربية واللهجات</li><li><span>←</span> تقييم عربي لا تقابله الترجمة</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ خارطة الرحلة ============ -->
+<section class="section section-dark" id="curriculum">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker kicker-light">خارطة الرحلة</span>
+      <h2 style="color:#F7F8FF">10 أجزاء. 48 فصلًا.<br>من <span class="grad-big">σ(z)</span> إلى نظام يعمل في إنتاجك.</h2>
+      <p class="sub-light">مرتبة كمسار هندسي: كل جزء يبني على السابق، وتصلك الخاتمة وقائمة تحقق تغنيك عن “لا أعرف من أين أبدأ غدًا”.</p>
+    </div>
+    <div class="parts-grid">
+      <article class="part"><span class="pnum">01</span><h3>الأساسيات — من الشبكات العصبية إلى التعلّم العميق</h3><span class="range">الفصول <b>1–3</b></span></article>
+      <article class="part"><span class="pnum">02</span><h3>التضمينات والتمثيلات — كيف تتحول النصوص إلى أرقام</h3><span class="range">الفصول <b>4–6</b></span></article>
+      <article class="part"><span class="pnum">03</span><h3>المحوّلات — القلب النابض للنماذج اللغوية</h3><span class="range">الفصول <b>7–11</b></span></article>
+      <article class="part"><span class="pnum">04</span><h3>بناء LLM من الصفر — خط الأنابيب الكامل</h3><span class="range">الفصول <b>12–19</b></span></article>
+      <article class="part"><span class="pnum">05</span><h3>التقنيات المتقدمة — من هندسة الأوامر إلى الوكلاء</h3><span class="range">الفصول <b>20–24</b></span></article>
+      <article class="part"><span class="pnum">06</span><h3>النماذج متعددة الوسائط (Multimodal LLMs)</h3><span class="range">الفصول <b>25–28</b></span></article>
+      <article class="part"><span class="pnum">07</span><h3>البناء انطلاقًا من نماذج موجودة — بدلًا من الصفر</h3><span class="range">الفصول <b>29–34</b></span></article>
+      <article class="part"><span class="pnum">08</span><h3>التقييم والاختبار والنشر</h3><span class="range">الفصول <b>35–40</b></span></article>
+      <article class="part"><span class="pnum">09</span><h3>التطبيقات والمشاريع العملية</h3><span class="range">الفصول <b>41–45</b></span></article>
+      <article class="part"><span class="pnum">10</span><h3>المقابلات والمسار المهني</h3><span class="range">الفصول <b>46–48</b></span></article>
+    </div>
+    <div class="curriculum-note"><span>+ <strong style="color:#ECEFFB">9 ملاحق</strong>: مسرد · أوراق · أدوات · قوالب · checklist</span><span>+ <strong style="color:#ECEFFB">10 دفاتر</strong> Colab/Kaggle</span><span>+ <strong style="color:#ECEFFB">47</strong> ملف كود</span></div>
+
+    <div class="builds" aria-label="ما ستبنيه">
+      <div class="build"><span class="step">01 / ch01</span><b>شبكة تتعلم وحدها</b><small>NumPy · GD · XOR</small></div>
+      <div class="build"><span class="step">02 / ch10</span><b>حلقة التدريب كاملة</b><small>Loss · AMP · Checkpoint</small></div>
+      <div class="build"><span class="step">03 / ch11</span><b>Mini-LLM صغير</b><small>Data → Train → Eval</small></div>
+      <div class="build"><span class="step">04 / ch23</span><b>RAG عربي</b><small>Hybrid · Rerank · Eval</small></div>
+      <div class="build"><span class="step">05 / ch37</span><b>نشر وقياس</b><small>vLLM · TGI · Monitoring</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ اختبار تفاعلي ============ -->
+<section class="section section-dark" id="quiz" style="border-top:1px solid var(--line-dark);padding-top:72px">
+  <div class="wrap quiz-shell">
+    <div>
+      <span class="kicker kicker-light">اختبار ٩٠ ثانية</span>
+      <h2 style="color:#F7F8FF">من أين أنت؟<br>— وليس “ما مدى تميزك؟”</h2>
+      <p class="sub-light">ست أسئلة واقعية، بدون حسابات ولا تسجيل. النتيجة تساعدك تختار الفصل المناسب بدون هدر يوم كامل في مقدمات غير مناسبة.</p>
+      <p class="quiz-hint">الإجابات تُعالج محليًا داخل المتصفح — لا تُرسل ولا تُحفظ.</p>
+    </div>
+    <form class="quiz-card" id="quiz-form" novalidate>
+      <fieldset class="quiz-q"><legend>1. كم مرة نفذت/شغّلت تدريب نموذج لغوي فعليًا؟</legend><div class="quiz-opts"><label><input type="radio" name="q1" value="0" checked><span>ولا مرة</span></label><label><input type="radio" name="q1" value="1"><span>مرة/أكثر</span></label><label><input type="radio" name="q1" value="2"><span>في الإنتاج</span></label></div></fieldset>
+      <fieldset class="quiz-q"><legend>2. هل تستطيع شرح لماذا RMSNorm أفضل في حالات من LayerNorm؟</legend><div class="quiz-opts"><label><input type="radio" name="q2" value="0" checked><span>لا</span></label><label><input type="radio" name="q2" value="1"><span>جزئيًا</span></label><label><input type="radio" name="q2" value="2"><span>نعم</span></label></div></fieldset>
+      <fieldset class="quiz-q"><legend>3. متى تختار LoRA بدل Full Fine-tuning؟</legend><div class="quiz-opts"><label><input type="radio" name="q3" value="0" checked><span>لا أعرف</span></label><label><input type="radio" name="q3" value="1"><span>تقريبًا</span></label><label><input type="radio" name="q3" value="2"><span>بثقة</span></label></div></fieldset>
+      <fieldset class="quiz-q"><legend>4. كيف تقيّم نموذجًا عربيًا؟ BLEU فقط؟</legend><div class="quiz-opts"><label><input type="radio" name="q4" value="0" checked><span>لا أعرف</span></label><label><input type="radio" name="q4" value="1"><span>أخلط مقاييس</span></label><label><input type="radio" name="q4" value="2"><span>LLM-as-Judge + Tasks</span></label></div></fieldset>
+      <fieldset class="quiz-q"><legend>5. كيف تقلل الهلوسة في RAG عربي؟</legend><div class="quiz-opts"><label><input type="radio" name="q5" value="0" checked><span>Prompt أطول</span></label><label><input type="radio" name="q5" value="1"><span>استرجاع هجين</span></label><label><input type="radio" name="q5" value="2"><span>Rerank + Eval</span></label></div></fieldset>
+      <fieldset class="quiz-q"><legend>6. تعرف خطوة نشر LLM خلف API آمنة؟</legend><div class="quiz-opts"><label><input type="radio" name="q6" value="0" checked><span>لا</span></label><label><input type="radio" name="q6" value="1"><span>أعرف الأساس</span></label><label><input type="radio" name="q6" value="2"><span>نشرت vLLM/TGI</span></label></div></fieldset>
+      <div class="quiz-actions"><button class="btn btn-primary" type="submit">احسب جاهزيتي</button><button class="btn btn-secondary" type="button" id="quiz-reset">مسح</button></div>
+      <div class="quiz-result" id="quiz-result" role="status" hidden>
+        <div class="quiz-score"><span id="quiz-score">0</span>%</div>
+        <h3 id="quiz-title">النتيجة</h3>
+        <p id="quiz-copy"></p>
+        <a class="btn btn-primary" href="./chapter-01.html" data-free-chapter>اقرأ أول فصل مجانًا</a>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ معاينة داخل الكتاب ============ -->
+<section class="section section-paper" id="inside" style="color:#1F2937">
+  <div class="wrap split">
+    <div>
+      <span class="kicker">معاينة من الداخل</span>
+      <h2>صفحة واحدة<br>يمكن أن تغيّر طريقة فهمك.</h2>
+      <ul class="checks">
+        <li><span class="check-dot">✓</span><span><b>معادلات يونيكود مقروءة</b> — بلا LaTeX يخفي المعنى خلف الرموز.</span></li>
+        <li><span class="check-dot">✓</span><span><b>مخططات معمارية</b> — من الخلية العصبية إلى Transformer كامل الطبقات.</span></li>
+        <li><span class="check-dot">✓</span><span><b>كود يعمل معك</b> — كل فصل يفتح الكود قبل أن تتساءل عن ماذا سيأتي بعده.</span></li>
+        <li><span class="check-dot">✓</span><span><b>خاتمة تنفيذية لكل فصل</b> — تخرج بقرار، لا بمعلومات فقط.</span></li>
+      </ul>
+      <a class="btn btn-dark" href="./chapter-01.html" data-free-chapter>اقرأ الفصل الأول كاملًا</a>
+    </div>
+    <figure class="inside-card reveal">
+      <img src="assets/transformer.png" width="780" height="450" alt="مخطط داخلي من الكتاب: بنية كتلة المحوّل الحديث Pre-LN مع RMSNorm وSwiGLU وRoPE" loading="lazy">
+      <figcaption><strong>شكل 8.1</strong> من داخل الكتاب — كتلة Transformer الحديثة: Pre-LN، وRMSNorm، وSwiGLU، وRoPE، وتنضيف المسار للتدرج.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ احجز ============ -->
+<section class="offer" id="lead">
+  <div class="wrap offer-grid">
+    <div class="offer-copy">
+      <span class="kicker kicker-light">احجز، ثم اقرأ، ثم احكم</span>
+      <h2>لا تثق بانطباع الغلاف.<br>انطباعك يبدأ من أول فصل.</h2>
+      <p>اترك بريدك وسنرسل لك فقط إشعار الإطلاق وروابط الشراء والتحميل — أو اقرأ أول فصل الآن ولا تدفع حتى تقتنع.</p>
+      <div class="book-box" aria-label="ما الذي تشمله النسخة">
+        <div class="book-item"><span class="n">PDF</span><span><b>للطباعة</b><small>666 صفحة · فهرس وإشارات مرجعية</small></span></div>
+        <div class="book-item"><span class="n">EPUB</span><span><b>للقارئات</b><small>RTL · Kindle / Apple Books</small></span></div>
+        <div class="book-item"><span class="n">DOCX</span><span><b>للتحرير</b><small>Word · مقاطع · ترقيم</small></span></div>
+        <div class="book-item"><span class="n">HTML</span><span><b>للقراءة</b><small>Offlline · صور مضمّنة</small></span></div>
+        <div class="book-item"><span class="n">MD</span><span><b>للمرجع</b><small>Git-friendly · بلا رموز مشفرة</small></span></div>
+        <div class="book-item"><span class="n">&lt;/&gt;</span><span><b>الكود والدفاتر</b><small>47 ملفًا · 10 دفاتر Colab/Kaggle</small></span></div>
+      </div>
+      <div class="trust-row" aria-label="وعود">
+        <span>لا نرسل إعلانات</span><span>لا نشارك بريدك</span><span>إلغاء برسالة واحدة</span><span>لا دفعات الآن</span>
+      </div>
+      <div class="share-row" aria-label="شارك الكتاب">
+        <span>هذا المستوى من العمق يستحق المشاركة:</span>
+        <a class="share-btn" data-share="whatsapp" href="https://wa.me/" aria-label="مشاركة عبر واتساب"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2.5A9.45 9.45 0 0 0 4.1 16.7L2.5 21.5l5-1.63a9.5 9.5 0 1 0 4.54-17.37Zm0 17.44a7.9 7.9 0 0 1-3.9-1.1l-.27-.15-2.86.93.92-2.87-.17-.3a7.43 7.43 0 1 1 6.28 3.5Zm4.33-5.6c-.24-.12-1.4-.69-1.61-.77-.22-.08-.38-.12-.53.12-.16.24-.6.77-.74.93-.14.16-.27.18-.5.06-.24-.12-1-.36-1.9-1.16-.7-.62-1.17-1.38-1.3-1.61-.14-.24-.02-.37.1-.49.1-.1.24-.27.36-.4.12-.13.16-.23.24-.38.08-.16.04-.3-.02-.42-.06-.12-.53-1.26-.72-1.72-.19-.46-.38-.4-.53-.41h-.45c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.02 0 1.2.87 2.35.98 2.5.12.16 1.7 2.6 4.12 3.65.57.25 1.01.39 1.36.5.57.18 1.1.16 1.5.1.46-.07 1.4-.57 1.6-1.12.19-.56.19-1.04.13-1.14-.05-.1-.22-.16-.46-.28Z"/></svg></a>
+        <a class="share-btn" data-share="x" href="https://twitter.com/intent/tweet" aria-label="مشاركة عبر X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h3.6l5.6 7.65L19.5 4H21l-6.94 8.86L21.5 20h-3.6l-5.83-7.96L6 20H4l7.2-9.2L4 4Z"/></svg></a>
+        <a class="share-btn" data-share="linkedin" href="https://www.linkedin.com/sharing/share-offsite/" aria-label="مشاركة عبر لينكدإن"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.3 2.3 0 1 1 0 4.6 2.3 2.3 0 0 1 0-4.6ZM4.5 9.5h1v11h-1v-11Zm5.5 0h1v1.5h.03c.13-.24.47-1.5 1.5-1.5 1.63 0 2.5 1.08 2.5 3.25v7.75h-1v-6.5c0-1.55-.27-2.6-1.6-2.6-1.4 0-1.9 1.08-1.9 2.6V20.5h-1v-11Z"/></svg></a>
+        <a class="share-btn" data-share="email" href="mailto:" aria-label="مشاركة عبر البريد"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm1.7 2L12 12l6.3-5M5 17V8.1l5.3 4.24a2.4 2.4 0 0 0 3.4 0L19 8.1V17H5Z" fill="currentColor" stroke="none"/></svg></a>
+        <button class="share-btn" type="button" id="copy-link" aria-label="نسخ رابط الكتاب"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6.5A3.5 3.5 0 0 1 12.5 3h4a3.5 3.5 0 0 1 3.5 3.5v4a3.5 3.5 0 0 1-3.5 3.5h-.6v2A3.5 3.5 0 0 1 16.4 19.5h-4a3.5 3.5 0 0 1-3.5-3.5v-4A3.5 3.5 0 0 1 12.4 8.5h.6v-2zM11 12.5V16a1.5 1.5 0 0 0 1.5 1.5h4A1.5 1.5 0 0 0 18 16v-4a1.5 1.5 0 0 0-1.5-1.5H12A1.5 1.5 0 0 0 11 12Z"/></svg></button>
+      </div>
+    </div>
+
+    <form class="lead-card" id="lead-form" novalidate>
+      <h3>احجز مقعدك في قائمة الإطلاق</h3>
+      <p class="hint">نرسل فقط: إشعار الإطلاق، رابط الشراء/التحميل، وتحديثات الطبعة الأولى.</p>
+      <label class="field"><span>الاسم (اختياري)</span><input type="text" name="name" autocomplete="name" placeholder="كيف نناديك؟"></label>
+      <label class="field"><span>البريد الإلكتروني *</span><input type="email" name="email" dir="ltr" autocomplete="email" required placeholder="you@example.com"></label>
+      <fieldset class="interests"><legend>ما الذي يهمك أكثر؟</legend><div class="chips"><label class="chip"><input type="checkbox" value="نسخة رقمية" checked> نسخة رقمية</label><label class="chip"><input type="checkbox" value="GitHub والدفاتر"> كود GitHub والدفاتر</label><label class="chip"><input type="checkbox" value="فصحى/لهجات"> لغة عربية</label><label class="chip"><input type="checkbox" value="ورشة أو تدريب"> ورشة / تدريب</label></div></fieldset>
+      <label class="consent"><input type="checkbox" name="consent" required><span>أوافق على استخدام بريدي لإشعاري بهذا الكتاب فقط، وأفهم أن الإلغاء برسالة واحدة.</span></label>
+      <button type="submit" class="btn btn-primary" id="lead-button">احجز مقعي الآن</button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      <p class="fine">إن لم تُربط <code>formEndpoint</code> بعد، تُحفظ طلباتك محليًا في هذا المتصفح حتى تفعيل الإرسال الفعلي — راجع <code>landing/README.md</code>.</p>
+    </form>
+  </div>
+</section>
+
+<div class="channels" aria-label="قنوات الحصول">
+  <div class="wrap">
+    <p><strong style="color:#fff">تفضّل قنوات مباشرة؟</strong><br>روابط الشراء/التحميل ستضاف هنا عند الإطلاق.</p>
+    <div class="channel-group">
+      <a class="channel-btn primary" data-purchase href="#lead">احجز نسخة الإطلاق</a>
+      <a class="channel-btn" data-github href="https://github.com/AhmedAlmaghz/LLM-Lit-Book">افتح GitHub</a>
+      <a class="channel-btn" data-free-chapter href="./chapter-01.html">الفصل الأول مجانًا</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ أسئلة ============ -->
+<section class="section section-paper" id="faq">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="kicker">أسئلة شائعة</span>
+      <h2>قبل أن تضغط «احجز»…</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item"><summary><span class="q">01</span>هل أحتاج خلفية رياضيات أو ML لأبدأ؟</summary><div class="a">لا يشترط. الجزء الأول يبني الخلية العصبية من الصفر مع NumPy ثم PyTorch، والمحترفون في LLM سيجدون في الأجزاء 5–10 ما يختصر عليهم شهورًا.</div></details>
+      <details class="faq-item"><summary><span class="q">02</span>هل الكود يعمل على جهازي؟</summary><div class="a">نعم: <code>code/ch*.py</code> خطية حسب الفصول، و<code>code/notebooks/</code> دفتر لكل جزء على Colab/Kaggle، مع <code>requirements.txt</code>. تمارين صغيرة تعمل على CPU، وبعض النماذج الكبيرة تحتاج GPU قوي أو Colab.</div></details>
+      <details class="faq-item"><summary><span class="q">03</span>ما الذي يميز هذا الكتاب عن المحتوى العربي الموجود؟</summary><div class="a">ليس ترجمة ولا دروس «استخدم الواجهة». من الداخل: التوكننة العربية، LoRA/QLoRA، DPO مقابل ORPO مقابل KTO وGRPO، RAG هجين مع reranker عربي، نشر vLLM/TGI، وقياس الجودة بعد النشر.</div></details>
+      <details class="faq-item"><summary><span class="q">04</span>ما الصيغ التي تنشرونها وما المتوقع مجانيًا؟</summary><div class="a">PDF للطباعة، EPUB، DOCX، HTML، وMarkdown — مع الكود والمخططات مضمّنة أو بجانبها. <strong>الفصل الأول متاح مجانًا الآن</strong> على هذه الصفحة، وباقي الفصول تُفتح عند الإطلاق.</div></details>
+      <details class="faq-item"><summary><span class="q">05</span>متى ستصدر النسخة وكيف سأعرف؟</summary><div class="a">الطبعة الأولى جاهزة للنشر، ولم تُحدد الشراكات/الأسعار النهائية بعد. التسجيل عبر القائمة يجعلك أول من يستلم إشعار الإطلاق وروابط الشراء — بلا دفعات الآن.</div></details>
+      <details class="faq-item"><summary><span class="q">06</span>هل ستتوفر تحديثات بعد الطبعة الأولى؟</summary><div class="a">نعم: تصحيحات وتحديثات خلال سنة من الإطلاق، ومسجلو القائمة يحصلون عليها، ويرحب المستودع بمشكلات التصحيح وطلبات المساهمة في الكود.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ختام ============ -->
+<section class="final-cta" aria-labelledby="final-title">
+  <div class="wrap">
+    <span class="kicker kicker-light" style="margin-bottom:18px">20 دقيقة الآن · طباعة القيمة غدًا</span>
+    <h2 id="final-title">النماذج اللغوية لن تنتظر من يتعلمها متأخرًا.</h2>
+    <p>اقرأ الفصل الأول الآن — ثم قرر كيف ستشعر عندما يُعيد زميلك إرسال تسجيل شاشة بعدما يكتشف هذا الكتاب.</p>
+    <div class="hero-actions" style="justify-content:center;margin-bottom:0">
+      <a class="btn btn-primary" href="./chapter-01.html" data-free-chapter>ابدأ الفصل الأول الآن</a>
+      <a class="text-link" href="#lead">أو احجز مقعدي في قائمة الإطلاق</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">AI</span><span><strong>المحوّلات والنماذج اللغوية الكبيرة</strong><small>م. أحمد صالح المغز · BookAI · 2026</small></span></a>
+        <p style="max-width:34rem;margin:0">كتاب عملي بالعربية للانتقال من الخلية الأولى إلى أنظمة LLM كاملة: بنية، تدريب، ضبط، تقييم، نشر — بمخططات وكود وتمارين و2025–2026.</p>
+      </div>
+      <div><h3>الكتاب</h3><ul><li><a href="./chapter-01.html" data-free-chapter>الفصل الأول مجانًا</a></li><li><a href="https://github.com/AhmedAlmaghz/LLM-Lit-Book">مستودع GitHub</a></li><li><a href="https://github.com/AhmedAlmaghz/LLM-Lit-Book/issues">الأخطاء والاقتراحات</a></li><li><a href="#faq">أسئلة شائعة</a></li></ul></div>
+      <div><h3>المشاركة</h3><ul><li><a data-share="whatsapp" href="https://wa.me/">شارك عبر واتساب</a></li><li><a data-share="x" href="https://twitter.com/intent/tweet">شارك عبر X</a></li><li><a data-share="linkedin" href="https://www.linkedin.com/sharing/share-offsite/">شارك عبر لينكدإن</a></li><li><a href="#lead">قائمة الإطلاق بالبريد</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="year">2026</span> BookAI — م. أحمد صالح المغز</span><span>PDF · EPUB · DOCX · HTML · Markdown</span></div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الفصل الأول مجانًا — المحوّلات والنماذج اللغوية الكبيرة</title>
+<meta name="description" content="اقرأ الفصل الأول كاملًا من 'المحوّلات والنماذج اللغوية الكبيرة': كيف تتعلم الآلة من الصفر، بالكود والمخططات.">
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/webp" href="assets/cover.webp">
+<link rel="canonical" href="https://ahmedalmaghz.github.io/LLM-Lit-Book/chapter-01.html">
+<style>
+
+:root{
+  --bg:#EDF0F7; --paper:#FFFFFF; --ink:#1F2937; --muted:#64748B; --line:#E2E8F0;
+  --brand:#4338CA; --brand2:#0891B2; --soft:#EEF2FF; --accent:#7C3AED;
+  --codebg:#F8FAFC; --codeink:#0F172A;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:86px}
+body{
+  margin:0;color:var(--ink);
+  background:radial-gradient(1200px 620px at 50% -12%,#E4E8FF 0%,var(--bg) 55%,#EEF1F7 100%);
+  font-family:"Segoe UI","Noto Naskh Arabic","Noto Kufi Arabic",Tahoma,Arial,sans-serif;
+  font-size:17.5px;line-height:1.95;text-rendering:optimizeLegibility;
+  font-feature-settings:"kern" 1,"liga" 1;
+}
+/* شريط القراءة */
+.sitebar{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(226,232,240,.9)}
+.sitebar .in{max-width:1000px;margin:0 auto;padding:9px 22px;display:flex;align-items:center;gap:12px}
+.brandmark{width:38px;height:38px;border-radius:11px;flex:0 0 auto;
+  background:linear-gradient(135deg,#06B6D4,#4338CA 55%,#A855F7);color:#fff;
+  font-weight:900;font-size:10.5px;display:flex;align-items:center;justify-content:center;
+  letter-spacing:.4px;box-shadow:0 8px 18px rgba(67,56,202,.3)}
+.bt{font-weight:800;font-size:14.5px;color:#171245;line-height:1.3}
+.ba{font-size:11.5px;color:#64748B;line-height:1.3}
+.sitebar nav{margin-inline-start:auto;display:flex;gap:6px}
+.sitebar nav a{font-size:12.5px;font-weight:700;color:#3730A3;padding:7px 12px;
+  border-radius:999px;background:#EEF2FF;border:1px solid #E0E7FF;text-decoration:none;white-space:nowrap}
+.sitebar nav a:hover{background:#E0E7FF}
+#pbar{height:3px;width:0;background:linear-gradient(90deg,#06B6D4,#4338CA,#A855F7);transition:width .12s linear}
+@media(max-width:720px){.sitebar .ba{display:none}.sitebar nav a:last-child{display:none}}
+.page{max-width:1000px;margin:0 auto;padding:26px 22px 60px}
+h1,h2,h3,h4{line-height:1.5;font-weight:800;margin:0}
+h1{font-size:33px;color:#111827}
+h2{font-size:24px;color:#1E1B4B;margin:38px 0 10px}
+h3{font-size:19px;color:#312E81;margin:22px 0 6px}
+p{margin:10px 0}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+strong{color:#0F172A}
+/* الغلاف */
+.coverpage{text-align:center;padding:26px 0 6px}
+.coverpage img{width:min(340px,74vw);border-radius:18px;
+  box-shadow:0 30px 80px rgba(30,27,75,.32);border:1px solid rgba(255,255,255,.6)}
+.dochead{text-align:center;margin:30px auto 10px;max-width:760px}
+.dochead .eyebrow{display:inline-block;font-size:12.5px;font-weight:800;letter-spacing:.5px;
+  color:#4338CA;background:#EEF2FF;border:1px solid #C7D2FE;border-radius:999px;
+  padding:5px 16px;margin-bottom:14px}
+.dochead h1{font-size:clamp(32px,5vw,46px);font-weight:900;color:#141033;
+  line-height:1.25;letter-spacing:-.5px}
+.dochead .sub{color:#475569;font-size:clamp(17px,2.4vw,21px);margin-top:10px}
+.dochead .author{color:#3730A3;font-weight:800;font-size:17px;margin-top:14px}
+.dochead .meta{color:#6D28D9;font-size:13.5px;margin-top:8px;line-height:1.8}
+/* الفهرس */
+.toc{background:var(--paper);border:1px solid var(--line);border-radius:22px;
+  padding:24px 28px;margin:30px 0;box-shadow:0 18px 50px rgba(30,27,75,.08)}
+.toc h2{margin:0 0 14px;font-size:21px;color:var(--brand);border:none;padding:0}
+.tocgrid{column-count:2;column-gap:30px}
+@media(max-width:780px){.tocgrid{column-count:1}}
+.tocpart{break-inside:avoid;margin:0 0 16px}
+.tocptitle{font-weight:900;color:#312E81;font-size:14px;padding:4px 0;
+  border-bottom:1px solid #E0E7FF;margin-bottom:4px;line-height:1.6}
+.tocptitle .rng{color:#94A3B8;font-weight:600;font-size:11.5px;margin-inline-start:6px}
+.tocrow{display:flex;align-items:baseline;gap:7px;padding:1.5px 0;font-size:13.5px;line-height:1.7}
+.tocrow a{color:#334155;flex:0 1 auto;min-width:0}
+.tocrow a:hover{color:#4338CA}
+.tocdots{flex:1 1 auto;border-bottom:1px dotted #CBD5E1;transform:translateY(-4px);min-width:10px}
+.tocpage{display:none}
+.runmark{display:none}
+/* الأجزاء */
+.part{margin:56px 0 30px;border-radius:24px;overflow:hidden;
+  box-shadow:0 30px 80px rgba(30,27,75,.28);break-inside:avoid}
+.part-inner{position:relative;background:linear-gradient(140deg,#141033 0%,#312E81 45%,#6D28D9 100%);
+  color:#fff;padding:70px 52px 54px;min-height:540px;display:flex;flex-direction:column;
+  justify-content:center;overflow:hidden}
+.part-inner::after{content:"";position:absolute;inset-inline-start:-90px;bottom:-120px;
+  width:340px;height:340px;border-radius:50%;
+  background:radial-gradient(circle,rgba(34,211,238,.28),transparent 65%)}
+.pghost{position:absolute;top:-28px;inset-inline-start:24px;font-size:190px;font-weight:900;
+  line-height:1;color:rgba(255,255,255,.07);letter-spacing:-10px;pointer-events:none}
+.pbadge{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(199,210,254,.4);
+  color:#E0E7FF;font-weight:800;font-size:13px;border-radius:999px;padding:7px 20px;
+  backdrop-filter:blur(6px);width:fit-content}
+.part h1{font-size:clamp(30px,4.4vw,46px);color:#fff;margin:18px 0 8px;max-width:24ch;
+  line-height:1.3;position:relative;z-index:1}
+.plight{color:#C7D2FE;font-size:16px;font-weight:600}
+.pmeta{color:#A5B4FC;font-size:13px;margin-top:6px}
+.partfig{background:#fff;border-radius:16px;padding:12px 12px 6px;margin:28px 0 0;
+  position:relative;z-index:1}
+.partfig figcaption{color:#475569}
+/* الفصول */
+.ch{background:var(--paper);border:1px solid var(--line);border-radius:22px;
+  margin:30px 0;box-shadow:0 10px 30px rgba(30,27,75,.06);overflow:hidden}
+.ch::before{content:"";display:block;height:5px;
+  background:linear-gradient(90deg,#06B6D4,#4338CA 55%,#A855F7)}
+.chead{display:flex;align-items:flex-start;gap:20px;padding:30px 34px 24px;
+  background:linear-gradient(180deg,#FAFBFF 0%,#FFFFFF 100%);border-bottom:1px solid #EEF2F7}
+.cnum-ghost{font-size:54px;font-weight:900;line-height:.85;color:#E0E7FF;
+  letter-spacing:-3px;min-width:78px;text-align:center;padding-top:4px}
+.chead-txt{flex:1;min-width:0}
+.chnum{display:inline-block;background:var(--soft);color:var(--brand);border:1px solid #C7D2FE;
+  font-size:12px;font-weight:800;border-radius:999px;padding:4px 14px;margin-bottom:7px;
+  letter-spacing:.2px}
+.ch h2{margin:0;font-size:clamp(24px,3.2vw,33px);color:#171245;line-height:1.35;
+  border:none;padding:0}
+.cbody{padding:22px 34px 34px}
+/* تنبيهات */
+.qa{border:none;border-radius:14px;padding:14px 18px;margin:16px 0;line-height:1.85}
+.qa .k{font-weight:800;font-size:14px;display:block;margin-bottom:3px}
+.qa.tip{background:#ECFDF5;border-right:4px solid #10B981}.qa.tip .k{color:#047857}
+.qa.warn{background:#FFFBEB;border-right:4px solid #F59E0B}.qa.warn .k{color:#B45309}
+.qa.danger{background:#FEF2F2;border-right:4px solid #EF4444}.qa.danger .k{color:#B91C1C}
+.qa.mistake{background:#FFF1F2;border-right:4px solid #F43F5E}.qa.mistake .k{color:#BE123C}
+.qa.note{background:#F0F9FF;border-right:4px solid #0EA5E9}.qa.note .k{color:#0369A1}
+.qa.gold{background:#FEFCE8;border-right:4px solid #CA8A04}.qa.gold .k{color:#A16207}
+.qa.think{background:#F5F3FF;border-right:4px solid #8B5CF6}.qa.think .k{color:#6D28D9}
+.qa.compare{background:#EEF2FF;border-right:4px solid #6366F1}.qa.compare .k{color:#4338CA}
+.qa.hook{background:#ECFEFF;border-right:4px solid #06B6D4}.qa.hook .k{color:#0E7490}
+.qa.lesson{background:#F0FDFA;border-right:4px solid #14B8A6}.qa.lesson .k{color:#0F766E}
+.qa.rule{background:#F8FAFC;border-right:4px solid #475569}.qa.rule .k{color:#334155}
+.qa.best{background:#FDF4FF;border-right:4px solid #A855F7}.qa.best .k{color:#7E22CE}
+/* الكود */
+.codebox{position:relative;background:var(--codebg);border:1px solid #E2E8F0;border-radius:14px;
+  margin:16px 0;direction:ltr;text-align:left;overflow:hidden;box-shadow:0 6px 20px rgba(30,27,75,.05)}
+.codebox .lang{position:absolute;top:7px;right:12px;font-size:10.5px;letter-spacing:1.5px;
+  color:#94A3B8;text-transform:uppercase;font-weight:700}
+.codebox pre{margin:0;padding:16px 18px;overflow-x:auto;font-family:Consolas,"Cascadia Code",monospace;
+  font-size:13.5px;line-height:1.62;color:var(--codeink);white-space:pre-wrap;word-wrap:break-word}
+.codebox code{font-family:inherit;background:none;color:inherit}
+code.ic{direction:ltr;unicode-bidi:isolate;background:#F1F5F9;border:1px solid #E2E8F0;
+  border-radius:6px;padding:1px 7px;font-family:Consolas,monospace;font-size:.88em;color:#0F172A}
+.mth{direction:ltr;unicode-bidi:isolate;font-family:"Cambria Math",Cambria,serif;
+  font-style:italic;background:#F5F3FF;border-radius:5px;padding:0 4px;color:#4338CA;white-space:nowrap}
+.mthd{display:block;text-align:center;direction:ltr;unicode-bidi:isolate;
+  font-family:"Cambria Math",Cambria,serif;font-style:italic;background:#F8F7FF;
+  border:1px solid #E0E7FF;border-radius:10px;padding:8px 14px;margin:12px 0;color:#4338CA;
+  font-size:1.02em}
+/* الجداول */
+.tblwrap{overflow-x:auto;margin:18px 0;border-radius:14px;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;background:var(--paper);font-size:14.8px}
+th{background:var(--soft);color:#312E81;font-weight:800;text-align:right;padding:10px 12px;
+  border:1px solid var(--line)}
+td{padding:9px 12px;border:1px solid var(--line);vertical-align:top;text-align:right}
+tr:nth-child(even) td{background:#FAFBFE}
+ul,ol{margin:10px 0;padding-right:26px;padding-left:0}
+li{margin:5px 0}
+/* الأشكال */
+figure{margin:26px auto;text-align:center;max-width:100%}
+figure img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:14px;
+  box-shadow:0 10px 30px rgba(30,27,75,.10)}
+figcaption{margin-top:10px;color:var(--muted);font-size:14.5px;font-weight:600}
+.chfig{background:linear-gradient(180deg,#F8FAFF,#F2F5FF);border:1px dashed #C7D2FE;
+  border-radius:16px;padding:16px 16px 8px;margin:24px 0}
+.chfig h2{border:none;margin:4px 0 0;font-size:17px;color:var(--brand2);text-align:center}
+.kicker{display:block;text-align:center;color:var(--muted);font-size:13px;margin-bottom:6px;
+  letter-spacing:.4px}
+.partfig{margin:28px 0 0;max-width:100%}
+.partfig img{box-shadow:none;border:none;border-radius:8px}
+.colophon{margin:70px 0 30px;text-align:center;color:var(--muted);font-size:14px}
+.colophon .rule{width:160px;height:4px;border-radius:99px;margin:0 auto 16px;
+  background:linear-gradient(90deg,#22D3EE,#818CF8,#C084FC)}
+.toTop{position:fixed;bottom:22px;left:22px;background:#312E81;color:#fff;width:44px;height:44px;
+  border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;
+  box-shadow:0 8px 20px rgba(49,46,129,.35);z-index:9}
+.hr{border:none;border-top:1px dashed var(--line);margin:22px 0}
+@media(max-width:720px){
+  .page{padding:18px 14px 44px}
+  .chead{padding:22px 18px 18px;gap:12px}
+  .cnum-ghost{font-size:40px;min-width:52px}
+  .cbody{padding:18px 18px 26px}
+  .part-inner{padding:46px 24px 36px;min-height:430px}
+  .pghost{font-size:120px}
+  .toc{padding:18px}
+}
+
+body{background:#F7F8FF}
+:root{--brand-2:#7C3AED;--cyan:#06B6D4}
+.free-bar{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.reading-progress{position:fixed;z-index:40;bottom:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--brand),var(--cyan));transition:width .08s linear}
+.free-bar .in{max-width:1120px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:12px}
+.free-bar .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#141033;font-weight:800}
+.free-bar .mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,#111827,#4338CA);display:flex;align-items:center;justify-content:center;color:#7DD3FC;font-family:Consolas,monospace;font-size:12px;letter-spacing:.5px}
+.free-bar a.back{color:#4338CA;text-decoration:none;font-weight:700;font-size:13.5px}
+.free-bar .cta{margin-inline-start:auto;display:inline-flex;align-items:center;gap:8px;background:#141033;color:#fff;text-decoration:none;border-radius:12px;padding:9px 14px;font-weight:800;font-size:13.5px;box-shadow:0 10px 24px rgba(17,24,39,.18)}
+.free-badge{max-width:1000px;margin:18px auto 0;padding:0 22px;display:flex;align-items:center;gap:10px;color:#4338CA;font-size:13px;font-weight:800}
+.free-badge span{background:#EEF2FF;border:1px solid #E0E7FF;border-radius:999px;padding:4px 12px}
+.page{padding-top:8px}
+.ch{box-shadow:0 18px 60px rgba(30,27,75,.09)}
+.free-cta{max-width:1000px;margin:26px auto 46px;padding:0 22px}
+.free-cta .card{background:radial-gradient(700px 350px at 12% 0%,#3B1D63 0%,transparent 60%),#141033;color:#fff;border-radius:24px;padding:28px 30px;box-shadow:0 24px 70px rgba(20,16,51,.35);display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+.free-cta h2{font-size:26px;line-height:1.4;margin:0 0 10px}
+.free-cta p{color:#C7CBFF;line-height:1.8;margin:0 0 10px}
+.free-cta a{display:inline-flex;align-items:center;gap:8px;background:#7C3AED;color:#fff;text-decoration:none;border-radius:14px;padding:12px 18px;font-weight:800}
+.free-cta small{color:#A5A7D9;display:block;margin-top:10px}
+.free-foot{border-top:1px solid var(--line);padding:18px 22px;text-align:center;color:#64748B;font-size:12.5px}
+.free-chapter-toc{max-width:1000px;margin:0 auto 18px;padding:0 22px;display:flex;flex-wrap:wrap;gap:8px}
+.free-chapter-toc a{font-size:12px;color:#4338CA;background:#EEF2FF;border:1px solid #E0E7FF;border-radius:999px;padding:5px 12px;text-decoration:none}
+@media(max-width:760px){.free-bar .brand small{display:none}.free-cta .card{grid-template-columns:1fr;padding:22px}.free-bar .cta{display:none}.free-chapter-toc{display:none}}
+</style>
+<style>pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.codebox .hll { background-color: #ffffcc }
+.codebox { background: #f8f8f8; }
+.codebox .c { color: #3D7B7B; font-style: italic } /* Comment */
+.codebox .err { border: 1px solid #F00 } /* Error */
+.codebox .k { color: #008000; font-weight: bold } /* Keyword */
+.codebox .o { color: #666 } /* Operator */
+.codebox .ch { color: #3D7B7B; font-style: italic } /* Comment.Hashbang */
+.codebox .cm { color: #3D7B7B; font-style: italic } /* Comment.Multiline */
+.codebox .cp { color: #9C6500 } /* Comment.Preproc */
+.codebox .cpf { color: #3D7B7B; font-style: italic } /* Comment.PreprocFile */
+.codebox .c1 { color: #3D7B7B; font-style: italic } /* Comment.Single */
+.codebox .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
+.codebox .gd { color: #A00000 } /* Generic.Deleted */
+.codebox .ge { font-style: italic } /* Generic.Emph */
+.codebox .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.codebox .gr { color: #E40000 } /* Generic.Error */
+.codebox .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.codebox .gi { color: #008400 } /* Generic.Inserted */
+.codebox .go { color: #717171 } /* Generic.Output */
+.codebox .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.codebox .gs { font-weight: bold } /* Generic.Strong */
+.codebox .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.codebox .gt { color: #04D } /* Generic.Traceback */
+.codebox .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.codebox .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.codebox .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.codebox .kp { color: #008000 } /* Keyword.Pseudo */
+.codebox .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.codebox .kt { color: #B00040 } /* Keyword.Type */
+.codebox .m { color: #666 } /* Literal.Number */
+.codebox .s { color: #BA2121 } /* Literal.String */
+.codebox .na { color: #687822 } /* Name.Attribute */
+.codebox .nb { color: #008000 } /* Name.Builtin */
+.codebox .nc { color: #00F; font-weight: bold } /* Name.Class */
+.codebox .no { color: #800 } /* Name.Constant */
+.codebox .nd { color: #A2F } /* Name.Decorator */
+.codebox .ni { color: #717171; font-weight: bold } /* Name.Entity */
+.codebox .ne { color: #CB3F38; font-weight: bold } /* Name.Exception */
+.codebox .nf { color: #00F } /* Name.Function */
+.codebox .nl { color: #767600 } /* Name.Label */
+.codebox .nn { color: #00F; font-weight: bold } /* Name.Namespace */
+.codebox .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.codebox .nv { color: #19177C } /* Name.Variable */
+.codebox .ow { color: #A2F; font-weight: bold } /* Operator.Word */
+.codebox .w { color: #BBB } /* Text.Whitespace */
+.codebox .mb { color: #666 } /* Literal.Number.Bin */
+.codebox .mf { color: #666 } /* Literal.Number.Float */
+.codebox .mh { color: #666 } /* Literal.Number.Hex */
+.codebox .mi { color: #666 } /* Literal.Number.Integer */
+.codebox .mo { color: #666 } /* Literal.Number.Oct */
+.codebox .sa { color: #BA2121 } /* Literal.String.Affix */
+.codebox .sb { color: #BA2121 } /* Literal.String.Backtick */
+.codebox .sc { color: #BA2121 } /* Literal.String.Char */
+.codebox .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.codebox .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.codebox .s2 { color: #BA2121 } /* Literal.String.Double */
+.codebox .se { color: #AA5D1F; font-weight: bold } /* Literal.String.Escape */
+.codebox .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.codebox .si { color: #A45A77; font-weight: bold } /* Literal.String.Interpol */
+.codebox .sx { color: #008000 } /* Literal.String.Other */
+.codebox .sr { color: #A45A77 } /* Literal.String.Regex */
+.codebox .s1 { color: #BA2121 } /* Literal.String.Single */
+.codebox .ss { color: #19177C } /* Literal.String.Symbol */
+.codebox .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.codebox .fm { color: #00F } /* Name.Function.Magic */
+.codebox .vc { color: #19177C } /* Name.Variable.Class */
+.codebox .vg { color: #19177C } /* Name.Variable.Global */
+.codebox .vi { color: #19177C } /* Name.Variable.Instance */
+.codebox .vm { color: #19177C } /* Name.Variable.Magic */
+.codebox .il { color: #666 } /* Literal.Number.Integer.Long */
+.codebox .highlight, .codebox .hll{background:transparent}</style>
+<script>document.addEventListener('DOMContentLoaded',function(){var l=document.querySelector('.reading-progress');var links=[];document.querySelectorAll('.cbody h2').forEach(function(h,i){var id='s'+(i+1);h.id=id;links.push('<a href="#'+id+'">'+h.textContent.trim()+'</a>');});var toc=document.querySelector('.free-chapter-toc');if(toc)toc.innerHTML=links.join('');function onScroll(){var d=document.documentElement;var max=d.scrollHeight-d.clientHeight;if(l)l.style.width=(max>0?Math.min(100,Math.max(0,d.scrollTop/max*100)):0)+'%';}window.addEventListener('scroll',onScroll,{passive:true});onScroll();});</script>
+</head>
+<body>
+<header class="free-bar">
+  <div class="in">
+    <a class="brand" href="./index.html"><span class="mark">AI</span><span>المحوّلات <small style="display:block;color:#64748B;font-size:11px;font-weight:600">من النظرية إلى بناء أنظمة ذكية</small></span></a>
+    <a class="back" href="./index.html">صفحة الكتاب</a>
+    <a class="cta" href="./index.html#lead">احجز نسخة الإطلاق</a>
+  </div>
+</header>
+<div class="free-badge"><span>الفصل الأول مجانًا</span> من المحوّلات والنماذج اللغوية الكبيرة — م. أحمد صالح المغز</div>
+<div class="reading-progress" aria-hidden="true"></div>
+<nav class="free-chapter-toc" aria-label="فهرس الفصل"></nav>
+<main class="page">
+<section class="ch" id="ch1">
+
+<header class="chead">
+<div class="cnum-ghost">01</div>
+<div class="chead-txt"><span class="chnum">الفصل 1 · الجزء 1</span><h2>الشبكات العصبية من الصفر — كيف تتعلم الآلة أن “تخمّن” بشكل أفضل</h2></div>
+</header>
+<div class="cbody"><h3>افتتاحية: حكاية الراعي الذي لم يكن يعرف الرياضيات</h3>
+<p>في قرية صغيرة على سفح جبل، كان هناك راعٍ اسمه “سالم”. لم يدرس الرياضيات يومًا، لكنه كان يعرف تمامًا متى ستمطر السماء. كان ينظر إلى السحاب، ويشمّ الهواء، ويلاحظ سلوك الأغنام، ويقول: “الليلة مطر”. وكان غالبًا على حق.</p>
+<p>سأله أحدهم: “كيف تعرف؟” أجاب: “لا أعرف. لكن كلما رأيت سحابًا رماديًا كثيفًا، ورائحة تراب، وأغنامًا تتجمع، أعرف أن المطر قادم”.</p>
+<p>سالم، دون أن يدري، كان يشغّل <strong>شبكة عصبية</strong> في رأسه. المدخلات: لون السحاب، الرائحة، سلوك الأغنام. المخرج: “مطر” أو “لا مطر”. والأوزان التي يمنحها لكل إشارة تعلمها من <strong>تجربته</strong> عبر السنين. كلما أخطأ، عدّل أوزانه الداخلية. هذا بالضبط ما نسميه في التعلّم العميق: <strong>الانتشار الأمامي (Forward Propagation)</strong> ثم <strong>الانتشار العكسي (Backpropagation)</strong> ثم <strong>تحديث الأوزان (Weight Update)</strong>.</p>
+<p>هذا الفصل هو محاولة لفهم ما فعله سالم في رأسه، لكن بلغة الرياضيات والكود. سنبدأ من <strong>الخلية العصبية الواحدة</strong>، ثم نبني شبكة كاملة، ثم ندربها. وسترى أن الفكرة كلها ليست سحرًا، بل <strong>حساب تفاضلي</strong> مع قليل من الصبر.</p>
+<h3>1.1 الخلية العصبية الواحدة: أبسط وحدة تعلم</h3>
+<h4>الفكرة في سطر واحد</h4>
+<p>الخلية العصبية (Neuron) تأخذ مجموعة أرقام، تضرب كل رقم بوزن، تجمعها، تضيف انحيازًا (bias)، ثم تمرر الناتج عبر دالة تنشيط. هذا كل شيء.</p>
+<p>رياضيًا:</p>
+<p><span class="mthd">z = Σᵢ₌₁ⁿ wᵢ xᵢ + b = wᵀ x + b</span> <span class="mthd">a = σ(z)</span></p>
+<p>حيث:</p>
+<ul><li><span class="mth">x</span>: المدخلات (مثلًا: [طول السحاب، كثافته، رطوبة الهواء]).</li><li><span class="mth">w</span>: الأوزان (كم يهم كل مدخل؟).</li><li><span class="mth">b</span>: الانحياز (ميل الخلية الافتراضي).</li><li><span class="mth">σ</span>: دالة التنشيط (مثل Sigmoid أو ReLU).</li><li><span class="mth">a</span>: المخرج (تنبؤ الخلية).</li></ul>
+<h4>تشبيه من الحياة</h4>
+<p>تخيل أنك تريد تقييم مطعم. لديك ثلاثة معايير: الطعام (وزن 0.5)، الخدمة (وزن 0.3)، السعر (وزن 0.2). إذا كان الطعام 9/10، والخدمة 7/10، والسعر 6/10، فالتقييم = <span class="mth">0.5 × 9 + 0.3 × 7 + 0.2 × 6 = 4.5 + 2.1 + 1.2 = 7.8</span>. هذه “خلية عصبية” بدون دالة تنشيط. الأوزان هنا قررتها أنت يدويًا. في الشبكات العصبية، <strong>النموذج يتعلمها بنفسه</strong>.</p>
+<h4>دالة التنشيط: لماذا لا نستغني عنها؟</h4>
+<p>سؤال يستحق التوقف. لو كانت الخلية مجرد <span class="mth">z = wᵀx + b</span>، فسيكون النموذج <strong>خطيًا</strong> بالكامل. وحتى لو رصصت مليون طبقة خطية فوق بعضها، فالناتج النهائي يبقى دالة خطية واحدة (لأن تركيب الدوال الخطية خطي). هذا يعني أن النموذج لن يستطيع تعلم أي علاقة غير خطية، مثل “XOR” أو “هذه الصورة قطة”.</p>
+<p>دالة التنشيط تكسر الخطية. أشهرها:</p>
+<div class="tblwrap"><table><thead><tr><th>الدالة</th><th>الصيغة</th><th>متى تستخدمها</th><th>تحذير</th></tr></thead><tbody><tr><td><strong>Sigmoid</strong></td><td><span class="mth">(1)/(1+e⁻ᶻ)</span></td><td>مخرج ثنائي (0/1) في الطبقة الأخيرة</td><td>تعاني من تلاشي التدرج (Vanishing Gradient) في الطبقات العميقة</td></tr><tr><td><strong>Tanh</strong></td><td><span class="mth">(eᶻ - e⁻ᶻ)/(eᶻ + e⁻ᶻ)</span></td><td>طبقات مخفية قديمة</td><td>نفس مشكلة Sigmoid لكن متمركزة حول الصفر</td></tr><tr><td><strong>ReLU</strong></td><td><span class="mth">max(0, z)</span></td><td>الخيار الافتراضي للطبقات المخفية</td><td>قد “تموت” بعض الخلايا (Dead ReLU) إذا كانت المدخلات سالبة دائمًا</td></tr><tr><td><strong>Leaky ReLU</strong></td><td><span class="mth">max(0.01z, z)</span></td><td>بديل لـ ReLU لتجنب موت الخلايا</td><td>معامله الصغير قد لا يكفي أحيانًا</td></tr><tr><td><strong>GELU</strong></td><td><span class="mth">z · Φ(z)</span></td><td>المحوّلات الحديثة</td><td>أغلى حسابيًا قليلًا من ReLU</td></tr><tr><td><strong>SiLU/Swish</strong></td><td><span class="mth">z · σ(z)</span></td><td>نماذج LLaMA وSwiGLU</td><td>شائع جدًا في 2024–2026</td></tr></tbody></table></div>
+<blockquote class="qa tip"><span class="k">💡</span><strong>نصيحة</strong>: في نماذج المحوّلات الحديثة، <strong>GELU</strong> أو <strong>SiLU</strong> هي الخيارات السائدة. ReLU ما زالت رائعة في الشبكات التلافيفية (CNNs) والمهام التقليدية. لا تستخدم Sigmoid في الطبقات المخفية إلا إذا كنت تختبر شيئًا محددًا.</blockquote>
+<h3>1.2 من خلية واحدة إلى شبكة: الطبقات والانتشار الأمامي</h3>
+<h4>الشبكة كسلسلة من التحويلات</h4>
+<p>الشبكة العصبية هي ببساطة <strong>تكديس لطبقات</strong>. كل طبقة تأخذ مخرجات الطبقة السابقة، وتحوّلها:</p>
+<p><span class="mthd">a⁽¹⁾ = σ(W⁽¹⁾ x + b⁽¹⁾)</span> <span class="mthd">a⁽²⁾ = σ(W⁽²⁾ a⁽¹⁾ + b⁽²⁾)</span> <span class="mthd">⋮</span> <span class="mthd">ŷ = softmax(W⁽ᴸ⁾ a⁽ᴸ⁻¹⁾ + b⁽ᴸ⁾)</span></p>
+<p>هذه العملية تسمى <strong>الانتشار الأمامي</strong>. نمرر المدخلات عبر الطبقات، ونحصل على تنبؤ.</p>
+<h4>كود: شبكة بسيطة بـ NumPy</h4>
+<p>سنبني شبكة من طبقة مخفية واحدة، للتصنيف الثنائي. لا PyTorch، لا TensorFlow. فقط NumPy. الهدف: أن ترى <strong>كل رقم</strong> يتحرك.</p>
+<div class="codebox"><span class="lang">python</span><pre><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+
+<span class="c1"># ===== 1. توليد بيانات اصطناعية (مشكلة XOR) =====</span>
+<span class="c1"># XOR: مخرج = 1 إذا اختلف المدخلان، و0 إذا اتفقا</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">]],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+
+<span class="c1"># ===== 2. تهيئة الأوزان =====</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">n_input</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">n_hidden</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="n">n_output</span> <span class="o">=</span> <span class="mi">1</span>
+
+<span class="c1"># تهيئة Xavier/Glorot: تقلل مشاكل التدرج</span>
+<span class="n">W1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="n">n_input</span><span class="p">,</span> <span class="n">n_hidden</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="n">n_input</span><span class="p">)</span>
+<span class="n">b1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="n">n_hidden</span><span class="p">))</span>
+<span class="n">W2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="n">n_hidden</span><span class="p">,</span> <span class="n">n_output</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="n">n_hidden</span><span class="p">)</span>
+<span class="n">b2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="n">n_output</span><span class="p">))</span>
+
+<span class="c1"># ===== 3. دوال التنشيط =====</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">sigmoid</span><span class="p">(</span><span class="n">z</span><span class="p">):</span>
+    <span class="c1"># clip لتجنب overflow</span>
+    <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">clip</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="o">-</span><span class="mi">500</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
+    <span class="k">return</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="p">(</span><span class="mf">1.0</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">z</span><span class="p">))</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">sigmoid_derivative</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+    <span class="c1"># a هو المخرج بعد sigmoid</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span>
+
+<span class="c1"># ===== 4. الانتشار الأمامي =====</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">forward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">W1</span><span class="p">,</span> <span class="n">b1</span><span class="p">,</span> <span class="n">W2</span><span class="p">,</span> <span class="n">b2</span><span class="p">):</span>
+    <span class="n">z1</span> <span class="o">=</span> <span class="n">X</span> <span class="o">@</span> <span class="n">W1</span> <span class="o">+</span> <span class="n">b1</span>
+    <span class="n">a1</span> <span class="o">=</span> <span class="n">sigmoid</span><span class="p">(</span><span class="n">z1</span><span class="p">)</span>
+    <span class="n">z2</span> <span class="o">=</span> <span class="n">a1</span> <span class="o">@</span> <span class="n">W2</span> <span class="o">+</span> <span class="n">b2</span>
+    <span class="n">a2</span> <span class="o">=</span> <span class="n">sigmoid</span><span class="p">(</span><span class="n">z2</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">z1</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">z2</span><span class="p">,</span> <span class="n">a2</span>
+
+<span class="c1"># ===== 5. دالة الخسارة (Binary Cross-Entropy) =====</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">bce_loss</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">):</span>
+    <span class="n">eps</span> <span class="o">=</span> <span class="mf">1e-8</span>  <span class="c1"># لمنع log(0)</span>
+    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">clip</span><span class="p">(</span><span class="n">y_pred</span><span class="p">,</span> <span class="n">eps</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">eps</span><span class="p">)</span>
+    <span class="k">return</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">y_true</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">y_true</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">y_pred</span><span class="p">))</span>
+
+<span class="c1"># ===== 6. الانتشار العكسي =====</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">backward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">z2</span><span class="p">,</span> <span class="n">a2</span><span class="p">,</span> <span class="n">W2</span><span class="p">):</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>  <span class="c1"># حجم الدفعة</span>
+
+    <span class="c1"># تدرج الخسارة بالنسبة لمخرجات الطبقة الأخيرة</span>
+    <span class="n">dz2</span> <span class="o">=</span> <span class="n">a2</span> <span class="o">-</span> <span class="n">y</span>                          <span class="c1"># (m, 1)</span>
+    <span class="n">dW2</span> <span class="o">=</span> <span class="n">a1</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">dz2</span> <span class="o">/</span> <span class="n">m</span>                  <span class="c1"># (n_hidden, 1)</span>
+    <span class="n">db2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">dz2</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">keepdims</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="o">/</span> <span class="n">m</span>
+
+    <span class="c1"># تدرج الطبقة المخفية</span>
+    <span class="n">da1</span> <span class="o">=</span> <span class="n">dz2</span> <span class="o">@</span> <span class="n">W2</span><span class="o">.</span><span class="n">T</span>                      <span class="c1"># (m, n_hidden)</span>
+    <span class="n">dz1</span> <span class="o">=</span> <span class="n">da1</span> <span class="o">*</span> <span class="n">sigmoid_derivative</span><span class="p">(</span><span class="n">a1</span><span class="p">)</span>    <span class="c1"># (m, n_hidden)</span>
+    <span class="n">dW1</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">dz1</span> <span class="o">/</span> <span class="n">m</span>                   <span class="c1"># (n_input, n_hidden)</span>
+    <span class="n">db1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">dz1</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">keepdims</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="o">/</span> <span class="n">m</span>
+
+    <span class="k">return</span> <span class="n">dW1</span><span class="p">,</span> <span class="n">db1</span><span class="p">,</span> <span class="n">dW2</span><span class="p">,</span> <span class="n">db2</span>
+
+<span class="c1"># ===== 7. حلقة التدريب =====</span>
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">epochs</span> <span class="o">=</span> <span class="mi">5000</span>
+
+<span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">):</span>
+    <span class="n">z1</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">z2</span><span class="p">,</span> <span class="n">a2</span> <span class="o">=</span> <span class="n">forward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">W1</span><span class="p">,</span> <span class="n">b1</span><span class="p">,</span> <span class="n">W2</span><span class="p">,</span> <span class="n">b2</span><span class="p">)</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="n">bce_loss</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">a2</span><span class="p">)</span>
+    <span class="n">dW1</span><span class="p">,</span> <span class="n">db1</span><span class="p">,</span> <span class="n">dW2</span><span class="p">,</span> <span class="n">db2</span> <span class="o">=</span> <span class="n">backward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z1</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">z2</span><span class="p">,</span> <span class="n">a2</span><span class="p">,</span> <span class="n">W2</span><span class="p">)</span>
+
+    <span class="n">W1</span> <span class="o">-=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">dW1</span>
+    <span class="n">b1</span> <span class="o">-=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">db1</span>
+    <span class="n">W2</span> <span class="o">-=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">dW2</span>
+    <span class="n">b2</span> <span class="o">-=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">db2</span>
+
+    <span class="k">if</span> <span class="n">epoch</span> <span class="o">%</span> <span class="mi">1000</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Epoch </span><span class="si">{</span><span class="n">epoch</span><span class="si">:</span><span class="s2">5d</span><span class="si">}</span><span class="s2"> | Loss: </span><span class="si">{</span><span class="n">loss</span><span class="si">:</span><span class="s2">.6f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># ===== 8. النتائج =====</span>
+<span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">preds</span> <span class="o">=</span> <span class="n">forward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">W1</span><span class="p">,</span> <span class="n">b1</span><span class="p">,</span> <span class="n">W2</span><span class="p">,</span> <span class="n">b2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">التنبؤات بعد التدريب:"</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">X</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  </span><span class="si">{</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="s2"> -&gt; </span><span class="si">{</span><span class="n">preds</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2"> (المتوقع: </span><span class="si">{</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">)"</span><span class="p">)</span>
+</pre></div>
+<h4>ماذا يحدث في هذا الكود؟</h4>
+<ol><li><strong>البيانات</strong>: مشكلة XOR، وهي المشكلة الكلاسيكية التي <strong>لا يمكن</strong> لشبكة خطية حلها. هذا اختبار مهم: إذا كانت شبكتك تحلها، فهي بالفعل غير خطية.</li><li><strong>التهيئة</strong>: استخدمنا Xavier، الذي يضبط تباين الأوزان بناءً على عدد المدخلات، لتجنب انفجار أو تلاشي التدرجات منذ البداية.</li><li><strong>الخسارة</strong>: Binary Cross-Entropy، الأنسب للتصنيف الثنائي.</li><li><strong>الانتشار العكسي</strong>: لاحظ <code class="ic">dz2 = a2 - y</code>. هذا تبسيط جميل ينتج من اشتقاق BCE مع Sigmoid. لو استخدمت دالة خسارة أخرى، ستحتاج اشتقاقًا مختلفًا.</li><li><strong>التحديث</strong>: <code class="ic">W -= lr * dW</code>. لاحظ علامة الناقص: نتحرك <strong>عكس</strong> اتجاه التدرج، لأننا نريد تقليل الخسارة.</li></ol>
+<blockquote class="qa think"><span class="k">🤔</span><strong>سؤال يستحق التفكير</strong>: لماذا قسمنا على <code class="ic">m</code> (حجم الدفعة) في حساب التدرجات؟ الجواب: لأن دالة الخسارة تحسب <strong>المتوسط</strong>، فالاشتقاق يجب أن يعكس ذلك. لو نسيت القسمة، فإن معدل التعلم الفعلي سيتضاعف مع حجم الدفعة، وقد ينفجر التدريب.</blockquote>
+<h3>1.3 الانتشار العكسي: القصة الكاملة</h3>
+<h4>لماذا هذا الجزء “مخيف” لكنه منطقي جدًا؟</h4>
+<p>الانتشار العكسي هو مجرد <strong>قاعدة السلسلة (Chain Rule)</strong> من حساب التفاضل، مطبقة على رسم بياني حسابي. لا أكثر. لكن المبتدئين يخافون منه لأنه يبدو كأنه “سحر أسود” من الأوراق البحثية.</p>
+<p>الفكرة:</p>
+<ol><li>نحسب الخسارة في نهاية الشبكة.</li><li>نسأل: <strong>كيف تتغير الخسارة إذا تغير كل وزن قليلًا؟</strong></li><li>نبني الإجابة طبقةً طبقة، من النهاية إلى البداية.</li></ol>
+<h4>مخطط بسيط</h4>
+<div class="codebox"><span class="lang">text</span><pre>المدخلات X
+   ↓
+[الطبقة 1] → a1
+   ↓
+[الطبقة 2] → a2 (التنبؤ)
+   ↓
+الخسارة L
+
+الانتشار العكسي:
+L → dL/da2 → dL/dz2 → dL/dW2 → dL/da1 → dL/dz1 → dL/dW1
+</pre></div>
+<p>كل سهم في الاتجاه العكسي يستخدم <strong>قاعدة السلسلة</strong>: إذا كان <span class="mth">L</span> يعتمد على <span class="mth">a</span>، و<span class="mth">a</span> يعتمد على <span class="mth">z</span>، و<span class="mth">z</span> يعتمد على <span class="mth">w</span>، فإن:</p>
+<p><span class="mthd">∂ L/∂ w = ∂ L/∂ a · ∂ a/∂ z · ∂ z/∂ w</span></p>
+<h4>كود: التحقق من التدرجات (Gradient Checking)</h4>
+<p>هذه واحدة من <strong>أهم العادات</strong> التي تميز المهندس المحترف عن الهاوي. الفكرة: احسب التدرج تحليليًا (كما فعلنا)، ثم احسبه عدديًا بتقريب صغير، وقارن. إذا اختلفا بشكل كبير، فهناك خطأ في الكود.</p>
+<div class="codebox"><span class="lang">python</span><pre><span class="k">def</span><span class="w"> </span><span class="nf">numerical_gradient</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">1e-6</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">"""تقريب التدرج عدديًا باستخدام الفروق المركزية."""</span>
+    <span class="n">grad</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="n">it</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nditer</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="p">[</span><span class="s1">'multi_index'</span><span class="p">],</span> <span class="n">op_flags</span><span class="o">=</span><span class="p">[</span><span class="s1">'readwrite'</span><span class="p">])</span>
+    <span class="k">while</span> <span class="ow">not</span> <span class="n">it</span><span class="o">.</span><span class="n">finished</span><span class="p">:</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="n">it</span><span class="o">.</span><span class="n">multi_index</span>
+        <span class="n">old</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span>
+        <span class="n">x</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">old</span> <span class="o">+</span> <span class="n">eps</span>
+        <span class="n">fx_plus</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">x</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">old</span> <span class="o">-</span> <span class="n">eps</span>
+        <span class="n">fx_minus</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">x</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">old</span>
+        <span class="n">grad</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">fx_plus</span> <span class="o">-</span> <span class="n">fx_minus</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">eps</span><span class="p">)</span>
+        <span class="n">it</span><span class="o">.</span><span class="n">iternext</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">grad</span>
+
+<span class="c1"># استخدامه للتحقق من W1</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">loss_for_W1</span><span class="p">(</span><span class="n">W1_val</span><span class="p">):</span>
+    <span class="n">W1_tmp</span> <span class="o">=</span> <span class="n">W1_val</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">a2</span> <span class="o">=</span> <span class="n">forward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">W1_tmp</span><span class="p">,</span> <span class="n">b1</span><span class="p">,</span> <span class="n">W2</span><span class="p">,</span> <span class="n">b2</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">bce_loss</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">a2</span><span class="p">)</span>
+
+<span class="c1"># التدرج التحليلي (الذي حسبناه في الكود السابق)</span>
+<span class="n">z1_</span><span class="p">,</span> <span class="n">a1_</span><span class="p">,</span> <span class="n">z2_</span><span class="p">,</span> <span class="n">a2_</span> <span class="o">=</span> <span class="n">forward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">W1</span><span class="p">,</span> <span class="n">b1</span><span class="p">,</span> <span class="n">W2</span><span class="p">,</span> <span class="n">b2</span><span class="p">)</span>
+<span class="n">dW1_analytic</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">backward</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z1_</span><span class="p">,</span> <span class="n">a1_</span><span class="p">,</span> <span class="n">z2_</span><span class="p">,</span> <span class="n">a2_</span><span class="p">,</span> <span class="n">W2</span><span class="p">)</span>
+
+<span class="c1"># التدرج العددي</span>
+<span class="n">dW1_numeric</span> <span class="o">=</span> <span class="n">numerical_gradient</span><span class="p">(</span><span class="n">loss_for_W1</span><span class="p">,</span> <span class="n">W1</span><span class="o">.</span><span class="n">copy</span><span class="p">())</span>
+
+<span class="n">diff</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">dW1_analytic</span> <span class="o">-</span> <span class="n">dW1_numeric</span><span class="p">)</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"أقصى فرق بين التدرجين: </span><span class="si">{</span><span class="n">diff</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="c1"># إذا كان الفرق &lt; 1e-6، فالتدرج سليم</span>
+</pre></div>
+<blockquote class="qa gold"><span class="k">🏆</span><strong>نصيحة ذهبية</strong>: قبل أن تبدأ تدريب أي نموذج مخصص، <strong>تحقق من التدرجات</strong>. خطأ واحد في الاشتقاق قد يجعلك تدرب لساعات وتتساءل لماذا لا يتعلم النموذج. هذا اختبار يستغرق دقيقتين ويوفر عليك أيامًا.</blockquote>
+<blockquote class="qa warn"><span class="k">⚠️</span><strong>تحذير</strong>: التحقق العددي مكلف جدًا (يحسب الدالة مرتين لكل معامل). استخدمه فقط على شبكات صغيرة أو على عينة من المعاملات، ثم أوقفه.</blockquote>
+<h3>1.4 دوال الخسارة: كيف نقيس “الخطأ”؟</h3>
+<h4>الخسارة ليست مجرد رقم</h4>
+<p>دالة الخسارة تخبر النموذج <strong>ماذا يعني أن يكون مخطئًا</strong>. اختيار خاطئ لدالة الخسارة يمكن أن يجعل النموذج يتعلم شيئًا مختلفًا تمامًا عما تريد.</p>
+<h4>أشهر دوال الخسارة</h4>
+<div class="tblwrap"><table><thead><tr><th>الدالة</th><th>الاستخدام</th><th>الصيغة</th><th>ملاحظات</th></tr></thead><tbody><tr><td><strong>MSE</strong> (Mean Squared Error)</td><td>الانحدار (Regression)</td><td><span class="mth">1/nΣ(y - ŷ)²</span></td><td>حساسة للقيم الشاذة</td></tr><tr><td><strong>MAE</strong> (Mean Absolute Error)</td><td>الانحدار</td><td><span class="mth">1/nΣ |y - ŷ|</span></td><td>أقل حساسية للشواذ</td></tr><tr><td><strong>BCE</strong> (Binary Cross-Entropy)</td><td>التصنيف الثنائي</td><td><span class="mth">-1/nΣ[ylogŷ + (1-y)log(1-ŷ)]</span></td><td>الأفضل مع Sigmoid</td></tr><tr><td><strong>CCE</strong> (Categorical Cross-Entropy)</td><td>التصنيف المتعدد</td><td><span class="mth">-Σ yᵢ logŷᵢ</span></td><td>الأفضل مع Softmax</td></tr><tr><td><strong>Focal Loss</strong></td><td>تصنيف غير متوازن</td><td><span class="mth">- α (1-ŷ)ᵞ logŷ</span></td><td>تركز على العينات الصعبة</td></tr><tr><td><strong>KL Divergence</strong></td><td>التقطير وتوزيعات الاحتمال</td><td><span class="mth">Σ p log(p/q)</span></td><td>ليست متماثلة!</td></tr></tbody></table></div>
+<blockquote class="qa mistake"><span class="k">❌</span><strong>خطأ شائع</strong>: استخدام MSE مع مخرجات Softmax في التصنيف. النتيجة: تدرجات صغيرة جدًا وتدريب بطيء. استخدم CCE (أو <code class="ic">CrossEntropyLoss</code> في PyTorch، التي تجمع Softmax وCCE معًا).</blockquote>
+<h4>الفرق بين BCE وCCE في سطر</h4>
+<ul><li><strong>BCE</strong>: كل عينة يمكن أن تنتمي إلى فئة أو أكثر (multi-label).</li><li><strong>CCE</strong>: كل عينة تنتمي إلى فئة واحدة فقط (multi-class).</li></ul>
+<p>اختيار خاطئ بينهما سيسبب تدريبًا غير مستقر أو تفسيرات خاطئة.</p>
+<h3>1.5 الانتقال إلى PyTorch: نفس الفكرة، بأدوات أفضل</h3>
+<h4>لماذا لا نبقى في NumPy؟</h4>
+<p>لأن PyTorch يقدم:</p>
+<ol><li><strong>الحساب التلقائي للتدرجات</strong> (Autograd): لا تكتب الاشتقاق يدويًا.</li><li><strong>GPU</strong>: تسريع هائل.</li><li><strong>محسّنات جاهزة</strong>: Adam, AdamW, SGD مع الزخم.</li><li><strong>وحدات جاهزة</strong>: طبقات، دوال خسارة، تحميل بيانات.</li></ol>
+<p>لكن <strong>لا تنسَ NumPy</strong>. من فهم الفكرة في NumPy، سيفهم PyTorch كأداة تسهيل، لا كصندوق أسود.</p>
+<h4>كود: نفس مشكلة XOR بـ PyTorch</h4>
+<div class="codebox"><span class="lang">python</span><pre><span class="kn">import</span><span class="w"> </span><span class="nn">torch</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">torch.nn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">nn</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">torch.optim</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">optim</span>
+
+<span class="c1"># البيانات</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([[</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">]],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+
+<span class="c1"># النموذج</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">XORNet</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">net</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Sequential</span><span class="p">(</span>
+            <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span>
+            <span class="n">nn</span><span class="o">.</span><span class="n">Sigmoid</span><span class="p">(),</span>
+            <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+            <span class="n">nn</span><span class="o">.</span><span class="n">Sigmoid</span><span class="p">(),</span>
+        <span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">net</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">XORNet</span><span class="p">()</span>
+
+<span class="c1"># الخسارة والمحسّن</span>
+<span class="n">criterion</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BCELoss</span><span class="p">()</span>
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span>
+
+<span class="c1"># التدريب</span>
+<span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2000</span><span class="p">):</span>
+    <span class="n">optimizer</span><span class="o">.</span><span class="n">zero_grad</span><span class="p">()</span>
+    <span class="n">preds</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">preds</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">loss</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>       <span class="c1"># Autograd يحسب التدرجات</span>
+    <span class="n">optimizer</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>      <span class="c1"># تحديث الأوزان</span>
+
+    <span class="k">if</span> <span class="n">epoch</span> <span class="o">%</span> <span class="mi">500</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Epoch </span><span class="si">{</span><span class="n">epoch</span><span class="si">:</span><span class="s2">4d</span><span class="si">}</span><span class="s2"> | Loss: </span><span class="si">{</span><span class="n">loss</span><span class="o">.</span><span class="n">item</span><span class="p">()</span><span class="si">:</span><span class="s2">.6f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># النتائج</span>
+<span class="k">with</span> <span class="n">torch</span><span class="o">.</span><span class="n">no_grad</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">التنبؤات:"</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">detach</span><span class="p">()</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+<h4>ماذا تغيّر؟</h4>
+<ul><li><code class="ic">loss.backward()</code> استبدلت <code class="ic">backward()</code> اليدوية.</li><li><code class="ic">optimizer.step()</code> استبدلت <code class="ic">W -= lr * dW</code>.</li><li><code class="ic">optimizer.zero_grad()</code> ضرورية، لأن PyTorch <strong>يجمع</strong> التدرجات افتراضيًا. نسيانها يعني تراكم التدرجات عبر الدفعات، وهذا قد يكون مقصودًا أحيانًا (Gradient Accumulation) لكنه خطأ في الحالة العادية.</li></ul>
+<blockquote class="qa mistake"><span class="k">❌</span><strong>خطأ شائع جدًا</strong>: نسيان <code class="ic">optimizer.zero_grad()</code>. النتيجة: التدرجات تتراكم، والتدريب ينفجر أو يتصرف بغرابة. إذا وجدت نموذجك “يتعلم” ثم “يفقد ما تعلمه”، فهذا أول ما تفحصه.</blockquote>
+<blockquote class="qa compare"><span class="k">⚖️</span><strong>مقارنة سريعة</strong>: <code class="ic">SGD</code> مع <code class="ic">momentum=0.9</code> لا يزال قويًا في الرؤية الحاسوبية. <code class="ic">Adam</code>/<code class="ic">AdamW</code> هما الافتراضي في NLP والمحوّلات. <code class="ic">AdamW</code> يفصل تسوس الوزن (weight decay) عن تحديث التدرج، وهو الأفضل في النماذج الكبيرة.</blockquote>
+<h3>1.6 الأخطاء الشائعة: قائمة “لا تفعل”</h3>
+<p>هذا القسم خلاصة سنوات من الأخطاء التي يقع فيها الجميع، بما فيهم أنا.</p>
+<h4>1. عدم تطبيع المدخلات</h4>
+<p>إذا كانت مدخلاتك بأحجام مختلفة جدًا (مثلًا: العمر من 0 إلى 100، والدخل من 0 إلى 1,000,000)، فستكون التدرجات غير متوازنة. بعض الأوزان ستتحدث بعنف، وبعضها بالكاد.</p>
+<p><strong>الحل</strong>: Normalize أو Standardize.</p>
+<div class="codebox"><span class="lang">python</span><pre><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+<span class="n">X_train</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>  <span class="c1"># استخدم نفس المحول!</span>
+</pre></div>
+<blockquote class="qa warn"><span class="k">⚠️</span><strong>تحذير</strong>: لا ت-fit على بيانات الاختبار. هذا “تسريب بيانات” (Data Leakage)، ويعطي نتائج مضللة.</blockquote>
+<h4>2. معدل تعلم ثابت</h4>
+<p>معدل تعلم كبير جدًا: يتذبذب التدريب أو ينفجر. معدل صغير جدًا: يتقارب ببطء شديد، أو يعلق في منطقة مسطحة.</p>
+<p><strong>الحل</strong>: جدولة معدل التعلم (Learning Rate Schedule).</p>
+<div class="codebox"><span class="lang">python</span><pre><span class="n">scheduler</span> <span class="o">=</span> <span class="n">optim</span><span class="o">.</span><span class="n">lr_scheduler</span><span class="o">.</span><span class="n">CosineAnnealingLR</span><span class="p">(</span><span class="n">optimizer</span><span class="p">,</span> <span class="n">T_max</span><span class="o">=</span><span class="n">epochs</span><span class="p">)</span>
+<span class="c1"># أو</span>
+<span class="n">scheduler</span> <span class="o">=</span> <span class="n">optim</span><span class="o">.</span><span class="n">lr_scheduler</span><span class="o">.</span><span class="n">OneCycleLR</span><span class="p">(</span>
+    <span class="n">optimizer</span><span class="p">,</span> <span class="n">max_lr</span><span class="o">=</span><span class="mf">1e-3</span><span class="p">,</span> <span class="n">total_steps</span><span class="o">=</span><span class="n">epochs</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataloader</span><span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+<blockquote class="qa tip"><span class="k">💡</span><strong>تلميح</strong>: في المحوّلات، استخدم <strong>Warmup</strong> (تصاعد تدريجي في البداية) ثم <strong>Cosine Decay</strong>. هذا ما تفعله معظم النماذج المفتوحة.</blockquote>
+<h4>3. تهيئة الأوزان بالأصفار</h4>
+<p>إذا بدأت كل الأوزان بصفر، فكل الخلايا في الطبقة نفسها ستحسب نفس الشيء، وستحصل على نفس التدرج، وستبقى متطابقة إلى الأبد. الشبكة لن تتعلم شيئًا.</p>
+<p><strong>الحل</strong>: تهيئة عشوائية مناسبة. <code class="ic">Xavier/Glorot</code> للـ Tanh/Sigmoid، <code class="ic">He/Kaiming</code> للـ ReLU، والتهيئة القياسية في PyTorch عادة جيدة.</p>
+<h4>4. عدم فصل بيانات التدريب والتحقق والاختبار</h4>
+<p>إذا دربت وراقبت على نفس البيانات، فسترى خسارة تنخفض بشكل جميل، ثم تتفاجأ بأن النموذج فاشل على بيانات جديدة. هذا <strong>الإفراط في التخصيص (Overfitting)</strong>.</p>
+<p><strong>الحل</strong>: قسّم بياناتك: 70–80% تدريب، 10–15% تحقق، 10–15% اختبار. <strong>لا تلمس</strong> مجموعة الاختبار إلا في النهاية.</p>
+<h4>5. تجاهل توازن الفئات</h4>
+<p>إذا كانت 95% من بياناتك من فئة واحدة، فقد يتعلم النموذج أن يقول دائمًا “الفئة الأولى” ويحقق دقة 95%، لكنه عديم الفائدة.</p>
+<p><strong>الحل</strong>: استخدم مقاييس مناسبة (F1، Precision/Recall، AUC)، و/أو أوزان فئات، و/أو إعادة عينات.</p>
+<h4>6. عدم ضبط البذرة العشوائية (Seed)</h4>
+<p>تريد إعادة إنتاج النتائج؟ اضبط البذور.</p>
+<div class="codebox"><span class="lang">python</span><pre><span class="kn">import</span><span class="w"> </span><span class="nn">random</span><span class="o">,</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span><span class="o">,</span><span class="w"> </span><span class="nn">torch</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">set_seed</span><span class="p">(</span><span class="n">seed</span><span class="o">=</span><span class="mi">42</span><span class="p">):</span>
+    <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">seed</span><span class="p">)</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">seed</span><span class="p">)</span>
+    <span class="n">torch</span><span class="o">.</span><span class="n">manual_seed</span><span class="p">(</span><span class="n">seed</span><span class="p">)</span>
+    <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">manual_seed_all</span><span class="p">(</span><span class="n">seed</span><span class="p">)</span>
+    <span class="n">torch</span><span class="o">.</span><span class="n">backends</span><span class="o">.</span><span class="n">cudnn</span><span class="o">.</span><span class="n">deterministic</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">torch</span><span class="o">.</span><span class="n">backends</span><span class="o">.</span><span class="n">cudnn</span><span class="o">.</span><span class="n">benchmark</span> <span class="o">=</span> <span class="kc">False</span>
+</pre></div>
+<blockquote class="qa note"><span class="k">📌</span><strong>ملاحظة</strong>: حتى مع البذور، قد تختلف النتائج قليلًا على GPU بسبب عمليات غير حتمية. لا تنزعج.</blockquote>
+<h3>1.7 أفضل الممارسات: ما يفعله المحترفون فعلًا</h3>
+<ol><li><strong>ابدأ بخط أساس بسيط (Baseline)</strong>. قبل بناء شبكة عميقة، جرّب الانحدار اللوجستي أو شجرة قرار. إذا لم يتفوق التعلم العميق، فالمشكلة ليست في النموذج.</li><li><strong>راقب أكثر من الخسارة</strong>. راقب الدقة، F1، توزيع التدرجات، وقت كل دفعة. لوحة مراقبة بسيطة توفر عليك ساعات.</li><li><strong>اكتب اختبارات للكود</strong>. اختبار أن شكل المخرجات صحيح، أن الخسارة تنخفض على دفعة صغيرة (Overfit a single batch)، أن التدرجات ليست NaN.</li><li><strong>Overfit a single batch أولًا</strong>. إذا لم يستطع نموذجك حفظ 8 عينات، فهناك خطأ في الكود، وليس في البيانات.</li><li><strong>استخدم <code class="ic">torch.no_grad()</code> في التقييم</strong>. يوفر ذاكرة ووقتًا كبيرين.</li><li><strong>لا تعِد اختراع العجلة</strong>. استخدم <code class="ic">nn.CrossEntropyLoss</code>، <code class="ic">nn.LayerNorm</code>، إلخ. لكن <strong>افهم</strong> ما تفعله.</li><li><strong>وثّق تجاربك</strong>. اسم المجلد، البذرة، المعاملات، النتيجة. “لماذا هذا النموذج أفضل؟” سؤال ستحتاج الإجابة عليه لاحقًا.</li></ol>
+<h3>1.8 تمرين ختامي: من XOR إلى مشكلة حقيقية</h3>
+<h4>التمرين 1 (مبتدئ)</h4>
+<p>عدّل كود NumPy لتصنيف ثلاث فئات بدلًا من فئتين. استخدم Softmax وCross-Entropy. تحقق من التدرجات عدديًا.</p>
+<h4>التمرين 2 (متوسط)</h4>
+<p>خذ مجموعة بيانات Iris (3 فئات، 4 ميزات). ابنِ شبكة بـ PyTorch، وقارن بين:</p>
+<ul><li>بدون تطبيع.</li><li>مع StandardScaler.</li><li>مع MinMaxScaler.</li></ul>
+<p>أي إعداد يتقارب أسرع؟ لماذا؟</p>
+<h4>التمرين 3 (متقدم)</h4>
+<p>ابنِ شبكة بثلاث طبقات مخفية. راقب توزيع التدرجات في كل طبقة أثناء التدريب. هل ترى <strong>تلاشي التدرج</strong>؟ جرّب:</p>
+<ul><li>Sigmoid مقابل ReLU مقابل GELU.</li><li>تهيئة Xavier مقابل He.</li><li>بدون BatchNorm مقابل مع LayerNorm.</li></ul>
+<p>سجّل النتائج في جدول. ماذا تلاحظ؟</p>
+<h4>التمرين 4 (تحدٍّ)</h4>
+<p>استخدم <code class="ic">torch.autograd.gradcheck</code> للتحقق من دالة خسارة مخصصة كتبتها. ثم استخدم <code class="ic">torch.profiler</code> لمعرفة أين يقضي النموذج معظم الوقت. هل يمكنك تسريعه؟</p>
+<h3>خلاصة الفصل: ما يجب أن يبقى في ذهنك</h3>
+<ol><li><strong>الشبكة العصبية = دالة قابلة للضبط</strong>. الأوزان هي ما نتعلمه، والباقي (البنية، التنشيط، الخسارة) هو ما نصممه.</li><li><strong>الانتشار العكسي = قاعدة السلسلة</strong>. لا سحر. إذا فهمت قاعدة السلسلة، فهمت Backprop.</li><li><strong>دالة التنشيط ضرورية للا خطية</strong>. بدونها، الشبكة العميقة = نموذج خطي.</li><li><strong>دالة الخسارة تحدد “ماذا يعني أن تكون مخطئًا”</strong>. اخترها بحكمة.</li><li><strong>PyTorch تسهّل، لا تلغي الفهم</strong>. ابدأ بـ NumPy، ثم انتقل إلى PyTorch.</li><li><strong>الأخطاء الشائعة قاتلة</strong>: عدم التطبيع، نسيان <code class="ic">zero_grad</code>، عدم فصل البيانات، معدل تعلم ثابت. تجنبها من البداية.</li><li><strong>تحقق من التدرجات</strong>. هذه العادة وحدها قد توفر عليك أيامًا.</li></ol>
+<h3>افتتاحية الفصل القادم: “مفاهيم التعلّم العميق للتدريب والتقييم”</h3>
+<p>في الفصل التالي، سنغادر XOR الصغيرة، ونواجه أسئلة أكبر: كيف نعرف أن نموذجنا <strong>يتعلم فعلًا</strong> وليس يحفظ؟ ما الفرق بين Overfitting وUnderfitting، وكيف نعالج كلًا منهما؟ ما هو Dropout، ولماذا يعمل رغم أنه يبدو “تخريبًا متعمدًا”؟ وكيف نختار معدل التعلم المناسب دون تخمين أعمى؟</p>
+<p>سنتعلم أيضًا كيف <strong>نقرأ منحنيات التدريب</strong> كما يقرأ الطبيب تخطيط القلب: كل انحناءة تحكي قصة. وكيف نبني <strong>خط أساس</strong> قبل أن نبني نموذجًا معقدًا، وكيف نتجنب “فخ الدقة” عندما تكون بياناتنا غير متوازنة.</p>
+<blockquote class="qa hook"><span class="k">❓</span><strong>سؤال يفتح الشهية</strong>: هل تعلم أن شبكة عصبية بسيطة يمكنها حفظ بيانات عشوائية تمامًا (حتى لو كانت تسمياتها عشوائية)؟ ما معنى ذلك لأفكارنا عن “التعميم”؟ سنكتشف ذلك في الفصل القادم.</blockquote>
+<div class="chfig"><span class="kicker">المخطط التوضيحي للفصل</span>
+<figure><img src="assets/f01_neuron.png" alt="الخلية العصبية: من المدخلات إلى التنشيط"/><figcaption>شكل 1.1 — الخلية العصبية: من المدخلات إلى التنشيط</figcaption></figure>
+<figure><img src="assets/f02_backprop.png" alt="الرسم البياني الحسابي لقاعدة السلسلة"/><figcaption>شكل 1.2 — الرسم البياني الحسابي لقاعدة السلسلة</figcaption></figure>
+</div></div>
+</section>
+</main>
+<section class="free-cta" aria-label="احجز نسخة الإطلاق">
+  <div class="card">
+    <div>
+      <h2>أعجبك الفصل؟ انتظر حتى تصل نسخة الإطلاق.</h2>
+      <p>نفس أسلوب الكتاب: فهم عميق، كود يشغّل غدًا، وخارطة عربية للانتقال من خلية عصبية واحدة إلى نظام LLM حقيقي.</p>
+      <a href="./index.html#lead">احجز اهتمامك بالنسخة</a>
+      <small>PDF · EPUB · DOCX · HTML · Markdown — مع الكود والدفاتر.</small>
+    </div>
+    <figure style="margin:0;text-align:center"><img src="assets/cover.webp" alt="غلاف كتاب المحوّلات والنماذج اللغوية الكبيرة" style="width:180px;border-radius:16px;box-shadow:0 18px 48px rgba(0,0,0,.45)"></figure>
+  </div>
+</section>
+<footer class="free-foot">المحوّلات والنماذج اللغوية الكبيرة · الطبعة الأولى — 2026 · م. أحمد صالح المغز · <a href="./index.html" style="color:#4338CA;text-decoration:none">صفحة الكتاب</a></footer>
+</body>
+</html>

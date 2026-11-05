@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="المحوّلات — شعار الكتاب">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <circle cx="21" cy="19" r="3.4" fill="#7DD3FC"/>
+  <circle cx="43" cy="21" r="3.4" fill="#C4B5FD"/>
+  <circle cx="31" cy="34" r="4" fill="#A5F3FC"/>
+  <circle cx="17" cy="45" r="3.2" fill="#E9D5FF"/>
+  <circle cx="46" cy="47" r="3.2" fill="#67E8F9"/>
+  <path d="M21 19L31 34M43 21L31 34M31 34L17 45M31 34L46 47" stroke="#C7D2FE" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+  <path d="M22 52h20" stroke="#7DD3FC" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+</svg>
