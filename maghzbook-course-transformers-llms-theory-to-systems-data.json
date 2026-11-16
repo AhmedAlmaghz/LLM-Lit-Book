@@ -2,7 +2,7 @@
   "maghzbook": {
     "schema": "maghzbook.blueprint",
     "version": 1,
-    "exportedAt": "2026-11-10T22:17:23.270Z",
+    "exportedAt": "2026-11-16T20:00:38.994Z",
     "generator": "MaghzBook Admin"
   },
   "kind": "course",
@@ -27,42 +27,42 @@
         "title": "المحوّلات والنماذج اللغوية الكبيرة",
         "subtitle": "من النظرية إلى بناء أنظمة ذكية",
         "description": "48 فصلاً في 10 أجزاء و364 كتلة كود: من الشبكة العصبية الأولى والتضمينات إلى بناء LLM من الصفر، الضبط الفعّال LoRA، التقييم والاختبار، والمشاريع العملية والمقابلات.",
-        "landingMd": "# المحوّلات والنماذج اللغوية الكبيرة\n\n**من النظرية إلى بناء أنظمة ذكية**\n\n48 فصلاً في 10 أجزاء و364 كتلة كود: من الشبكة العصبية الأولى والتضمينات إلى بناء LLM من الصفر، الضبط الفعّال LoRA، التقييم والاختبار، والمشاريع العملية والمقابلات.\n\n![المحوّلات والنماذج اللغوية الكبيرة](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسيات — من الشبكات العصبية إلى التعلّم العميق** — 3 فصول وملاحق\n- **التضمينات والتمثيلات — كيف تتحول النصوص إلى أرقام** — 3 فصول وملاحق\n- **المحوّلات — القلب النابض للنماذج اللغوية** — 5 فصول وملاحق\n- **بناء LLM من الصفر — خط الأنابيب الكامل** — 8 فصول وملاحق\n- **التقنيات المتقدمة — من هندسة الأوامر إلى الوكلاء** — 5 فصول وملاحق\n- **النماذج متعددة الوسائط (Multimodal LLMs)** — 4 فصول وملاحق\n- **البناء انطلاقًا من نماذج موجودة — بدلًا من الصفر** — 6 فصول وملاحق\n- **التقييم والاختبار والنشر** — 6 فصول وملاحق\n- **التطبيقات والمشاريع العملية** — 5 فصول وملاحق\n- **المقابلات والمسار المهني** — 3 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 95 صفحة](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/dist/llm-ds.pdf)\n- [صفحة الكتاب التعريفية](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# المحوّلات والنماذج اللغوية الكبيرة\n\n**من النظرية إلى بناء أنظمة ذكية**\n\n48 فصلاً في 10 أجزاء و364 كتلة كود: من الشبكة العصبية الأولى والتضمينات إلى بناء LLM من الصفر، الضبط الفعّال LoRA، التقييم والاختبار، والمشاريع العملية والمقابلات.\n\n![المحوّلات والنماذج اللغوية الكبيرة](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## ماذا ستتعلّم\n\n- **الأساسيات — من الشبكات العصبية إلى التعلّم العميق** — 3 فصول وملاحق\n- **التضمينات والتمثيلات — كيف تتحول النصوص إلى أرقام** — 3 فصول وملاحق\n- **المحوّلات — القلب النابض للنماذج اللغوية** — 5 فصول وملاحق\n- **بناء LLM من الصفر — خط الأنابيب الكامل** — 8 فصول وملاحق\n- **التقنيات المتقدمة — من هندسة الأوامر إلى الوكلاء** — 5 فصول وملاحق\n- **النماذج متعددة الوسائط (Multimodal LLMs)** — 4 فصول وملاحق\n- **البناء انطلاقًا من نماذج موجودة — بدلًا من الصفر** — 6 فصول وملاحق\n- **التقييم والاختبار والنشر** — 6 فصول وملاحق\n- **التطبيقات والمشاريع العملية** — 5 فصول وملاحق\n- **المقابلات والمسار المهني** — 3 فصول وملاحق\n\n## الكتاب بالأرقام\n\n| الأجزاء | فصول وملاحق | صفحة | ساعة قراءة |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## النموذج المجاني (الجزءان الأول والثاني)\n\n[النموذج المجاني (الجزءان الأول والثاني) — 95 صفحة](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems-sample.pdf)\n\n- [الكتاب الكامل بصيغة PDF](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems.pdf)\n- [حزمة التطبيق: الكتاب والأكواد والدفاتر (RAR)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/downloads/transformers-llms-theory-to-systems.rar)\n- [صفحة الكتاب التعريفية](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> هذا كتاب عربي؛ النص الكامل لكل فصل متاح في النسخة العربية من الدورة.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "en",
         "title": "Transformers and Large Language Models",
         "subtitle": "From theory to building intelligent systems",
         "description": "Forty-eight chapters in ten parts with 364 code blocks: from the first neural network and embeddings to building an LLM from scratch, LoRA fine-tuning, evaluation and testing, practical projects and interview preparation.",
-        "landingMd": "# Transformers and Large Language Models\n\n**From theory to building intelligent systems**\n\nForty-eight chapters in ten parts with 364 code blocks: from the first neural network and embeddings to building an LLM from scratch, LoRA fine-tuning, evaluation and testing, practical projects and interview preparation.\n\n![Transformers and Large Language Models](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## What you will learn\n\n- **Part 1 — Part** — 3 chapters & appendices\n- **Part 2 — Part** — 3 chapters & appendices\n- **Part 3 — Part** — 5 chapters & appendices\n- **Part 4 — Part** — 8 chapters & appendices\n- **Part 5 — Part** — 5 chapters & appendices\n- **Part 6 — Part** — 4 chapters & appendices\n- **Part 7 — Part** — 6 chapters & appendices\n- **Part 8 — Part** — 6 chapters & appendices\n- **Part 9 — Part** — 5 chapters & appendices\n- **Part 10 — Part** — 3 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 95 pages](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/sample.pdf)\n\n- [Full book (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/dist/llm-ds.pdf)\n- [Book landing page](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Transformers and Large Language Models\n\n**From theory to building intelligent systems**\n\nForty-eight chapters in ten parts with 364 code blocks: from the first neural network and embeddings to building an LLM from scratch, LoRA fine-tuning, evaluation and testing, practical projects and interview preparation.\n\n![Transformers and Large Language Models](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## What you will learn\n\n- **Part 1 — Part** — 3 chapters & appendices\n- **Part 2 — Part** — 3 chapters & appendices\n- **Part 3 — Part** — 5 chapters & appendices\n- **Part 4 — Part** — 8 chapters & appendices\n- **Part 5 — Part** — 5 chapters & appendices\n- **Part 6 — Part** — 4 chapters & appendices\n- **Part 7 — Part** — 6 chapters & appendices\n- **Part 8 — Part** — 6 chapters & appendices\n- **Part 9 — Part** — 5 chapters & appendices\n- **Part 10 — Part** — 3 chapters & appendices\n\n## By the numbers\n\n| parts | chapters & appendices | pages | reading hours |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## Free sample (first two parts)\n\n[Free sample (first two parts) — 95 pages](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems-sample.pdf)\n\n- [Full book (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/downloads/transformers-llms-theory-to-systems.rar)\n- [Book landing page](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "fr",
         "title": "Transformeurs et grands modèles de langage",
         "subtitle": "De la théorie à la construction de systèmes intelligents",
         "description": "48 chapitres en 10 parties et 364 blocs de code : du premier réseau de neurones et des plongements à la construction d'un LLM, au réglage LoRA, à l'évaluation et aux projets pratiques.",
-        "landingMd": "# Transformeurs et grands modèles de langage\n\n**De la théorie à la construction de systèmes intelligents**\n\n48 chapitres en 10 parties et 364 blocs de code : du premier réseau de neurones et des plongements à la construction d'un LLM, au réglage LoRA, à l'évaluation et aux projets pratiques.\n\n![Transformeurs et grands modèles de langage](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## Ce que vous apprendrez\n\n- **Part 1 — Part** — 3 chapitres et annexes\n- **Part 2 — Part** — 3 chapitres et annexes\n- **Part 3 — Part** — 5 chapitres et annexes\n- **Part 4 — Part** — 8 chapitres et annexes\n- **Part 5 — Part** — 5 chapitres et annexes\n- **Part 6 — Part** — 4 chapitres et annexes\n- **Part 7 — Part** — 6 chapitres et annexes\n- **Part 8 — Part** — 6 chapitres et annexes\n- **Part 9 — Part** — 5 chapitres et annexes\n- **Part 10 — Part** — 3 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 95 pages](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/sample.pdf)\n\n- [Livre complet (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/dist/llm-ds.pdf)\n- [Page du livre](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Transformeurs et grands modèles de langage\n\n**De la théorie à la construction de systèmes intelligents**\n\n48 chapitres en 10 parties et 364 blocs de code : du premier réseau de neurones et des plongements à la construction d'un LLM, au réglage LoRA, à l'évaluation et aux projets pratiques.\n\n![Transformeurs et grands modèles de langage](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## Ce que vous apprendrez\n\n- **Part 1 — Part** — 3 chapitres et annexes\n- **Part 2 — Part** — 3 chapitres et annexes\n- **Part 3 — Part** — 5 chapitres et annexes\n- **Part 4 — Part** — 8 chapitres et annexes\n- **Part 5 — Part** — 5 chapitres et annexes\n- **Part 6 — Part** — 4 chapitres et annexes\n- **Part 7 — Part** — 6 chapitres et annexes\n- **Part 8 — Part** — 6 chapitres et annexes\n- **Part 9 — Part** — 5 chapitres et annexes\n- **Part 10 — Part** — 3 chapitres et annexes\n\n## En chiffres\n\n| parties | chapitres et annexes | pages | heures de lecture |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## Extrait gratuit (deux premières parties)\n\n[Extrait gratuit (deux premières parties) — 95 pages](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems-sample.pdf)\n\n- [Livre complet (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/downloads/transformers-llms-theory-to-systems.rar)\n- [Page du livre](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> Ce livre est en arabe ; le texte intégral de chaque leçon est fourni dans l'édition arabe du cours.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "es",
         "title": "Transformadores y grandes modelos de lenguaje",
         "subtitle": "De la teoría a la construcción de sistemas inteligentes",
         "description": "48 capítulos en 10 partes y 364 bloques de código: desde la primera red neuronal y los embeddings hasta construir un LLM, ajuste LoRA, evaluación y proyectos prácticos.",
-        "landingMd": "# Transformadores y grandes modelos de lenguaje\n\n**De la teoría a la construcción de sistemas inteligentes**\n\n48 capítulos en 10 partes y 364 bloques de código: desde la primera red neuronal y los embeddings hasta construir un LLM, ajuste LoRA, evaluación y proyectos prácticos.\n\n![Transformadores y grandes modelos de lenguaje](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## Qué aprenderás\n\n- **Part 1 — Part** — 3 capítulos y apéndices\n- **Part 2 — Part** — 3 capítulos y apéndices\n- **Part 3 — Part** — 5 capítulos y apéndices\n- **Part 4 — Part** — 8 capítulos y apéndices\n- **Part 5 — Part** — 5 capítulos y apéndices\n- **Part 6 — Part** — 4 capítulos y apéndices\n- **Part 7 — Part** — 6 capítulos y apéndices\n- **Part 8 — Part** — 6 capítulos y apéndices\n- **Part 9 — Part** — 5 capítulos y apéndices\n- **Part 10 — Part** — 3 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 95 páginas](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/sample.pdf)\n\n- [Libro completo (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/dist/llm-ds.pdf)\n- [Página del libro](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Transformadores y grandes modelos de lenguaje\n\n**De la teoría a la construcción de sistemas inteligentes**\n\n48 capítulos en 10 partes y 364 bloques de código: desde la primera red neuronal y los embeddings hasta construir un LLM, ajuste LoRA, evaluación y proyectos prácticos.\n\n![Transformadores y grandes modelos de lenguaje](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## Qué aprenderás\n\n- **Part 1 — Part** — 3 capítulos y apéndices\n- **Part 2 — Part** — 3 capítulos y apéndices\n- **Part 3 — Part** — 5 capítulos y apéndices\n- **Part 4 — Part** — 8 capítulos y apéndices\n- **Part 5 — Part** — 5 capítulos y apéndices\n- **Part 6 — Part** — 4 capítulos y apéndices\n- **Part 7 — Part** — 6 capítulos y apéndices\n- **Part 8 — Part** — 6 capítulos y apéndices\n- **Part 9 — Part** — 5 capítulos y apéndices\n- **Part 10 — Part** — 3 capítulos y apéndices\n\n## En cifras\n\n| partes | capítulos y apéndices | páginas | horas de lectura |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## Muestra gratuita (primeras dos partes)\n\n[Muestra gratuita (primeras dos partes) — 95 páginas](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems-sample.pdf)\n\n- [Libro completo (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/downloads/transformers-llms-theory-to-systems.rar)\n- [Página del libro](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> Este libro está en árabe; el texto completo de cada lección se ofrece en la edición árabe del curso.\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "zh",
         "title": "Transformer 与大语言模型",
         "subtitle": "从理论到构建智能系统",
         "description": "10 大部分、48 章、364 个代码块：从第一个神经网络与词嵌入，到从零构建 LLM、LoRA 微调、评测与实战项目。",
-        "landingMd": "# Transformer 与大语言模型\n\n**从理论到构建智能系统**\n\n10 大部分、48 章、364 个代码块：从第一个神经网络与词嵌入，到从零构建 LLM、LoRA 微调、评测与实战项目。\n\n![Transformer 与大语言模型](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## 你将学到什么\n\n- **Part 1 — Part** — 3 章与附录\n- **Part 2 — Part** — 3 章与附录\n- **Part 3 — Part** — 5 章与附录\n- **Part 4 — Part** — 8 章与附录\n- **Part 5 — Part** — 5 章与附录\n- **Part 6 — Part** — 4 章与附录\n- **Part 7 — Part** — 6 章与附录\n- **Part 8 — Part** — 6 章与附录\n- **Part 9 — Part** — 5 章与附录\n- **Part 10 — Part** — 3 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 95 页](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/sample.pdf)\n\n- [完整电子书 PDF](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/dist/llm-ds.pdf)\n- [图书介绍页](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# Transformer 与大语言模型\n\n**从理论到构建智能系统**\n\n10 大部分、48 章、364 个代码块：从第一个神经网络与词嵌入，到从零构建 LLM、LoRA 微调、评测与实战项目。\n\n![Transformer 与大语言模型](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## 你将学到什么\n\n- **Part 1 — Part** — 3 章与附录\n- **Part 2 — Part** — 3 章与附录\n- **Part 3 — Part** — 5 章与附录\n- **Part 4 — Part** — 8 章与附录\n- **Part 5 — Part** — 5 章与附录\n- **Part 6 — Part** — 4 章与附录\n- **Part 7 — Part** — 6 章与附录\n- **Part 8 — Part** — 6 章与附录\n- **Part 9 — Part** — 5 章与附录\n- **Part 10 — Part** — 3 章与附录\n\n## 数据概览\n\n| 大部分 | 章与附录 | 页 | 小时阅读 |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## 免费试读（前两大部分）\n\n[免费试读（前两大部分） — 95 页](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems-sample.pdf)\n\n- [完整电子书 PDF](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/downloads/transformers-llms-theory-to-systems.rar)\n- [图书介绍页](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> 本书为阿拉伯语著作，每课全文见本课程的阿拉伯语版本。\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       },
       {
         "languageCode": "hi",
         "title": "ट्रांसफ़ॉर्मर और बड़े भाषा मॉडल",
         "subtitle": "सिद्धांत से बुद्धिमान सिस्टम निर्माण तक",
         "description": "10 भागों में 48 अध्याय और 364 कोड ब्लॉक: पहले न्यूरल नेटवर्क और एम्बेडिंग से लेकर LLM निर्माण, LoRA फ़ाइन-ट्यूनिंग, मूल्यांकन और व्यावहारिक प्रोजेक्ट तक।",
-        "landingMd": "# ट्रांसफ़ॉर्मर और बड़े भाषा मॉडल\n\n**सिद्धांत से बुद्धिमान सिस्टम निर्माण तक**\n\n10 भागों में 48 अध्याय और 364 कोड ब्लॉक: पहले न्यूरल नेटवर्क और एम्बेडिंग से लेकर LLM निर्माण, LoRA फ़ाइन-ट्यूनिंग, मूल्यांकन और व्यावहारिक प्रोजेक्ट तक।\n\n![ट्रांसफ़ॉर्मर और बड़े भाषा मॉडल](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Part 1 — Part** — 3 अध्याय और परिशिष्ट\n- **Part 2 — Part** — 3 अध्याय और परिशिष्ट\n- **Part 3 — Part** — 5 अध्याय और परिशिष्ट\n- **Part 4 — Part** — 8 अध्याय और परिशिष्ट\n- **Part 5 — Part** — 5 अध्याय और परिशिष्ट\n- **Part 6 — Part** — 4 अध्याय और परिशिष्ट\n- **Part 7 — Part** — 6 अध्याय और परिशिष्ट\n- **Part 8 — Part** — 6 अध्याय और परिशिष्ट\n- **Part 9 — Part** — 5 अध्याय और परिशिष्ट\n- **Part 10 — Part** — 3 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 95 पृष्ठ](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/sample.pdf)\n\n- [पूरी पुस्तक (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/dist/llm-ds.pdf)\n- [पुस्तक परिचय पृष्ठ](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
+        "landingMd": "# ट्रांसफ़ॉर्मर और बड़े भाषा मॉडल\n\n**सिद्धांत से बुद्धिमान सिस्टम निर्माण तक**\n\n10 भागों में 48 अध्याय और 364 कोड ब्लॉक: पहले न्यूरल नेटवर्क और एम्बेडिंग से लेकर LLM निर्माण, LoRA फ़ाइन-ट्यूनिंग, मूल्यांकन और व्यावहारिक प्रोजेक्ट तक।\n\n![ट्रांसफ़ॉर्मर और बड़े भाषा मॉडल](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/cover.png)\n\n## आप क्या सीखेंगे\n\n- **Part 1 — Part** — 3 अध्याय और परिशिष्ट\n- **Part 2 — Part** — 3 अध्याय और परिशिष्ट\n- **Part 3 — Part** — 5 अध्याय और परिशिष्ट\n- **Part 4 — Part** — 8 अध्याय और परिशिष्ट\n- **Part 5 — Part** — 5 अध्याय और परिशिष्ट\n- **Part 6 — Part** — 4 अध्याय और परिशिष्ट\n- **Part 7 — Part** — 6 अध्याय और परिशिष्ट\n- **Part 8 — Part** — 6 अध्याय और परिशिष्ट\n- **Part 9 — Part** — 5 अध्याय और परिशिष्ट\n- **Part 10 — Part** — 3 अध्याय और परिशिष्ट\n\n## आँकड़ों में\n\n| भाग | अध्याय और परिशिष्ट | पृष्ठ | घंटे पठन |\n| ---: | ---: | ---: | ---: |\n| 10 | 48 | 666 | 8 |\n\n## निःशुल्क नमूना (पहले दो भाग)\n\n[निःशुल्क नमूना (पहले दो भाग) — 95 पृष्ठ](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems-sample.pdf)\n\n- [पूरी पुस्तक (PDF)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/assets/transformers-llms-theory-to-systems.pdf)\n- [Download pack: book, scripts and notebooks (RAR)](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/downloads/transformers-llms-theory-to-systems.rar)\n- [पुस्तक परिचय पृष्ठ](https://ahmedalmaghz.github.io/LLM-Lit-Book/)\n\n> यह अरबी भाषा की पुस्तक है; प्रत्येक पाठ का पूरा text पाठ्यक्रम के अरबी संस्करण में उपलब्ध है।\n\n*م/ أحمد صالح المغز · Eng. Ahmed Saleh Al-Maghz · © 2026 MaghzBook*"
       }
     ],
     "modules": [
@@ -96,21 +96,21 @@
               {
                 "languageCode": "en",
                 "title": "Neural Networks From Scratch",
-                "body": "## Chapter 01 — Neural Networks From Scratch\n\n**Book:** Transformers and Large Language Models  \n**Part 1:** Part 1 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [part01_foundations-neural-nets-to-deep-learning.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part01_foundations-neural-nets-to-deep-learning.ipynb) — Jupyter notebook\n- [ch01_neural-networks-from-scratch.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch01_neural-networks-from-scratch.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 01 — Neural Networks From Scratch\n\n**Book:** Transformers and Large Language Models  \n**Part 1:** Part 1 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-01-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-01-llm-ds.py) — Python script\n- [ch-01-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-01-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part01_foundations-neural-nets-to-deep-learning.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part01_foundations-neural-nets-to-deep-learning.ipynb",
-                "kind": "notebook",
+                "name": "ch-01-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-01-llm-ds.py",
+                "kind": "script",
                 "isFree": true,
                 "order": 0
               },
               {
-                "name": "ch01_neural-networks-from-scratch.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch01_neural-networks-from-scratch.py",
-                "kind": "script",
+                "name": "ch-01-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-01-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": true,
                 "order": 1
               }
@@ -131,16 +131,23 @@
               {
                 "languageCode": "en",
                 "title": "Deep Learning Training Eval",
-                "body": "## Chapter 02 — Deep Learning Training Eval\n\n**Book:** Transformers and Large Language Models  \n**Part 1:** Part 1 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch02_deep-learning-training-eval.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch02_deep-learning-training-eval.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 02 — Deep Learning Training Eval\n\n**Book:** Transformers and Large Language Models  \n**Part 1:** Part 1 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-02-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-02-llm-ds.py) — Python script\n- [ch-02-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-02-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch02_deep-learning-training-eval.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch02_deep-learning-training-eval.py",
+                "name": "ch-02-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-02-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-02-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-02-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -159,16 +166,23 @@
               {
                 "languageCode": "en",
                 "title": "Modern Training Infrastructure",
-                "body": "## Chapter 03 — Modern Training Infrastructure\n\n**Book:** Transformers and Large Language Models  \n**Part 1:** Part 1 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** GPU\n\n### Companion files\n\n- [ch03_modern-training-infrastructure.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch03_modern-training-infrastructure.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 03 — Modern Training Infrastructure\n\n**Book:** Transformers and Large Language Models  \n**Part 1:** Part 1 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** GPU\n\n### Companion files\n\n- [ch-03-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-03-llm-ds.py) — Python script\n- [ch-03-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch03_modern-training-infrastructure.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch03_modern-training-infrastructure.py",
+                "name": "ch-03-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-03-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-03-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-03-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -204,21 +218,21 @@
               {
                 "languageCode": "en",
                 "title": "Tokenization",
-                "body": "## Chapter 04 — Tokenization\n\n**Book:** Transformers and Large Language Models  \n**Part 2:** Part 2 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenization\n\n### Companion files\n\n- [part02_embeddings-and-representations.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part02_embeddings-and-representations.ipynb) — Jupyter notebook\n- [ch04_tokenization.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch04_tokenization.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 04 — Tokenization\n\n**Book:** Transformers and Large Language Models  \n**Part 2:** Part 2 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenization\n\n### Companion files\n\n- [ch-04-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-04-llm-ds.py) — Python script\n- [ch-04-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-04-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part02_embeddings-and-representations.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part02_embeddings-and-representations.ipynb",
-                "kind": "notebook",
+                "name": "ch-04-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-04-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch04_tokenization.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch04_tokenization.py",
-                "kind": "script",
+                "name": "ch-04-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-04-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -239,16 +253,23 @@
               {
                 "languageCode": "en",
                 "title": "Word Embeddings",
-                "body": "## Chapter 05 — Word Embeddings\n\n**Book:** Transformers and Large Language Models  \n**Part 2:** Part 2 — Part  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Word2Vec, GloVe\n\n### Companion files\n\n- [ch05_word-embeddings.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch05_word-embeddings.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 05 — Word Embeddings\n\n**Book:** Transformers and Large Language Models  \n**Part 2:** Part 2 — Part  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Word2Vec, GloVe\n\n### Companion files\n\n- [ch-05-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-05-llm-ds.py) — Python script\n- [ch-05-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-05-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch05_word-embeddings.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch05_word-embeddings.py",
+                "name": "ch-05-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-05-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-05-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-05-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -267,16 +288,23 @@
               {
                 "languageCode": "en",
                 "title": "Sentence Embeddings Rnn Lstm",
-                "body": "## Chapter 06 — Sentence Embeddings Rnn Lstm\n\n**Book:** Transformers and Large Language Models  \n**Part 2:** Part 2 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU\n\n### Companion files\n\n- [ch06_sentence-embeddings-rnn-lstm.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch06_sentence-embeddings-rnn-lstm.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 06 — Sentence Embeddings Rnn Lstm\n\n**Book:** Transformers and Large Language Models  \n**Part 2:** Part 2 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RNN, LSTM, GRU\n\n### Companion files\n\n- [ch-06-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-06-llm-ds.py) — Python script\n- [ch-06-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-06-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch06_sentence-embeddings-rnn-lstm.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch06_sentence-embeddings-rnn-lstm.py",
+                "name": "ch-06-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-06-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-06-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-06-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -312,21 +340,21 @@
               {
                 "languageCode": "en",
                 "title": "Self Attention Why",
-                "body": "## Chapter 07 — Self Attention Why\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [part03_transformers.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part03_transformers.ipynb) — Jupyter notebook\n- [ch07_self-attention-why.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch07_self-attention-why.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 07 — Self Attention Why\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-07-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-07-llm-ds.py) — Python script\n- [ch-07-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-07-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part03_transformers.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part03_transformers.ipynb",
-                "kind": "notebook",
+                "name": "ch-07-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-07-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch07_self-attention-why.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch07_self-attention-why.py",
-                "kind": "script",
+                "name": "ch-07-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-07-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -347,16 +375,23 @@
               {
                 "languageCode": "en",
                 "title": "Transformer Architecture",
-                "body": "## Chapter 08 — Transformer Architecture\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch08_transformer-architecture.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch08_transformer-architecture.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 08 — Transformer Architecture\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-08-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-08-llm-ds.py) — Python script\n- [ch-08-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-08-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch08_transformer-architecture.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch08_transformer-architecture.py",
+                "name": "ch-08-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-08-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-08-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-08-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -375,16 +410,23 @@
               {
                 "languageCode": "en",
                 "title": "Bert Gpt T5",
-                "body": "## Chapter 09 — Bert Gpt T5\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** BERT, GPT\n\n### Companion files\n\n- [ch09_bert-gpt-t5.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch09_bert-gpt-t5.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 09 — Bert Gpt T5\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** BERT, GPT\n\n### Companion files\n\n- [ch-09-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-09-llm-ds.py) — Python script\n- [ch-09-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-09-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch09_bert-gpt-t5.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch09_bert-gpt-t5.py",
+                "name": "ch-09-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-09-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-09-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-09-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -403,16 +445,23 @@
               {
                 "languageCode": "en",
                 "title": "Modern Transformer Variants",
-                "body": "## Chapter 10 — Modern Transformer Variants\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** FlashAttention, MLA, MoE, Mamba\n\n### Companion files\n\n- [ch10_modern-transformer-variants.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch10_modern-transformer-variants.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 10 — Modern Transformer Variants\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** FlashAttention, MLA, MoE, Mamba\n\n### Companion files\n\n- [ch-10-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-10-llm-ds.py) — Python script\n- [ch-10-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-10-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch10_modern-transformer-variants.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch10_modern-transformer-variants.py",
+                "name": "ch-10-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-10-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-10-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-10-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -431,16 +480,23 @@
               {
                 "languageCode": "en",
                 "title": "Compute Acceleration",
-                "body": "## Chapter 11 — Compute Acceleration\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch11_compute-acceleration.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch11_compute-acceleration.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 11 — Compute Acceleration\n\n**Book:** Transformers and Large Language Models  \n**Part 3:** Part 3 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-11-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-11-llm-ds.py) — Python script\n- [ch-11-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-11-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch11_compute-acceleration.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch11_compute-acceleration.py",
+                "name": "ch-11-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-11-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-11-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-11-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -476,21 +532,21 @@
               {
                 "languageCode": "en",
                 "title": "Build Llm Planning",
-                "body": "## Chapter 12 — Build Llm Planning\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM\n\n### Companion files\n\n- [part04_build-llm-from-scratch.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part04_build-llm-from-scratch.ipynb) — Jupyter notebook\n- [ch12_build-llm-planning.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch12_build-llm-planning.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 12 — Build Llm Planning\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM\n\n### Companion files\n\n- [ch-12-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-12-llm-ds.py) — Python script\n- [ch-12-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-12-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part04_build-llm-from-scratch.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part04_build-llm-from-scratch.ipynb",
-                "kind": "notebook",
+                "name": "ch-12-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-12-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch12_build-llm-planning.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch12_build-llm-planning.py",
-                "kind": "script",
+                "name": "ch-12-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-12-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -511,16 +567,23 @@
               {
                 "languageCode": "en",
                 "title": "Tokenizer Data Pipeline",
-                "body": "## Chapter 13 — Tokenizer Data Pipeline\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenizer\n\n### Companion files\n\n- [ch13_tokenizer-data-pipeline.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch13_tokenizer-data-pipeline.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 13 — Tokenizer Data Pipeline\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Tokenizer\n\n### Companion files\n\n- [ch-13-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-13-llm-ds.py) — Python script\n- [ch-13-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-13-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch13_tokenizer-data-pipeline.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch13_tokenizer-data-pipeline.py",
+                "name": "ch-13-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-13-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-13-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-13-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -539,16 +602,23 @@
               {
                 "languageCode": "en",
                 "title": "Build Model Gpt Block",
-                "body": "## Chapter 14 — Build Model Gpt Block\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Embedding, GPT, Block\n\n### Companion files\n\n- [ch14_build-model-gpt-block.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch14_build-model-gpt-block.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 14 — Build Model Gpt Block\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Embedding, GPT, Block\n\n### Companion files\n\n- [ch-14-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-14-llm-ds.py) — Python script\n- [ch-14-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-14-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch14_build-model-gpt-block.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch14_build-model-gpt-block.py",
+                "name": "ch-14-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-14-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-14-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-14-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -567,16 +637,23 @@
               {
                 "languageCode": "en",
                 "title": "Pretraining Loop",
-                "body": "## Chapter 15 — Pretraining Loop\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pre-training\n\n### Companion files\n\n- [ch15_pretraining-loop.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch15_pretraining-loop.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 15 — Pretraining Loop\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 13 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pre-training\n\n### Companion files\n\n- [ch-15-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-15-llm-ds.py) — Python script\n- [ch-15-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-15-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch15_pretraining-loop.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch15_pretraining-loop.py",
+                "name": "ch-15-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-15-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-15-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-15-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -595,16 +672,23 @@
               {
                 "languageCode": "en",
                 "title": "Sft Lora Qlora",
-                "body": "## Chapter 16 — Sft Lora Qlora\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** SFT, LoRA, QLoRA\n\n### Companion files\n\n- [ch16_sft-lora-qlora.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch16_sft-lora-qlora.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 16 — Sft Lora Qlora\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** SFT, LoRA, QLoRA\n\n### Companion files\n\n- [ch-16-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-16-llm-ds.py) — Python script\n- [ch-16-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-16-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch16_sft-lora-qlora.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch16_sft-lora-qlora.py",
+                "name": "ch-16-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-16-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-16-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-16-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -623,16 +707,23 @@
               {
                 "languageCode": "en",
                 "title": "Rlhf Dpo",
-                "body": "## Chapter 17 — Rlhf Dpo\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RLHF, DPO\n\n### Companion files\n\n- [ch17_rlhf-dpo.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch17_rlhf-dpo.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 17 — Rlhf Dpo\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RLHF, DPO\n\n### Companion files\n\n- [ch-17-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-17-llm-ds.py) — Python script\n- [ch-17-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-17-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch17_rlhf-dpo.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch17_rlhf-dpo.py",
+                "name": "ch-17-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-17-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-17-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-17-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -651,16 +742,23 @@
               {
                 "languageCode": "en",
                 "title": "Inference Generation",
-                "body": "## Chapter 18 — Inference Generation\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch18_inference-generation.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch18_inference-generation.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 18 — Inference Generation\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-18-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-18-llm-ds.py) — Python script\n- [ch-18-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-18-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch18_inference-generation.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch18_inference-generation.py",
+                "name": "ch-18-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-18-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-18-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-18-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -679,16 +777,23 @@
               {
                 "languageCode": "en",
                 "title": "Quantization Distillation",
-                "body": "## Chapter 19 — Quantization Distillation\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch19_quantization-distillation.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch19_quantization-distillation.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 19 — Quantization Distillation\n\n**Book:** Transformers and Large Language Models  \n**Part 4:** Part 4 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-19-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-19-llm-ds.py) — Python script\n- [ch-19-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-19-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch19_quantization-distillation.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch19_quantization-distillation.py",
+                "name": "ch-19-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-19-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-19-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-19-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -724,21 +829,21 @@
               {
                 "languageCode": "en",
                 "title": "Prompt Engineering",
-                "body": "## Chapter 20 — Prompt Engineering\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Prompt, Engineering\n\n### Companion files\n\n- [part05_advanced-techniques-and-agents.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part05_advanced-techniques-and-agents.ipynb) — Jupyter notebook\n- [ch20_prompt-engineering.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch20_prompt-engineering.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 20 — Prompt Engineering\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Prompt, Engineering\n\n### Companion files\n\n- [ch-20-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-20-llm-ds.py) — Python script\n- [ch-20-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-20-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part05_advanced-techniques-and-agents.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part05_advanced-techniques-and-agents.ipynb",
-                "kind": "notebook",
+                "name": "ch-20-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-20-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch20_prompt-engineering.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch20_prompt-engineering.py",
-                "kind": "script",
+                "name": "ch-20-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-20-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -759,16 +864,23 @@
               {
                 "languageCode": "en",
                 "title": "Advanced Peft",
-                "body": "## Chapter 21 — Advanced Peft\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** PEFT\n\n### Companion files\n\n- [ch21_advanced-peft.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch21_advanced-peft.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 21 — Advanced Peft\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** PEFT\n\n### Companion files\n\n- [ch-21-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-21-llm-ds.py) — Python script\n- [ch-21-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-21-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch21_advanced-peft.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch21_advanced-peft.py",
+                "name": "ch-21-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-21-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-21-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-21-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -787,16 +899,23 @@
               {
                 "languageCode": "en",
                 "title": "Advanced Preference Optimization",
-                "body": "## Chapter 22 — Advanced Preference Optimization\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** ORPO, KTO, SimPO, GRPO, DPO\n\n### Companion files\n\n- [ch22_advanced-preference-optimization.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch22_advanced-preference-optimization.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 22 — Advanced Preference Optimization\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** ORPO, KTO, SimPO, GRPO, DPO\n\n### Companion files\n\n- [ch-22-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-22-llm-ds.py) — Python script\n- [ch-22-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-22-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch22_advanced-preference-optimization.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch22_advanced-preference-optimization.py",
+                "name": "ch-22-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-22-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-22-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-22-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -815,16 +934,23 @@
               {
                 "languageCode": "en",
                 "title": "Rag",
-                "body": "## Chapter 23 — Rag\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG\n\n### Companion files\n\n- [ch23_rag.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch23_rag.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 23 — Rag\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG\n\n### Companion files\n\n- [ch-23-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-23-llm-ds.py) — Python script\n- [ch-23-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-23-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch23_rag.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch23_rag.py",
+                "name": "ch-23-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-23-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-23-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-23-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -843,16 +969,23 @@
               {
                 "languageCode": "en",
                 "title": "Agents And Tools",
-                "body": "## Chapter 24 — Agents And Tools\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Agents\n\n### Companion files\n\n- [ch24_agents-and-tools.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch24_agents-and-tools.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 24 — Agents And Tools\n\n**Book:** Transformers and Large Language Models  \n**Part 5:** Part 5 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Agents\n\n### Companion files\n\n- [ch-24-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-24-llm-ds.py) — Python script\n- [ch-24-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-24-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch24_agents-and-tools.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch24_agents-and-tools.py",
+                "name": "ch-24-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-24-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-24-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-24-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -888,21 +1021,21 @@
               {
                 "languageCode": "en",
                 "title": "Multimodal Intro",
-                "body": "## Chapter 25 — Multimodal Intro\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Multimodal\n\n### Companion files\n\n- [part06_multimodal-llms.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part06_multimodal-llms.ipynb) — Jupyter notebook\n- [ch25_multimodal-intro.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch25_multimodal-intro.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 25 — Multimodal Intro\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 11 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Multimodal\n\n### Companion files\n\n- [ch-25-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-25-llm-ds.py) — Python script\n- [ch-25-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-25-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part06_multimodal-llms.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part06_multimodal-llms.ipynb",
-                "kind": "notebook",
+                "name": "ch-25-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-25-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch25_multimodal-intro.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch25_multimodal-intro.py",
-                "kind": "script",
+                "name": "ch-25-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-25-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -923,16 +1056,23 @@
               {
                 "languageCode": "en",
                 "title": "Vision Language Architectures",
-                "body": "## Chapter 26 — Vision Language Architectures\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Vision-Language\n\n### Companion files\n\n- [ch26_vision-language-architectures.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch26_vision-language-architectures.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 26 — Vision Language Architectures\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Vision-Language\n\n### Companion files\n\n- [ch-26-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-26-llm-ds.py) — Python script\n- [ch-26-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-26-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch26_vision-language-architectures.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch26_vision-language-architectures.py",
+                "name": "ch-26-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-26-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-26-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-26-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -951,16 +1091,23 @@
               {
                 "languageCode": "en",
                 "title": "Build Vlm Arabic",
-                "body": "## Chapter 27 — Build Vlm Arabic\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** VLM\n\n### Companion files\n\n- [ch27_build-vlm-arabic.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch27_build-vlm-arabic.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 27 — Build Vlm Arabic\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 12 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** VLM\n\n### Companion files\n\n- [ch-27-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-27-llm-ds.py) — Python script\n- [ch-27-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-27-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch27_build-vlm-arabic.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch27_build-vlm-arabic.py",
+                "name": "ch-27-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-27-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-27-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-27-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -979,16 +1126,23 @@
               {
                 "languageCode": "en",
                 "title": "Multimodal Evaluation",
-                "body": "## Chapter 28 — Multimodal Evaluation\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch28_multimodal-evaluation.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch28_multimodal-evaluation.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 28 — Multimodal Evaluation\n\n**Book:** Transformers and Large Language Models  \n**Part 6:** Part 6 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-28-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-28-llm-ds.py) — Python script\n- [ch-28-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-28-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch28_multimodal-evaluation.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch28_multimodal-evaluation.py",
+                "name": "ch-28-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-28-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-28-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-28-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -1024,21 +1178,21 @@
               {
                 "languageCode": "en",
                 "title": "Build Vs Adapt Cost",
-                "body": "## Chapter 29 — Build Vs Adapt Cost\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [part07_build-on-existing-models.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part07_build-on-existing-models.ipynb) — Jupyter notebook\n- [ch29_build-vs-adapt-cost.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch29_build-vs-adapt-cost.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 29 — Build Vs Adapt Cost\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-29-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-29-llm-ds.py) — Python script\n- [ch-29-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-29-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part07_build-on-existing-models.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part07_build-on-existing-models.ipynb",
-                "kind": "notebook",
+                "name": "ch-29-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-29-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch29_build-vs-adapt-cost.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch29_build-vs-adapt-cost.py",
-                "kind": "script",
+                "name": "ch-29-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-29-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -1059,16 +1213,23 @@
               {
                 "languageCode": "en",
                 "title": "Knowledge Distillation",
-                "body": "## Chapter 30 — Knowledge Distillation\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Knowledge, Distillation\n\n### Companion files\n\n- [ch30_knowledge-distillation.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch30_knowledge-distillation.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 30 — Knowledge Distillation\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Knowledge, Distillation\n\n### Companion files\n\n- [ch-30-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-30-llm-ds.py) — Python script\n- [ch-30-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-30-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch30_knowledge-distillation.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch30_knowledge-distillation.py",
+                "name": "ch-30-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-30-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-30-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-30-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1087,16 +1248,23 @@
               {
                 "languageCode": "en",
                 "title": "Model Merging",
-                "body": "## Chapter 31 — Model Merging\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Model, Merging\n\n### Companion files\n\n- [ch31_model-merging.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch31_model-merging.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 31 — Model Merging\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Model, Merging\n\n### Companion files\n\n- [ch-31-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-31-llm-ds.py) — Python script\n- [ch-31-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-31-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch31_model-merging.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch31_model-merging.py",
+                "name": "ch-31-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-31-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-31-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-31-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1115,16 +1283,23 @@
               {
                 "languageCode": "en",
                 "title": "Pruning",
-                "body": "## Chapter 32 — Pruning\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pruning\n\n### Companion files\n\n- [ch32_pruning.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch32_pruning.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 32 — Pruning\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Pruning\n\n### Companion files\n\n- [ch-32-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-32-llm-ds.py) — Python script\n- [ch-32-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-32-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch32_pruning.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch32_pruning.py",
+                "name": "ch-32-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-32-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-32-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-32-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1143,16 +1318,23 @@
               {
                 "languageCode": "en",
                 "title": "Lora As A Service",
-                "body": "## Chapter 33 — Lora As A Service\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Adapters, LoRA\n\n### Companion files\n\n- [ch33_lora-as-a-service.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch33_lora-as-a-service.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 33 — Lora As A Service\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Adapters, LoRA\n\n### Companion files\n\n- [ch-33-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-33-llm-ds.py) — Python script\n- [ch-33-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-33-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch33_lora-as-a-service.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch33_lora-as-a-service.py",
+                "name": "ch-33-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-33-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-33-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-33-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1171,16 +1353,23 @@
               {
                 "languageCode": "en",
                 "title": "Self Improvement Synthetic Data",
-                "body": "## Chapter 34 — Self Improvement Synthetic Data\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Self-Improvement, Synthetic, Data\n\n### Companion files\n\n- [ch34_self-improvement-synthetic-data.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch34_self-improvement-synthetic-data.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 34 — Self Improvement Synthetic Data\n\n**Book:** Transformers and Large Language Models  \n**Part 7:** Part 7 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Self-Improvement, Synthetic, Data\n\n### Companion files\n\n- [ch-34-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-34-llm-ds.py) — Python script\n- [ch-34-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-34-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch34_self-improvement-synthetic-data.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch34_self-improvement-synthetic-data.py",
+                "name": "ch-34-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-34-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-34-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-34-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -1216,21 +1405,21 @@
               {
                 "languageCode": "en",
                 "title": "Core Evaluation Metrics",
-                "body": "## Chapter 35 — Core Evaluation Metrics\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [part08_evaluation-testing-deployment.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part08_evaluation-testing-deployment.ipynb) — Jupyter notebook\n- [ch35_core-evaluation-metrics.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch35_core-evaluation-metrics.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 35 — Core Evaluation Metrics\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-35-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-35-llm-ds.py) — Python script\n- [ch-35-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-35-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part08_evaluation-testing-deployment.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part08_evaluation-testing-deployment.ipynb",
-                "kind": "notebook",
+                "name": "ch-35-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-35-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch35_core-evaluation-metrics.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch35_core-evaluation-metrics.py",
-                "kind": "script",
+                "name": "ch-35-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-35-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -1251,16 +1440,23 @@
               {
                 "languageCode": "en",
                 "title": "Modern Benchmarks",
-                "body": "## Chapter 36 — Modern Benchmarks\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MMLU, BIG-Bench, HELM\n\n### Companion files\n\n- [ch36_modern-benchmarks.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch36_modern-benchmarks.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 36 — Modern Benchmarks\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** MMLU, BIG-Bench, HELM\n\n### Companion files\n\n- [ch-36-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-36-llm-ds.py) — Python script\n- [ch-36-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-36-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch36_modern-benchmarks.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch36_modern-benchmarks.py",
+                "name": "ch-36-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-36-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-36-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-36-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1279,16 +1475,23 @@
               {
                 "languageCode": "en",
                 "title": "Llm As A Judge",
-                "body": "## Chapter 37 — Llm As A Judge\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM-as-a-Judge\n\n### Companion files\n\n- [ch37_llm-as-a-judge.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch37_llm-as-a-judge.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 37 — Llm As A Judge\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM-as-a-Judge\n\n### Companion files\n\n- [ch-37-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-37-llm-ds.py) — Python script\n- [ch-37-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-37-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch37_llm-as-a-judge.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch37_llm-as-a-judge.py",
+                "name": "ch-37-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-37-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-37-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-37-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1307,16 +1510,23 @@
               {
                 "languageCode": "en",
                 "title": "Multimodal Agent Evaluation",
-                "body": "## Chapter 38 — Multimodal Agent Evaluation\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch38_multimodal-agent-evaluation.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch38_multimodal-agent-evaluation.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 38 — Multimodal Agent Evaluation\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-38-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-38-llm-ds.py) — Python script\n- [ch-38-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-38-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch38_multimodal-agent-evaluation.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch38_multimodal-agent-evaluation.py",
+                "name": "ch-38-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-38-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-38-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-38-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1335,16 +1545,23 @@
               {
                 "languageCode": "en",
                 "title": "Safety Privacy Bias",
-                "body": "## Chapter 39 — Safety Privacy Bias\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch39_safety-privacy-bias.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch39_safety-privacy-bias.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 39 — Safety Privacy Bias\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-39-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-39-llm-ds.py) — Python script\n- [ch-39-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-39-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch39_safety-privacy-bias.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch39_safety-privacy-bias.py",
+                "name": "ch-39-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-39-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-39-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-39-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1363,16 +1580,23 @@
               {
                 "languageCode": "en",
                 "title": "Deployment Production",
-                "body": "## Chapter 40 — Deployment Production\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Deployment\n\n### Companion files\n\n- [ch40_deployment-production.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch40_deployment-production.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 40 — Deployment Production\n\n**Book:** Transformers and Large Language Models  \n**Part 8:** Part 8 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** Deployment\n\n### Companion files\n\n- [ch-40-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-40-llm-ds.py) — Python script\n- [ch-40-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-40-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch40_deployment-production.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch40_deployment-production.py",
+                "name": "ch-40-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-40-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-40-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-40-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -1408,21 +1632,21 @@
               {
                 "languageCode": "en",
                 "title": "Arabic Sentiment",
-                "body": "## Chapter 41 — Arabic Sentiment\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [part09_practical-projects.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part09_practical-projects.ipynb) — Jupyter notebook\n- [ch41_arabic-sentiment.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch41_arabic-sentiment.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 41 — Arabic Sentiment\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-41-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-41-llm-ds.py) — Python script\n- [ch-41-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-41-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part09_practical-projects.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part09_practical-projects.ipynb",
-                "kind": "notebook",
+                "name": "ch-41-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-41-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
               },
               {
-                "name": "ch41_arabic-sentiment.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch41_arabic-sentiment.py",
-                "kind": "script",
+                "name": "ch-41-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-41-llm-ds.ipynb",
+                "kind": "notebook",
                 "isFree": false,
                 "order": 1
               }
@@ -1443,16 +1667,23 @@
               {
                 "languageCode": "en",
                 "title": "Machine Translation",
-                "body": "## Chapter 42 — Machine Translation\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch42_machine-translation.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch42_machine-translation.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 42 — Machine Translation\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-42-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-42-llm-ds.py) — Python script\n- [ch-42-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-42-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch42_machine-translation.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch42_machine-translation.py",
+                "name": "ch-42-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-42-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-42-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-42-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1471,16 +1702,23 @@
               {
                 "languageCode": "en",
                 "title": "Arabic Rag",
-                "body": "## Chapter 43 — Arabic Rag\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG\n\n### Companion files\n\n- [ch43_arabic-rag.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch43_arabic-rag.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 43 — Arabic Rag\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** RAG\n\n### Companion files\n\n- [ch-43-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-43-llm-ds.py) — Python script\n- [ch-43-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-43-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch43_arabic-rag.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch43_arabic-rag.py",
+                "name": "ch-43-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-43-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-43-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-43-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1499,16 +1737,23 @@
               {
                 "languageCode": "en",
                 "title": "Long Document Summarization",
-                "body": "## Chapter 44 — Long Document Summarization\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch44_long-document-summarization.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch44_long-document-summarization.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 44 — Long Document Summarization\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-44-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-44-llm-ds.py) — Python script\n- [ch-44-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-44-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch44_long-document-summarization.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch44_long-document-summarization.py",
+                "name": "ch-44-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-44-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-44-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-44-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1527,16 +1772,23 @@
               {
                 "languageCode": "en",
                 "title": "Code Generation Analysis",
-                "body": "## Chapter 45 — Code Generation Analysis\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch45_code-generation-analysis.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch45_code-generation-analysis.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 45 — Code Generation Analysis\n\n**Book:** Transformers and Large Language Models  \n**Part 9:** Part 9 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-45-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-45-llm-ds.py) — Python script\n- [ch-45-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-45-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch45_code-generation-analysis.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch45_code-generation-analysis.py",
+                "name": "ch-45-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-45-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-45-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-45-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }
@@ -1572,16 +1824,23 @@
               {
                 "languageCode": "en",
                 "title": "Chapter 46",
-                "body": "## Chapter 46 — Chapter 46\n\n**Book:** Transformers and Large Language Models  \n**Part 10:** Part 10 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [part10_interviews-and-career.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part10_interviews-and-career.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 46 — Chapter 46\n\n**Book:** Transformers and Large Language Models  \n**Part 10:** Part 10 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-46-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-46-llm-ds.py) — Python script\n- [ch-46-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-46-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "part10_interviews-and-career.ipynb",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/notebooks/part10_interviews-and-career.ipynb",
-                "kind": "notebook",
+                "name": "ch-46-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-46-llm-ds.py",
+                "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-46-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-46-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1600,16 +1859,23 @@
               {
                 "languageCode": "en",
                 "title": "Llm System Design Patterns",
-                "body": "## Chapter 47 — Llm System Design Patterns\n\n**Book:** Transformers and Large Language Models  \n**Part 10:** Part 10 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM\n\n### Companion files\n\n- [ch47_llm-system-design-patterns.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch47_llm-system-design-patterns.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 47 — Llm System Design Patterns\n\n**Book:** Transformers and Large Language Models  \n**Part 10:** Part 10 — Part  \n**Estimated reading time:** 10 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n**Key terms:** LLM\n\n### Companion files\n\n- [ch-47-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-47-llm-ds.py) — Python script\n- [ch-47-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-47-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch47_llm-system-design-patterns.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch47_llm-system-design-patterns.py",
+                "name": "ch-47-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-47-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-47-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-47-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           },
@@ -1628,16 +1894,23 @@
               {
                 "languageCode": "en",
                 "title": "Engineering Best Practices",
-                "body": "## Chapter 48 — Engineering Best Practices\n\n**Book:** Transformers and Large Language Models  \n**Part 10:** Part 10 — Part  \n**Estimated reading time:** 24 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch48_engineering-best-practices.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch48_engineering-best-practices.py) — Python script\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
+                "body": "## Chapter 48 — Engineering Best Practices\n\n**Book:** Transformers and Large Language Models  \n**Part 10:** Part 10 — Part  \n**Estimated reading time:** 24 minutes\n\nThis lesson is part of «Transformers and Large Language Models», a complete Arabic-language technical book. The full lesson — explanations, worked code, equations, figures and exercises — is delivered in the Arabic edition of this course.\n\n### Companion files\n\n- [ch-48-llm-ds.py](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-48-llm-ds.py) — Python script\n- [ch-48-llm-ds.ipynb](https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-48-llm-ds.ipynb) — Jupyter notebook\n\n### Original source\n\n[Open the Arabic chapter on GitHub](https://github.com/AhmedAlmaghz/LLM-Lit-Book/blob/main/dist/llm-ds.md)\n\n> This is an Arabic-language book; the complete text of every lesson is provided in the Arabic edition of this course.\n"
               }
             ],
             "attachments": [
               {
-                "name": "ch48_engineering-best-practices.py",
-                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/code/ch48_engineering-best-practices.py",
+                "name": "ch-48-llm-ds.py",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/code/ch-48-llm-ds.py",
                 "kind": "script",
                 "isFree": false,
                 "order": 0
+              },
+              {
+                "name": "ch-48-llm-ds.ipynb",
+                "url": "https://raw.githubusercontent.com/AhmedAlmaghz/LLM-Lit-Book/main/maghzbook-download/transformers-llms-theory-to-systems/notebooks/ch-48-llm-ds.ipynb",
+                "kind": "notebook",
+                "isFree": false,
+                "order": 1
               }
             ]
           }

@@ -1,0 +1,506 @@
+{
+  "schema": "maghzbook.distribution",
+  "version": 1,
+  "generatedAt": "2026-11-16T19:41:39+00:00",
+  "slug": "transformers-llms-theory-to-systems",
+  "book": "المحوّلات والنماذج اللغوية الكبيرة",
+  "chapters": 48,
+  "codeFragments": 729,
+  "files": [
+    {
+      "path": "code/ch-01-llm-ds.py",
+      "bytes": 39274,
+      "sha256": "eaf1bc4356d3e1f43334f6faf075515fea8ef525cb266a60147d2941fd72e83a"
+    },
+    {
+      "path": "code/ch-02-llm-ds.py",
+      "bytes": 19127,
+      "sha256": "5eb69be8038cdbb2db32e80cdb77c625dfd3135cf9ceb1b3e8939b9b758cf3d0"
+    },
+    {
+      "path": "code/ch-03-llm-ds.py",
+      "bytes": 14395,
+      "sha256": "0c3a243d42d8a154a44e30c1f5cb0f1e5367472a18137b8db6184a36f77ae157"
+    },
+    {
+      "path": "code/ch-04-llm-ds.py",
+      "bytes": 41697,
+      "sha256": "d7b370881e6cd691be6bb50447726de340be3839072e4263e78b553c8cfc573d"
+    },
+    {
+      "path": "code/ch-05-llm-ds.py",
+      "bytes": 26086,
+      "sha256": "0a3a430b47ddf5add152d537f685c6e7b88c5daf6e5b256ef5b7c0564662cb48"
+    },
+    {
+      "path": "code/ch-06-llm-ds.py",
+      "bytes": 20510,
+      "sha256": "1fafd37075dcd9aa5926d6424ba20f00b4809ad2551e9162722d3d7ed575487b"
+    },
+    {
+      "path": "code/ch-07-llm-ds.py",
+      "bytes": 22901,
+      "sha256": "5ff5f04c27e81bdfa6dbadd21f286faa9cd392e77fd67634518bb5e3b0a0249b"
+    },
+    {
+      "path": "code/ch-08-llm-ds.py",
+      "bytes": 10103,
+      "sha256": "6e89f3c383843f3d87365db535a02e39cedf6a046c9fe60222bc8210f30b5923"
+    },
+    {
+      "path": "code/ch-09-llm-ds.py",
+      "bytes": 8547,
+      "sha256": "0aec6429dad9b72cd8e35c3786edef92269c48696e42879e8e50bfa0ac4ddc31"
+    },
+    {
+      "path": "code/ch-10-llm-ds.py",
+      "bytes": 7222,
+      "sha256": "10b1ea1347de7dce29d5e62d35f34bd68da1d2493bfc19e59e028a9754776075"
+    },
+    {
+      "path": "code/ch-11-llm-ds.py",
+      "bytes": 3895,
+      "sha256": "e7ad5e78d18b8e3c7f3b6f40549855904c0eb87817f60f51225487fe07be1e64"
+    },
+    {
+      "path": "code/ch-12-llm-ds.py",
+      "bytes": 144548,
+      "sha256": "8a82aba012c8afd7cecbcd1841e2d1f1932265e87db239e00826e7c80329a392"
+    },
+    {
+      "path": "code/ch-13-llm-ds.py",
+      "bytes": 35240,
+      "sha256": "e6bf8a03149d91044c61059423881a56c6f7ef91b13d06c3a2131ce65a474ba9"
+    },
+    {
+      "path": "code/ch-14-llm-ds.py",
+      "bytes": 40292,
+      "sha256": "8eafd55676da5ce9af4440ba72c29912adc73b4aadc58c6dbc6b807f5937cdc1"
+    },
+    {
+      "path": "code/ch-15-llm-ds.py",
+      "bytes": 37402,
+      "sha256": "466deb7fdadf9d496b75f0f0dea1d831b483c6ed8cfa8397a6494bd62bda8a6f"
+    },
+    {
+      "path": "code/ch-16-llm-ds.py",
+      "bytes": 19057,
+      "sha256": "03c7bce4f7caaddc1e2128f7f240fbd7e7dd5d7bb079166cd0ee58fd1987ffa1"
+    },
+    {
+      "path": "code/ch-17-llm-ds.py",
+      "bytes": 19599,
+      "sha256": "82460c9091b011c0f82d203099d08ddece9f9863a9e03a940dd7f9da041323f9"
+    },
+    {
+      "path": "code/ch-18-llm-ds.py",
+      "bytes": 25715,
+      "sha256": "44b0706feea480ce09910f2a8e373b7e146a7261e796ab7acbb7a787da7313ad"
+    },
+    {
+      "path": "code/ch-19-llm-ds.py",
+      "bytes": 10690,
+      "sha256": "c0d49e5ca04fb3e0ed4c3d68075bc38dd69bc3c6c0c10d2bde82cae28239c816"
+    },
+    {
+      "path": "code/ch-20-llm-ds.py",
+      "bytes": 68938,
+      "sha256": "0076aac3d5771195644a5aa09833cdbb9af853e0f7d1757d9ef1395981811f34"
+    },
+    {
+      "path": "code/ch-21-llm-ds.py",
+      "bytes": 24644,
+      "sha256": "7586226facaaf7ce215a1a14850070859949df77aafbb3686399a7c82bd5b66d"
+    },
+    {
+      "path": "code/ch-22-llm-ds.py",
+      "bytes": 19496,
+      "sha256": "41fefd0656d4357504714a07358a9d1c5228053129b7f4b95b3de06b64d5d879"
+    },
+    {
+      "path": "code/ch-23-llm-ds.py",
+      "bytes": 23322,
+      "sha256": "6e52aaa04c8c834e8666445b5e1639856515fbdabe02e6592ba305a5981ff370"
+    },
+    {
+      "path": "code/ch-24-llm-ds.py",
+      "bytes": 27734,
+      "sha256": "dc8481264d367489f91b1de32c4c68599e0355e0a65744ed5153adfe34f05d08"
+    },
+    {
+      "path": "code/ch-25-llm-ds.py",
+      "bytes": 69104,
+      "sha256": "51468975175763938a91a71452de29ad95e9670d6541663ea037f4d6a3b3fb11"
+    },
+    {
+      "path": "code/ch-26-llm-ds.py",
+      "bytes": 16403,
+      "sha256": "5cd8d963d26a97b7326fb13af568f58f96ea701a61e2d973ff7c97f30c20048c"
+    },
+    {
+      "path": "code/ch-27-llm-ds.py",
+      "bytes": 41283,
+      "sha256": "ef72cfd0e4064dec0cdc155bbcbf317c669a573e25e20d1e0b873e3835eec1b2"
+    },
+    {
+      "path": "code/ch-28-llm-ds.py",
+      "bytes": 16888,
+      "sha256": "0dff5acfef0f3d32ad03ef9f8dfe110b0053fa8e0f414e7990f32a2f18f7dea2"
+    },
+    {
+      "path": "code/ch-29-llm-ds.py",
+      "bytes": 55057,
+      "sha256": "c3f395bec8471f1ee403ab0a123a2b4e111b6bbe31aff8596f83565f94f9bf98"
+    },
+    {
+      "path": "code/ch-30-llm-ds.py",
+      "bytes": 18327,
+      "sha256": "929ce6cf2b668f69965ab82382ed5b63c36fa784f6a6f74396ac6d1cef427ecd"
+    },
+    {
+      "path": "code/ch-31-llm-ds.py",
+      "bytes": 21880,
+      "sha256": "243e06a2904ea566f6341e72fb4e8efec304cbf94d0a0d05da091f173d237488"
+    },
+    {
+      "path": "code/ch-32-llm-ds.py",
+      "bytes": 18650,
+      "sha256": "e39b9964408c80216ea085f3dd12ad2c43d43e2cfe883bb26f7c0698c1a22881"
+    },
+    {
+      "path": "code/ch-33-llm-ds.py",
+      "bytes": 17602,
+      "sha256": "3b65373aee11d07c22e5d0c71dafd45779e891d0e9eb2929dba16ba78a57e869"
+    },
+    {
+      "path": "code/ch-34-llm-ds.py",
+      "bytes": 18096,
+      "sha256": "25c33a2632920a0125d8f6e96b9b310e32d6dad4e4e074d1e8fe4cadc081806a"
+    },
+    {
+      "path": "code/ch-35-llm-ds.py",
+      "bytes": 81379,
+      "sha256": "55dbbdff19d13bb7ba8894c4ed4c096196e647931fa85bca9c3d11176d2fc566"
+    },
+    {
+      "path": "code/ch-36-llm-ds.py",
+      "bytes": 20690,
+      "sha256": "a3be2831a5eb913cb9f97d514b7c979828f57ce2b2cce3bf52ea927cb4d39d57"
+    },
+    {
+      "path": "code/ch-37-llm-ds.py",
+      "bytes": 25823,
+      "sha256": "24b50f3b734868602b513e68cc33aacea6c3409075f11094f11121ee4a640845"
+    },
+    {
+      "path": "code/ch-38-llm-ds.py",
+      "bytes": 23193,
+      "sha256": "59ff6328f8442258daaa5256bede37e09541f7af08ee7af32d76acd217750b38"
+    },
+    {
+      "path": "code/ch-39-llm-ds.py",
+      "bytes": 24124,
+      "sha256": "7b83c19ac011cb8c569b0511bfb1151e812926efb1713c96833ccb5e36371c46"
+    },
+    {
+      "path": "code/ch-40-llm-ds.py",
+      "bytes": 26010,
+      "sha256": "fd9e57145ee6fab5a6428fd52533023a95a34fac7a867527b0ac9f7c3c29a99a"
+    },
+    {
+      "path": "code/ch-41-llm-ds.py",
+      "bytes": 80483,
+      "sha256": "a9c295b3c596d901f78f5b336acb497860efbe37bd5f17c385a069a4f42bbca4"
+    },
+    {
+      "path": "code/ch-42-llm-ds.py",
+      "bytes": 18614,
+      "sha256": "a2b0989b39f31ba38749140cda026afa9a35b7b401ad7fcdce9560ec02c925c0"
+    },
+    {
+      "path": "code/ch-43-llm-ds.py",
+      "bytes": 25223,
+      "sha256": "b8df9965f31f99f5944c181fe1e9058348498f72d606ef8f85e9bd7833d7ce3b"
+    },
+    {
+      "path": "code/ch-44-llm-ds.py",
+      "bytes": 23542,
+      "sha256": "9e0f4d7eb9ec4f11e6e866f982179d31059a7a5c394aee991f322d6c6a2f07b3"
+    },
+    {
+      "path": "code/ch-45-llm-ds.py",
+      "bytes": 24906,
+      "sha256": "921226332b698962ecc29dd1c67f3a682026a4dc943ca3a87b9ce17253d4853a"
+    },
+    {
+      "path": "code/ch-46-llm-ds.py",
+      "bytes": 25064,
+      "sha256": "cfe4c6ce73ce48f35506883364301ff902e4d7439964a3bde8e42c9eec2aa8d6"
+    },
+    {
+      "path": "code/ch-47-llm-ds.py",
+      "bytes": 29481,
+      "sha256": "afb7de52705a014bf8ef86dcfd9afca431f39d227ad1f7f64561ae1b5ef2868e"
+    },
+    {
+      "path": "code/ch-48-llm-ds.py",
+      "bytes": 18779,
+      "sha256": "aef38d15aa39845c2583442397751fb9c0e9f064d52db7b1225d3a726ae703e5"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 16623,
+      "sha256": "3202cf16a7faf3f03865bea1138e6027fcd51e323f07090bc5d423181945e69f"
+    },
+    {
+      "path": "notebooks/ch-01-llm-ds.ipynb",
+      "bytes": 40475,
+      "sha256": "1b89b38b35c85839ff4c0fcf924dca0db8672dbc68d1c8c86595fd28b98436a8"
+    },
+    {
+      "path": "notebooks/ch-02-llm-ds.ipynb",
+      "bytes": 19982,
+      "sha256": "809abae9bd0d23ff4e6299241bf93aab336d1247de79a756e9fef934241c5c4c"
+    },
+    {
+      "path": "notebooks/ch-03-llm-ds.ipynb",
+      "bytes": 15396,
+      "sha256": "5d79b7c69c5121f949625c2f11c7a90d9da332767dceac7f0009ed9fe21ed556"
+    },
+    {
+      "path": "notebooks/ch-04-llm-ds.ipynb",
+      "bytes": 44949,
+      "sha256": "3e3f535ddaa0882a3f0804fab767131be7f0ffaa4549ab7643de2e569d57c6fd"
+    },
+    {
+      "path": "notebooks/ch-05-llm-ds.ipynb",
+      "bytes": 29657,
+      "sha256": "bed0b043d29e4ac29ae86c5201dc05803be2818f461512e3121f9e8421a5b73b"
+    },
+    {
+      "path": "notebooks/ch-06-llm-ds.ipynb",
+      "bytes": 22861,
+      "sha256": "22ed974fc46055a27e9ffdd91906b069bf95d4ce92db1765363e86f9edc5dcd0"
+    },
+    {
+      "path": "notebooks/ch-07-llm-ds.ipynb",
+      "bytes": 23866,
+      "sha256": "564eaa4d36d1f08bcabbf6990bd4bc30bac69c60f95ed2cbe8aa2a8aa03ccb4d"
+    },
+    {
+      "path": "notebooks/ch-08-llm-ds.ipynb",
+      "bytes": 11174,
+      "sha256": "8eb614d8348df07298ae1cafae5f9e68c22aacd9116abb2e1eece1f22abf5e80"
+    },
+    {
+      "path": "notebooks/ch-09-llm-ds.ipynb",
+      "bytes": 9552,
+      "sha256": "551637b3b1dc71fba0b7ffda569ab7467354c75ad10162e9ce671dc61b5e4af5"
+    },
+    {
+      "path": "notebooks/ch-10-llm-ds.ipynb",
+      "bytes": 7991,
+      "sha256": "7d29e099e56d5cff7e66b864f5785e953f40d9190b7ec25a32020591398eb35d"
+    },
+    {
+      "path": "notebooks/ch-11-llm-ds.ipynb",
+      "bytes": 4401,
+      "sha256": "96507418dd865d4115cdcc6fb0bb28018a776a352399800187e6c09650e517e8"
+    },
+    {
+      "path": "notebooks/ch-12-llm-ds.ipynb",
+      "bytes": 156678,
+      "sha256": "091e6e595c786dc105b47ec3b16268937367a553cd164414e07aeb6b4a5ad74d"
+    },
+    {
+      "path": "notebooks/ch-13-llm-ds.ipynb",
+      "bytes": 41319,
+      "sha256": "5cb7b26c2121ef49c67f2349cfb750d3bdbe2d6176bc44d829ce87c141efae76"
+    },
+    {
+      "path": "notebooks/ch-14-llm-ds.ipynb",
+      "bytes": 46979,
+      "sha256": "5e6ed82005f3b9075a5ea62450f41034dd13d71a6780f96779cbc3a42df1e8f8"
+    },
+    {
+      "path": "notebooks/ch-15-llm-ds.ipynb",
+      "bytes": 42571,
+      "sha256": "6b8db4404716fe123213c6f48729fe5c0dfe3f32c61a44a4c74a57a8d16580d2"
+    },
+    {
+      "path": "notebooks/ch-16-llm-ds.ipynb",
+      "bytes": 22273,
+      "sha256": "ebc2fb3964adb1c8169a5a794178bbf795871ea8b759a133d73e65bc48740e19"
+    },
+    {
+      "path": "notebooks/ch-17-llm-ds.ipynb",
+      "bytes": 22292,
+      "sha256": "c64bf77072a55f8fa5564028ff1c86e5159706b48173451a3c4cc42ee5ca1496"
+    },
+    {
+      "path": "notebooks/ch-18-llm-ds.ipynb",
+      "bytes": 29036,
+      "sha256": "080f1a8cb45c8cf8abb90a9c4fa4cd554263c660d4ceb3467bb61d618c976499"
+    },
+    {
+      "path": "notebooks/ch-19-llm-ds.ipynb",
+      "bytes": 11945,
+      "sha256": "839e2cd2a2823f156e3b0ea499ccec8dca4557580079862462503cae0d48a2b7"
+    },
+    {
+      "path": "notebooks/ch-20-llm-ds.ipynb",
+      "bytes": 75301,
+      "sha256": "8dfe41d16d57baafa7adef70555a8ae30b3f658668f1052be0087328ef19054c"
+    },
+    {
+      "path": "notebooks/ch-21-llm-ds.ipynb",
+      "bytes": 28205,
+      "sha256": "50e8b35d6a89b3c3d9e214bbce1f7c26c3d1aae48e4ab40aeefc14660e1f38f9"
+    },
+    {
+      "path": "notebooks/ch-22-llm-ds.ipynb",
+      "bytes": 22772,
+      "sha256": "fdfbef50304740db303577613b79ca14e1e70581d055fc0337adfa4e896a6c3d"
+    },
+    {
+      "path": "notebooks/ch-23-llm-ds.ipynb",
+      "bytes": 26574,
+      "sha256": "06b4e74f110901d730c72a7d1595edc2d5e2e9df1799e3636799e9ba2306c8a7"
+    },
+    {
+      "path": "notebooks/ch-24-llm-ds.ipynb",
+      "bytes": 33749,
+      "sha256": "35a0c461f0881e5e446e9c789289b9072a4a0d02602b2d0ff63ad6aeb82955ea"
+    },
+    {
+      "path": "notebooks/ch-25-llm-ds.ipynb",
+      "bytes": 76812,
+      "sha256": "85468928a58f876151b3daa19f395ab965e835e2db7e1257c34c8ac3077b9410"
+    },
+    {
+      "path": "notebooks/ch-26-llm-ds.ipynb",
+      "bytes": 18970,
+      "sha256": "454fcbe2194c5a4b4c1eb178a5d38cdbc68a41b9f716f7fdf028578db748ce97"
+    },
+    {
+      "path": "notebooks/ch-27-llm-ds.ipynb",
+      "bytes": 47607,
+      "sha256": "d7cf2a14b83b7348dc71fef16fd66c216db9231a64226a95914ffee6f0bbed4a"
+    },
+    {
+      "path": "notebooks/ch-28-llm-ds.ipynb",
+      "bytes": 19588,
+      "sha256": "bef706cd987271fd1d6a6ba11dd41da0b929c95adf39eb69c83f2968ed7b438c"
+    },
+    {
+      "path": "notebooks/ch-29-llm-ds.ipynb",
+      "bytes": 59625,
+      "sha256": "95e9405aaaf65d1eb746a8479d37098fdbda67ccd5d1d5e3cb21c5b99490127c"
+    },
+    {
+      "path": "notebooks/ch-30-llm-ds.ipynb",
+      "bytes": 21458,
+      "sha256": "407d78714449f68d7848aba03f9438acab2e243d499c275b2cbc6786b7db7da5"
+    },
+    {
+      "path": "notebooks/ch-31-llm-ds.ipynb",
+      "bytes": 25471,
+      "sha256": "e5ce2028a562bb6d7987e6ca225307389af07b67b36e92a31d987a18b3484015"
+    },
+    {
+      "path": "notebooks/ch-32-llm-ds.ipynb",
+      "bytes": 21047,
+      "sha256": "803746fbb3060a9a893fb42b9432dbdacd2e0cc0145de43f994b5ca526f3a2dc"
+    },
+    {
+      "path": "notebooks/ch-33-llm-ds.ipynb",
+      "bytes": 20255,
+      "sha256": "11814783139de780f560172383be573a366894ddf0ff9301a21f76fba1cf8a34"
+    },
+    {
+      "path": "notebooks/ch-34-llm-ds.ipynb",
+      "bytes": 21289,
+      "sha256": "c33a51ba4a58d8b54d425c6a4af80a1080387d0b1548ff9018c914290313a6ae"
+    },
+    {
+      "path": "notebooks/ch-35-llm-ds.ipynb",
+      "bytes": 87945,
+      "sha256": "c8e8a51c71fb5ed45d6e50eb012ecd5ab2bbd57211bc0de84e124a2c3c495f7f"
+    },
+    {
+      "path": "notebooks/ch-36-llm-ds.ipynb",
+      "bytes": 24768,
+      "sha256": "48d1f06d5792ca63208496b6b546e7926b1f1f338350c7e9ebd56d9fbdda1c23"
+    },
+    {
+      "path": "notebooks/ch-37-llm-ds.ipynb",
+      "bytes": 29703,
+      "sha256": "feb4f472495dfd46c936a5ec1972cf8478db3a2d64f0890aa4916a3df3f0b56b"
+    },
+    {
+      "path": "notebooks/ch-38-llm-ds.ipynb",
+      "bytes": 27126,
+      "sha256": "ee92af6ceeac92d1973222b0a07f970aadd40ff81779b878ead3c227ef1ec93f"
+    },
+    {
+      "path": "notebooks/ch-39-llm-ds.ipynb",
+      "bytes": 27403,
+      "sha256": "37d6b765b386bfcf031eaca9c75f1f683b88454b61e87a9a0a43e7757d60ee2d"
+    },
+    {
+      "path": "notebooks/ch-40-llm-ds.ipynb",
+      "bytes": 29926,
+      "sha256": "db451da36e994fa5a5fe9fbc367d05d3356c22fa66e065b08d7085075f3ea455"
+    },
+    {
+      "path": "notebooks/ch-41-llm-ds.ipynb",
+      "bytes": 87625,
+      "sha256": "225a840a04cc5d89a0294cad07a5ed302a5e927aa6e54383c09c754ba2998deb"
+    },
+    {
+      "path": "notebooks/ch-42-llm-ds.ipynb",
+      "bytes": 20474,
+      "sha256": "161a19b949f8a545dbfbec93c60d006aa0fed9dd22574fd3c955ae7e2afb9229"
+    },
+    {
+      "path": "notebooks/ch-43-llm-ds.ipynb",
+      "bytes": 28559,
+      "sha256": "3cd12577a7228212ca807a251f0b1e635d373d09d5cb44b73945fd0af677da15"
+    },
+    {
+      "path": "notebooks/ch-44-llm-ds.ipynb",
+      "bytes": 27273,
+      "sha256": "505f2f782318ae7b9c2a3587286d0f34d312201c7983490f466b7334299edf2c"
+    },
+    {
+      "path": "notebooks/ch-45-llm-ds.ipynb",
+      "bytes": 28111,
+      "sha256": "1e05937f357ea658f7c631f6a67863452c1c3b1c4e2dae98b056c19236f88065"
+    },
+    {
+      "path": "notebooks/ch-46-llm-ds.ipynb",
+      "bytes": 27701,
+      "sha256": "a4a2025d8fae340eb7530d8dde6f3f0f3ea49de09c523d1d74c7de3474ebfd69"
+    },
+    {
+      "path": "notebooks/ch-47-llm-ds.ipynb",
+      "bytes": 34940,
+      "sha256": "4668f31280817341dd746b0c289b67b29dbfbf0f0d1256f8383d501fdb3bc1ba"
+    },
+    {
+      "path": "notebooks/ch-48-llm-ds.ipynb",
+      "bytes": 21139,
+      "sha256": "fe07afde1f1d30b5bedc0632de68ae25439e1d6a9ba309cdf4c875dfd191e091"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7424,
+      "sha256": "294ca15c87c9365f3b05b439ca52f73f4c4e3b6b629f9af631510fe610a9de92"
+    },
+    {
+      "path": "transformers-llms-theory-to-systems.pdf",
+      "bytes": 36857227,
+      "sha256": "d4b2771b0919aae815b6cc6d90fdbf7596858b6ffdb82d49495eae5e6c2aeede"
+    }
+  ]
+}
